@@ -1,0 +1,20 @@
+# AI6P-1325 / AI6P-1015 — minimal pull_request-triggered CI that fails on demand.
+# Purpose: produce a real workflow_run.completed (conclusion: failure) on an agent
+# feature branch PR so the deployed kanban-app webhook ingress can classify it into
+# the agent-dispatch lane (the CI-failure-wake proof, AI6P-1015).
+# Toggle: set repo/Actions variable FORCE_CI_FAIL=true to make it fail; unset/false = pass.
+name: ci-failure-probe
+on:
+  pull_request:
+    branches: [ main ]
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Outcome (fails on demand via FORCE_CI_FAIL)
+        run: |
+          echo "FORCE_CI_FAIL=${{ vars.FORCE_CI_FAIL }}"
+          if [ "${{ vars.FORCE_CI_FAIL }}" = "true" ]; then
+            echo "Forced failure for CI-failure-wake proof (AI6P-1015)"; exit 1
+          fi
+          echo "passing"
