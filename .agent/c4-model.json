@@ -62,7 +62,7 @@
       "technology": "Eleventy static output — pure static HTML emitted at build time; no client-side framework runtime",
       "responsibilities": [
         "Render the project's content as static HTML at build time",
-        "Serve from AWS Amplify Hosting at https://pending-first-deploy.example/",
+        "Serve from AWS Amplify Hosting at https://main.d2vhavssbhm34g.amplifyapp.com",
         "Ship pure static HTML — no client-side framework runtime; sprinkle JS only where genuinely interactive"
       ],
       "relationships": [

@@ -1,8 +1,8 @@
 ---
 last_updated: "2026-06-17"
-phase: bootstrapping
+phase: live
 health: green
-tests_passing: 0
+tests_passing: 1
 active_objectives: ["PS-VW38TF-001"]
 blockers: []
 ---
@@ -28,8 +28,9 @@ blockers: []
 - [Entry Points for Agents](#entry-points-for-agents)
 
 ## At a Glance
-- **Phase:** Bootstrapping — the project was just provisioned and the hello-world site is live.
+- **Phase:** Live — first deploy verified end-to-end against the bound URL.
 - **Health:** Green — initial build passed; no real content yet.
+- **Deploy verified:** HTTPS 200 at https://main.d2vhavssbhm34g.amplifyapp.com.
 - **Next up:** Refine the seeded `Bootstrap Follow-ups` epic in `.kanban/backlog/`.
 - **Blockers:** None.
 
@@ -43,9 +44,9 @@ Captured at bootstrap time and pinned here so the project starts with real conte
 - **Default Branch:** `main`
 - **AWS Account:** `352438994403`
 - **AWS Region:** `ap-southeast-2`
-- **Amplify App ID:** `pending-amplify-create`
-- **Live URL:** https://pending-first-deploy.example/
-- **Custom Domain:** pending-bind-custom-domain
+- **Amplify App ID:** `d2vhavssbhm34g`
+- **Live URL:** https://main.d2vhavssbhm34g.amplifyapp.com
+- **Custom Domain:** https://main.d2vhavssbhm34g.amplifyapp.com
 - **Owner:** productsweet-bootstrap-e2e-app
 - **Bootstrap Feature Flag:** `01KVA3YXAZ05MSP5JJRBVW38TF` (per AI6P-249 Q8 per-tenant flag)
 - **Bootstrap ID:** `01KVA3YXAZ05MSP5JJRBVW38TF`
@@ -53,7 +54,7 @@ Captured at bootstrap time and pinned here so the project starts with real conte
 ## Shipped Capabilities
 
 ### Hosting & Delivery
-- AWS Amplify app `pending-amplify-create` connected to `main`, build spec matched to the framework.
+- AWS Amplify app `d2vhavssbhm34g` connected to `main`, build spec matched to the framework.
 - GitHub Actions deploy workflow committed and verified end-to-end against the synthetic
   bootstrap commit.
 - Auto-build on `main` is **disabled** — the deploy workflow is the only release path.

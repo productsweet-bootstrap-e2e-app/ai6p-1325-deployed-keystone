@@ -2,7 +2,7 @@
 
 A Eleventy 3 site, bootstrapped by Product Sweet (AI6P-249).
 
-- **Live:** https://pending-first-deploy.example/
+- **Live:** https://main.d2vhavssbhm34g.amplifyapp.com
 - **Framework:** Eleventy 3
 - **Hosting:** AWS Amplify (account `352438994403`)
 - **Managed by:** Product Sweet bootstrap (AI6P-249)
