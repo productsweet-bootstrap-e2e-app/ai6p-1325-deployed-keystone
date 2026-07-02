@@ -26,3 +26,5 @@ on push. PRs are gated by the always-on `.github/workflows/pr-gate.yml` (the
 single required status check). It classifies the diff in-job: changes only
 under `.agent/`, `.kanban/`, or a root `*.md` run a fast content lane (lint +
 typecheck + test, no build); anything else runs the full build lane.
+
+<!-- AI6P-1445 live-proof marker 2026-07-03: merged via productsweet-webapp-merge App -->
