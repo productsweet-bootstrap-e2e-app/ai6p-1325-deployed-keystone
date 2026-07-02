@@ -28,3 +28,5 @@ under `.agent/`, `.kanban/`, or a root `*.md` run a fast content lane (lint +
 typecheck + test, no build); anything else runs the full build lane.
 
 <!-- AI6P-1445 live-proof marker 2026-07-03: merged via productsweet-webapp-merge App -->
+
+<!-- AI6P-1445 live-proof RE-RUN marker 2026-07-03 (post promote-prod 28627761161): merged via productsweet-webapp-merge App -->
