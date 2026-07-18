@@ -1,0 +1,51 @@
+{
+  "color": {
+    "primary": {
+      "$type": "color",
+      "$value": "#d2bbff",
+      "$description": "Kinetic Horizon theme.namedColors.primary"
+    },
+    "primary-container": {
+      "$type": "color",
+      "$value": "#7c3aed",
+      "$description": "Kinetic Horizon theme.namedColors.primary_container"
+    },
+    "background": {
+      "$type": "color",
+      "$value": "#051424",
+      "$description": "Kinetic Horizon theme.namedColors.background"
+    },
+    "surface": {
+      "$type": "color",
+      "$value": "#051424",
+      "$description": "Kinetic Horizon theme.namedColors.surface"
+    },
+    "on-surface": {
+      "$type": "color",
+      "$value": "#d4e4fa",
+      "$description": "Kinetic Horizon theme.namedColors.on_surface"
+    },
+    "error": {
+      "$type": "color",
+      "$value": "#ffb4ab",
+      "$description": "Kinetic Horizon theme.namedColors.error"
+    }
+  },
+  "fontFamily": {
+    "headline": {
+      "$type": "fontFamily",
+      "$value": "Hanken Grotesk",
+      "$description": "Kinetic Horizon theme.headlineFont (HANKEN_GROTESK)"
+    },
+    "body": {
+      "$type": "fontFamily",
+      "$value": "Inter",
+      "$description": "Kinetic Horizon theme.bodyFont (INTER)"
+    },
+    "label": {
+      "$type": "fontFamily",
+      "$value": "JetBrains Mono",
+      "$description": "Kinetic Horizon theme.labelFont (JETBRAINS_MONO)"
+    }
+  }
+}
