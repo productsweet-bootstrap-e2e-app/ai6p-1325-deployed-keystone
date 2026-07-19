@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Product Sweet | Architecting Global Intelligence</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700&amp;family=Inter:wght@400;500;700&amp;family=Jetbrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<!-- Icons -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">tailwind.config = {darkMode: "class", theme: {extend: {colors: {"on-tertiary-fixed": "#131b2e", "on-primary-fixed-variant": "#5a00c6", "on-primary": "#3f008e", error: "#ffb4ab", "surface-bright": "#2c3a4c", "on-surface-variant": "#ccc3d8", secondary: "#ffb4a3", "inverse-primary": "#732ee4", "surface-container-low": "#0d1c2d", surface: "#051424", "tertiary-container": "#5e667d", "surface-container": "#122131", "tertiary-fixed": "#dae2fd", "on-error-container": "#ffdad6", "surface-container-high": "#1c2b3c", "tertiary-fixed-dim": "#bec6e0", "surface-tint": "#d2bbff", "on-background": "#d4e4fa", "on-error": "#690005", "primary-fixed": "#eaddff", "secondary-container": "#88270f", primary: "#d2bbff", "on-secondary": "#621000", "on-primary-container": "#ede0ff", "primary-container": "#7c3aed", "outline-variant": "#4a4455", outline: "#958da1", "surface-container-highest": "#273647", "surface-container-lowest": "#010f1f", "surface-variant": "#273647", background: "#051424", "secondary-fixed": "#ffdad2", "inverse-surface": "#d4e4fa", "primary-fixed-dim": "#d2bbff", tertiary: "#bec6e0", "error-container": "#93000a", "surface-dim": "#051424", "on-tertiary-container": "#dee5ff", "inverse-on-surface": "#233143", "secondary-fixed-dim": "#ffb4a3", "on-secondary-fixed": "#3d0700", "on-primary-fixed": "#25005a", "on-tertiary-fixed-variant": "#3f465c", "on-secondary-container": "#ffa089", "on-surface": "#d4e4fa", "on-secondary-fixed-variant": "#84240d", "on-tertiary": "#283044"}, borderRadius: {DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px"}, spacing: {base: "8px", "margin-mobile": "16px", gutter: "24px", "margin-desktop": "40px", "container-max": "1280px"}, fontFamily: {"body-lg": ["Inter"], "body-md": ["Inter"], "display-lg-mobile": ["Hanken Grotesk"], "display-lg": ["Hanken Grotesk"], "headline-md": ["Hanken Grotesk"], "label-sm": ["JetBrains Mono"], headline: ["Hanken Grotesk"], display: ["Hanken Grotesk"], body: ["Inter"], label: ["Jetbrains Mono"]}, fontSize: {"body-lg": ["18px", {lineHeight: "28px", fontWeight: "400"}], "body-md": ["16px", {lineHeight: "24px", fontWeight: "400"}], "display-lg-mobile": ["36px", {lineHeight: "42px", letterSpacing: "-0.02em", fontWeight: "700"}], "display-lg": ["48px", {lineHeight: "56px", letterSpacing: "-0.02em", fontWeight: "700"}], "headline-md": ["24px", {lineHeight: "32px", fontWeight: "600"}], "label-sm": ["12px", {lineHeight: "16px", letterSpacing: "0.05em", fontWeight: "500"}]}}}};</script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .kinetic-gradient {
+            background: linear-gradient(135deg, #7c3aed 0%, #ffb4a3 100%);
+        }
+        .glass-card {
+            background: rgba(13, 28, 45, 0.6);
+            backdrop-filter: blur(24px);
+        }
+        .status-beam {
+            height: 2px;
+            background: #d2bbff;
+            box-shadow: 0 0 8px #d2bbff;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body-md selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<header class="sticky top-0 w-full z-50 bg-surface/80 dark:bg-surface/80 backdrop-blur-md shadow-sm">
+<nav class="flex justify-between items-center w-full px-margin-desktop max-w-container-max mx-auto h-20">
+<div class="flex items-center gap-2">
+<img alt="Product Sweet" class="h-8 md:h-10" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRmr-AP6_Czx7_N_F6i20CP2oMZHntNnVZRD8Ssm5MyLq5rxeS2qjt1WooosY0zdbXFQqHj48MpyjP17B4nvM0pZAnGu1xELKi-NtMKF1DVMa7i3AFHsT99Vf1Qy-XNPF9Mle1dorjbXc2oNtFivrzKRUpyuBiwfVH9J6cg1ctvHhDR_InXsrNPqiwe8Z418VRg8G1IxHOqjPtxOhXLmnj8QzaGMiopK6GckvnM-JadQzKASRKjqWs35KbP2bsovtr7Vuw1aUzrkY"/>
+</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-primary font-bold border-b-2 border-primary pb-1 font-body-md text-body-md" href="#">Solutions</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-200 font-body-md text-body-md" href="#">Architecture</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-200 font-body-md text-body-md" href="#">Analytics</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-200 font-body-md text-body-md" href="#">Reports</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="hidden lg:block text-on-surface-variant font-medium px-4 py-2 hover:text-primary transition-colors text-sm">Contact Sales</button>
+<button class="kinetic-gradient text-on-primary-fixed-variant px-6 py-2.5 rounded-lg font-bold text-sm scale-95 active:scale-90 transition-transform shadow-lg shadow-primary-container/20">
+                    Get Started</button>
+</div>
+</nav>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative overflow-hidden pt-20 pb-32">
+<div class="max-w-7xl mx-auto px-8 grid lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-7 z-10">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm tracking-wider uppercase mb-6">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>Re-imagining the traditional SDLC to an AI-DLC</div>
+<h1 class="font-display-lg text-display-lg lg:text-7xl font-bold text-on-surface leading-[1.1] tracking-tighter mb-8">Product Sweet - <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Intelligent agents, Sweet results.</span></h1>
+<p class="text-body-lg text-on-surface-variant max-w-xl mb-10 leading-relaxed">Our platform brings together intelligent agents and product thinking to turn your business into a continuously evolving system, where ideas become shipped features faster, customer feedback drives real outcomes. It’s a new way of operating - built for sweet results.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<button class="kinetic-gradient text-on-primary-fixed-variant px-8 py-4 rounded-xl font-bold text-lg shadow-xl shadow-primary-container/25 hover:shadow-primary-container/40 transition-all">
+                            Book a demo session</button>
+<button class="bg-surface-container-highest text-on-surface px-8 py-4 rounded-xl font-bold text-lg border border-outline/20 hover:bg-surface-bright transition-colors">
+                            View Tech Spec's</button>
+</div>
+</div>
+<div class="lg:col-span-5 relative">
+<div class="relative rounded-2xl overflow-hidden shadow-2xl border border-outline-variant/20">
+<img alt="AI Intelligence Grid" class="w-full aspect-[4/5] object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzUC9H00k_QCl2WRiiz2KmjZLOQPKFt-nmrKUgOQ0yRkmevmEJlfFJT0i9xb8EBLNknI06H68oRRLDY50N-H9AYgBvqEDh4pUuY2H797FlcYFqffgLiE_ZK-XfXvWSf8DbY7ElF_nxdUx2l1Ib5QP4JEywq4DrmKTFTMnqXvPUB-kHVOo8RK2LAV7xurYUEifzhS0NOmFA4jrwtQR7yzeAbX7Mt7-pTIOjny8895vmAkvehZLIZmwR2ZAkgLyz2Eso1wAKhquS_A8"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 to-transparent"></div>
+<!-- Floating Glass Metric -->
+<div class="absolute bottom-6 left-6 right-6 glass-card p-6 rounded-xl border border-white/10">
+<div class="flex justify-between items-end">
+<div>
+<p class="text-on-surface-variant text-label-sm font-bold uppercase tracking-widest mb-1">Modernization Rate</p>
+<p class="font-headline-md text-3xl font-bold text-primary">12.4x <span class="text-secondary text-sm font-normal">Faster</span></p>
+</div>
+<div class="text-right">
+<span class="material-symbols-outlined text-secondary text-4xl" data-icon="rocket_launch">rocket_launch</span>
+</div>
+</div>
+<div class="mt-4 w-full h-1 bg-surface-container-highest rounded-full overflow-hidden">
+<div class="h-full kinetic-gradient w-3/4"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Decorative Background Element -->
+<div class="absolute top-0 right-0 -z-10 w-1/2 h-full opacity-10 pointer-events-none">
+<svg class="w-full h-full text-primary-container fill-current" viewbox="0 0 100 100">
+<circle cx="100" cy="0" r="80"></circle>
+</svg>
+</div>
+</section>
+<!-- Value Propositions -->
+<section class="bg-surface-container-low py-24">
+<div class="max-w-7xl mx-auto px-8">
+<div class="mb-16">
+<h2 class="font-display-lg text-4xl font-bold text-on-surface">The Workflow</h2>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="bg-surface-container p-10 rounded-2xl shadow-sm border border-outline-variant/10 hover:shadow-md transition-shadow">
+<div class="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="bolt">bolt</span>
+</div>
+<h3 class="font-headline-md text-2xl font-bold text-on-surface mb-4">Inception</h3>
+<p class="text-on-surface-variant leading-relaxed">A user firstly outlines their <span class="text-primary font-bold">Intent</span> or what needs to be achieved. Capturing Intents and translating them into units for development. It serves as the starting point for AI-driven decomposition.</p>
+</div>
+<div class="bg-surface-container p-10 rounded-2xl shadow-sm border border-outline-variant/10 hover:shadow-md transition-shadow">
+<div class="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="psychology">psychology</span>
+</div>
+<h3 class="font-headline-md text-2xl font-bold text-on-surface mb-4">Construction</h3>
+<p class="text-on-surface-variant leading-relaxed">Beyond script automation—our AI agents make context-aware decisions during re-platforming. The construction phase transforms units into tested, operations ready deployment units.</p>
+</div>
+<div class="bg-surface-container p-10 rounded-2xl shadow-sm border border-outline-variant/10 hover:shadow-md transition-shadow">
+<div class="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="verified_user">verified_user</span>
+</div>
+<h3 class="font-headline-md text-2xl font-bold text-on-surface mb-4">Operations</h3>
+<p class="text-on-surface-variant leading-relaxed">The Operations Phase centers on deployment and observability leveraging AI for efficiency. Product Sweeteners ensure AI generated insights align with compliance requirements.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- How It Works (4-step process) -->
+<section class="py-24">
+<div class="max-w-7xl mx-auto px-8">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-4">
+<div class="max-w-2xl">
+<h2 class="font-display-lg text-4xl font-bold text-on-surface mb-6">The Orchestration Framework</h2>
+<p class="text-body-lg text-on-surface-variant">A methodical approach to digital transformation, powered by the Product Sweet Engine.</p>
+</div>
+<div class="text-primary font-bold font-label-sm flex items-center gap-2 cursor-pointer hover:translate-x-1 transition-transform">
+                        System Architecture <span class="material-symbols-outlined">arrow_forward</span>
+</div>
+</div>
+<div class="grid md:grid-cols-4 gap-4 relative">
+<!-- Step 1 -->
+<div class="relative group">
+<div class="bg-surface-container-high p-8 rounded-2xl border border-primary/20 shadow-lg shadow-primary/5">
+<div class="text-6xl font-display-lg font-extrabold text-primary/10 mb-8">01</div>
+<h4 class="text-xl font-bold text-on-surface mb-3">Discovery</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">Deploy our intelligence agents across your project for no upfront cost. Key deliverable is a defined current state. </p>
+<div class="status-beam mt-6 w-full opacity-50"></div>
+</div>
+<div class="hidden md:block absolute top-1/2 -right-2 z-10 text-primary-fixed">
+<span class="material-symbols-outlined">chevron_right</span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="relative group">
+<div class="bg-surface-container-high p-8 rounded-2xl border border-primary/20 shadow-lg shadow-primary/5">
+<div class="text-6xl font-display-lg font-extrabold text-primary/10 mb-8">02</div>
+<h4 class="text-xl font-bold text-on-surface mb-3">Design</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">Design the target state UI/UX and architecture including desired enhancements. This is where things start getting real.</p>
+<div class="status-beam mt-6 w-full opacity-50"></div>
+</div>
+<div class="hidden md:block absolute top-1/2 -right-2 z-10 text-primary-fixed">
+<span class="material-symbols-outlined">chevron_right</span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="relative group">
+<div class="bg-surface-container-high p-8 rounded-2xl border border-primary/20 shadow-lg shadow-primary/5">
+<div class="text-6xl font-display-lg font-extrabold text-primary/10 mb-8">03</div>
+<h4 class="text-xl font-bold text-on-surface mb-3">Develop</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">Using artefacts from phases our AI agents execute code translation and automated infrastructure deployment.</p>
+<div class="status-beam mt-6 w-full opacity-50"></div>
+</div>
+<div class="hidden md:block absolute top-1/2 -right-2 z-10 text-primary-fixed">
+<span class="material-symbols-outlined">chevron_right</span>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="relative group">
+<div class="bg-surface-container-high p-8 rounded-2xl border border-primary/20 shadow-lg shadow-primary/5">
+<div class="text-6xl font-display-lg font-extrabold text-primary/10 mb-8">04</div>
+<h4 class="text-xl font-bold text-on-surface mb-3">Embed</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">This is where we hand you the keys to unlock the full power and productivity of Product Sweet for ongoing updates. </p>
+<div class="status-beam mt-6 w-full opacity-50"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Platform Features (Bento Grid) -->
+<section class="bg-surface-container-lowest py-24 text-on-surface overflow-hidden relative">
+<div class="max-w-7xl mx-auto px-8 relative z-10">
+<h2 class="font-display-lg text-4xl font-bold mb-16 text-center">Engineered for Technical Excellence</h2>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 auto-rows-[240px]">
+<!-- Bento item 1 -->
+<div class="md:col-span-8 bg-surface-container-high/50 backdrop-blur-md rounded-2xl p-8 border border-outline-variant/20 flex flex-col justify-between group overflow-hidden">
+<div class="flex justify-between items-start">
+<div class="max-w-md">
+<h4 class="text-2xl font-display-lg font-bold mb-4">Automated Code Translation</h4>
+<p class="text-on-surface-variant leading-relaxed">Convert legacy COBOL, Java 8, or .NET Framework to modern Go, Node.js, or Rust automatically while maintaining business logic parity.</p>
+</div>
+<span class="material-symbols-outlined text-4xl text-primary" data-icon="code">code</span>
+</div>
+<div class="flex gap-2">
+<span class="px-3 py-1 bg-primary/10 rounded-full text-[10px] font-bold uppercase tracking-widest text-primary">Logic Mapping</span>
+<span class="px-3 py-1 bg-primary/10 rounded-full text-[10px] font-bold uppercase tracking-widest text-primary">Unit Test Generation</span>
+</div>
+</div>
+<!-- Bento item 2 -->
+<div class="md:col-span-4 kinetic-gradient p-8 rounded-2xl flex flex-col justify-between shadow-lg shadow-primary/20">
+<span class="material-symbols-outlined text-4xl text-on-primary-fixed-variant" data-icon="cloud_done">cloud_done</span>
+<div>
+<h4 class="text-xl font-display-lg font-bold mb-2 text-on-primary-fixed-variant">IaC Generation</h4>
+<p class="text-on-primary-fixed-variant/80 text-sm">Terraform and Pulumi scripts generated in real-time based on app needs.</p>
+</div>
+</div>
+<!-- Bento item 3 -->
+<div class="md:col-span-4 bg-surface-container-high/50 border border-outline-variant/20 rounded-2xl p-8 flex flex-col items-center justify-center text-center">
+<div class="w-16 h-16 rounded-full border-2 border-dashed border-secondary flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-2xl text-secondary" data-icon="speed">speed</span>
+</div>
+<h4 class="font-bold mb-2">Performance Tuning</h4>
+<p class="text-xs text-on-surface-variant">AI-driven latency reduction through intelligent caching strategies.</p>
+</div>
+<!-- Bento item 4 -->
+<div class="md:col-span-8 relative rounded-2xl overflow-hidden border border-outline-variant/20">
+<img alt="Hardware Acceleration" class="absolute inset-0 w-full h-full object-cover opacity-40" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRnAWopaLaylyz2BJ5dhEOC0ZTDWeDSKTb_Uu7XSOtpvhUb3AG-cgG7vmTrubNzFmX-y1AkfwX-4pWM_hTJYqkOedvOoddaUZn9EzsRSvZl8HBDFq8OfjdiWI46gTCIgM1yOOED3sRRSQKQXIto6gN7EMqDxAD_7q4Cj9VC_JvKZaF8TsYVLnkbOJFkggyOSuDC0pw-mFgJ-VsHhedAXwgobEXUzJMYwOmil1l9TejJeVnGLLPmVY_DtptfC9F6dS6kK4ORLlXzik"/>
+<div class="absolute inset-0 bg-gradient-to-r from-surface-container-lowest to-transparent p-8 flex flex-col justify-end">
+<h4 class="text-2xl font-display-lg font-bold mb-2">Enterprise-Grade Security</h4>
+<p class="text-on-surface-variant max-w-sm">Every migration step is vetted against SOC2, HIPAA, and GDPR compliance standards automatically.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Background glow -->
+<div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-1/2 bg-primary/5 blur-[120px] rounded-full pointer-events-none"></div>
+</section>
+<!-- Social Proof -->
+<section class="py-24">
+<div class="max-w-7xl mx-auto px-8">
+<div class="text-center mb-16">
+<p class="text-xs font-bold uppercase tracking-[0.2em] text-primary mb-4">Trusted by Market Leaders</p>
+<div class="flex flex-wrap justify-center items-center gap-12 opacity-30 grayscale contrast-125">
+<span class="font-display-lg text-2xl font-black">QUANTUM</span>
+<span class="font-display-lg text-2xl font-black">NEO-SYS</span>
+<span class="font-display-lg text-2xl font-black">VORTEX</span>
+<span class="font-display-lg text-2xl font-black">STRATUS</span>
+<span class="font-display-lg text-2xl font-black">NEXUS AI</span>
+</div>
+</div>
+<div class="max-w-4xl mx-auto">
+<div class="bg-surface-container-low p-12 rounded-3xl relative border border-outline-variant/10 shadow-xl">
+<span class="material-symbols-outlined text-primary/10 text-8xl absolute top-4 left-4" style='font-variation-settings: "FILL" 1;'>format_quote</span>
+<div class="relative z-10">
+<p class="text-2xl font-medium text-on-surface leading-relaxed mb-8 italic">
+                                "Product Sweet re-platformed our entire core banking system in less than 4 months. What would have taken us 2 years with a consulting firm was handled with surgical precision by their AI agents."
+                            </p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-surface-bright overflow-hidden">
+<img alt="CTO Profile" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDG3xMmcxEo7s0-g1jZ4Uge4qYuJSgRDRfd8ZKjOKQiajtOxesC5wJV4UGgEW5evMOAGvRTNou2oICVeXvPQMOQRsOV3E3xsshl1Rk-5m8K4cXarqbW1aAL_kVWYl0zfmh5egmDr21vezsgBJ7Yeqz3_BbIZvczkL4vXkkiCyhVN9o78vyixKMefgeHQsiJ5x_isDojgas53XIP76bUZ8O0-fHHl_sNuvW-K1aaheM6wRd4ynnO8LkR-Iq3hILaCzQKayIbK5y3vRM"/>
+</div>
+<div>
+<h5 class="font-bold text-on-surface">Marcus Thorne</h5>
+<p class="text-sm text-on-surface-variant">CTO, Global Finance Partners</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Final CTA -->
+<section class="py-24 px-8">
+<div class="max-w-5xl mx-auto kinetic-gradient rounded-[2.5rem] p-12 lg:p-20 text-center text-on-primary-fixed-variant relative overflow-hidden shadow-2xl shadow-primary-container/30">
+<div class="relative z-10">
+<h2 class="font-display-lg text-4xl lg:text-6xl font-bold mb-8">Ready to Evolve?</h2>
+<p class="text-on-primary-fixed-variant/90 text-lg lg:text-xl max-w-2xl mx-auto mb-12">
+                        Don't let legacy debt hold your innovation back. Schedule a demo with our (human) experts today.
+                    </p>
+<div class="flex flex-col sm:flex-row justify-center gap-4">
+<button class="bg-on-primary-fixed-variant text-white px-10 py-4 rounded-xl font-bold text-lg hover:bg-on-tertiary-fixed transition-colors shadow-2xl">
+                            Schedule a No Risk Estimate</button>
+<button class="bg-transparent border border-on-primary-fixed-variant/30 text-on-primary-fixed-variant px-10 py-4 rounded-xl font-bold text-lg hover:bg-white/10 transition-colors">
+                            Explore Case Studies
+                        </button>
+</div>
+</div>
+<!-- Abstract decorations -->
+<div class="absolute -top-24 -left-24 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>
+<div class="absolute -bottom-24 -right-24 w-64 h-64 bg-black/10 rounded-full blur-3xl"></div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-lowest border-t border-outline-variant w-full pt-16 pb-8">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+<div class="col-span-1 md:col-span-2">
+<img alt="Product Sweet" class="h-8 mb-6" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRmr-AP6_Czx7_N_F6i20CP2oMZHntNnVZRD8Ssm5MyLq5rxeS2qjt1WooosY0zdbXFQqHj48MpyjP17B4nvM0pZAnGu1xELKi-NtMKF1DVMa7i3AFHsT99Vf1Qy-XNPF9Mle1dorjbXc2oNtFivrzKRUpyuBiwfVH9J6cg1ctvHhDR_InXsrNPqiwe8Z418VRg8G1IxHOqjPtxOhXLmnj8QzaGMiopK6GckvnM-JadQzKASRKjqWs35KbP2bsovtr7Vuw1aUzrkY"/>
+<p class="text-on-surface-variant max-w-sm mb-6 font-body-md text-sm tracking-wide">
+                        Product Sweet helps organisations accelerate software delivery and modernise digital products using intelligent AI agents embedded directly into workflows.
+                    </p>
+</div>
+<div>
+<h6 class="text-on-surface font-bold mb-6 text-sm uppercase tracking-widest">Platform</h6>
+<ul class="space-y-4">
+<li><a class="text-on-surface-variant hover:text-secondary transition-colors text-sm" href="#">Solutions</a></li>
+<li><a class="text-on-surface-variant hover:text-secondary transition-colors text-sm" href="#">Architecture</a></li>
+<li><a class="text-on-surface-variant hover:text-secondary transition-colors text-sm" href="#">Security</a></li>
+<li><a class="text-on-surface-variant hover:text-secondary transition-colors text-sm" href="#">Roadmap</a></li>
+</ul>
+</div>
+<div>
+<h6 class="text-on-surface font-bold mb-6 text-sm uppercase tracking-widest">Legal</h6>
+<ul class="space-y-4">
+<li><a class="text-on-surface-variant hover:text-secondary transition-colors text-sm" href="#">Privacy Protocol</a></li>
+<li><a class="text-on-surface-variant hover:text-secondary transition-colors text-sm" href="#">Security Framework</a></li>
+<li><a class="text-on-surface-variant hover:text-secondary transition-colors text-sm" href="#">Global Compliance</a></li>
+</ul>
+</div>
+</div>
+<div class="flex flex-col md:flex-row justify-between items-center py-gutter border-t border-outline-variant opacity-80 hover:opacity-100 transition-opacity">
+<p class="text-on-surface-variant text-sm font-body-md">
+                    © 2024 Product Sweet. All rights reserved.</p>
+<div class="flex gap-8">
+<a class="text-on-surface-variant hover:text-secondary transition-colors text-xs font-medium uppercase tracking-widest" href="#">Infrastructure Status</a>
+<a class="text-on-surface-variant hover:text-secondary transition-colors text-xs font-medium uppercase tracking-widest" href="#">Support Portal</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
