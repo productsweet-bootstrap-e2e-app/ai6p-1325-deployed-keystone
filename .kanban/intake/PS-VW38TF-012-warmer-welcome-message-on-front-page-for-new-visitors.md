@@ -3,7 +3,7 @@ title: Warmer welcome message on front page for new visitors
 id: PS-VW38TF-012
 status: intake
 template_type: user-story
-intake_state: refining
+intake_state: ready-for-dev
 delivery_task_ids: []
 created: 2026-07-20
 updated: 2026-07-20
