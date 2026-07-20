@@ -50,7 +50,13 @@ Optional at first intake. Fill this in before generating a dev task in `backlog`
 
 ## Questions
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+```yaml
+- question: The welcome-message change and the "show opening hours" idea look like two separate pieces of work (different copy vs. different data/source). Should opening hours be split into its own intake item, or do you want both delivered together in this one story? (No strong recommendation either way — your call, but splitting keeps each easier to verify.)
+  status: open
+  thread:
+    - role: user
+      text: The welcome-message change and the "show opening hours" idea look like two separate pieces of work (different copy vs. different data/source). Should opening hours be split into its own intake item, or do you want both delivered together in this one story? (No strong recommendation either way — your call, but splitting keeps each easier to verify.)
+```
 
 ## Refinement Notes
 
