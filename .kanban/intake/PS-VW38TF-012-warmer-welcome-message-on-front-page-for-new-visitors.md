@@ -59,7 +59,7 @@ Optional at first intake. Fill this in before generating a dev task in `backlog`
     - role: agent
       text: 'User: dropping opening hours from this story — scope is welcome message only.'
 - question: 'For the warm welcome message: do you have example wording or a tone in mind (e.g. friendly/casual vs. professional/warm), or should the team draft options for you to pick from? No strong recommendation — this shapes the Proposed Approach.'
-  status: open
+  status: answered
   thread:
     - role: user
       text: 'For the warm welcome message: do you have example wording or a tone in mind (e.g. friendly/casual vs. professional/warm), or should the team draft options for you to pick from? No strong recommendation — this shapes the Proposed Approach.'
