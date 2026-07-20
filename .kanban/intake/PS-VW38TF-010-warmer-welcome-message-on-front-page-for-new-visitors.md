@@ -3,11 +3,13 @@ title: Warmer welcome message on front page for new visitors
 id: PS-VW38TF-010
 status: intake
 template_type: user-story
-intake_state: refining
+intake_state: closed
 delivery_task_ids: []
 created: 2026-07-20
 updated: 2026-07-20
 priority: medium
+close_reason: duplicate
+close_note: Accidental duplicate of PS-VW38TF-012 — the app told me saving failed so I tried again, and it made two.
 owner: AI agent + user
 source: "Product owner feedback: front page feels bland"
 tags: []
