@@ -34,19 +34,21 @@ Opening the front page greets new visitors with a warm welcome message instead o
 
 ## Problem Or Opportunity
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+New, first-time visitors currently land on a plain, generic front-page title with no welcoming tone. This is a missed opportunity to make a warm first impression and set expectations for the product's character.
 
 ## Scope
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+In scope: replacing the current plain front-page title/copy with a warm, friendly welcome message aimed at first-time visitors. Out of scope: any changes to opening-hours display (dropped from this story per product owner — may be raised separately later) and any other front-page content or layout changes.
 
 ## Proposed Design / Approach
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+Draft a couple of friendly, warm-toned welcome message options for the front-page hero/title area, for the product owner to pick from. Once a wording is chosen, replace the existing plain title with the selected message. No functional/data changes expected — this is a copy change to existing front-page markup.
 
 ## Verification Plan
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+- Confirm the front page displays the chosen warm welcome message in place of the previous plain title.
+- Confirm the message reads naturally to a first-time visitor (informal review/read-through, not automated).
+- Confirm no other front-page content, layout, or functionality was affected.
 
 ## Questions
 
