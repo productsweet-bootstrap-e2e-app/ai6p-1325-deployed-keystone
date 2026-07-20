@@ -63,6 +63,8 @@ Optional at first intake. Fill this in before generating a dev task in `backlog`
   thread:
     - role: user
       text: 'For the warm welcome message: do you have example wording or a tone in mind (e.g. friendly/casual vs. professional/warm), or should the team draft options for you to pick from? No strong recommendation — this shapes the Proposed Approach.'
+    - role: agent
+      text: 'User: wants the team to draft a couple of options, friendly and warm tone.'
 - question: 'If opening hours are included: where should the hours data come from (typed in once, or pulled from an existing source of truth like a settings page), and do hours ever change (e.g. holidays)? No recommendation — need your input to scope this correctly.'
   status: open
   thread:
