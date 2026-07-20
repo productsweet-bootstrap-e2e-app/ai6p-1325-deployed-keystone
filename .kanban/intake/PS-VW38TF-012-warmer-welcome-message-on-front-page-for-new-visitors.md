@@ -66,7 +66,7 @@ Optional at first intake. Fill this in before generating a dev task in `backlog`
     - role: agent
       text: 'User: wants the team to draft a couple of options, friendly and warm tone.'
 - question: 'If opening hours are included: where should the hours data come from (typed in once, or pulled from an existing source of truth like a settings page), and do hours ever change (e.g. holidays)? No recommendation — need your input to scope this correctly.'
-  status: open
+  status: answered
   thread:
     - role: user
       text: 'If opening hours are included: where should the hours data come from (typed in once, or pulled from an existing source of truth like a settings page), and do hours ever change (e.g. holidays)? No recommendation — need your input to scope this correctly.'
