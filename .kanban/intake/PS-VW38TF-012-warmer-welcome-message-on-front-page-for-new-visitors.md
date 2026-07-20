@@ -78,4 +78,4 @@ Draft a couple of friendly, warm-toned welcome message options for the front-pag
 
 ## Refinement Notes
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+Refined 2026-07-20: product owner confirmed scope is welcome-message copy only — opening hours idea raised in the same conversation was explicitly dropped from this story (may become a separate intake item later). Product owner asked for a couple of friendly/warm wording options to choose from, rather than supplying exact copy themselves.
