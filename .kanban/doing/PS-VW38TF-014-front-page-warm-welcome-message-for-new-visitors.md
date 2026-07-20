@@ -37,3 +37,12 @@ Draft a couple of friendly, warm-toned welcome message options for the front-pag
 - Confirm the front page displays the chosen warm welcome message in place of the previous plain title.
 - Confirm the message reads naturally to a first-time visitor (informal read-through).
 - Confirm no other front-page content, layout, or functionality was affected.
+
+## Completion Notes
+
+- Outcome: Product owner selected the wording "Hello and welcome — we're so glad you found us." to replace the plain front-page title. Implemented as a copy-only change to `src/index.njk` (replaced `<h1>{{ title }}</h1>` with the chosen welcome message). No other front-page content/layout changed.
+- PR: https://github.com/productsweet-bootstrap-e2e-app/ai6p-1325-deployed-keystone/pull/17 (branch feature/PS-VW38TF-014, not yet merged).
+- Verification actually run: PR CI (`pr-gate`, `probe` checks) was triggered and was still in progress ("in_progress") at last poll — not yet green. This session cannot reliably wait out the full CI run, and this org's self-armed-wake automation is currently off (arming request returned "self-armed-wake-trigger-disabled"), so no automatic follow-up session will be triggered on completion. A human should check the PR's CI status and, once green, merge it.
+- Verification Plan items ("front page displays chosen message", "reads naturally", "no other content affected") — the copy change matches the plan by inspection of the diff; a human/product-owner visual check on the deployed preview is still recommended before merge.
+- Documentation updated: none required (copy-only change, no architecture impact).
+- Follow-up tasks created: none.
