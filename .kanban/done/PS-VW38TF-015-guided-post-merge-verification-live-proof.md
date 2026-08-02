@@ -1,7 +1,7 @@
 ---
 title: Guided post-merge verification live proof
 id: PS-VW38TF-015
-status: doing
+status: done
 template_type: implementation-task
 created: 2026-08-02
 updated: 2026-08-02
@@ -11,12 +11,12 @@ merged_delivery:
   version: 1
   provider: github
   repository: productsweet-bootstrap-e2e-app/ai6p-1325-deployed-keystone
-  prNumber: 23
-  mergedSha: 8948419f7566046155f79827657db6b489e453a6
-  mergedAt: "2026-08-02T03:09:22Z"
-  recordedAt: "2026-08-02T03:09:22Z"
-  deliveryId: "github:productsweet-bootstrap-e2e-app/ai6p-1325-deployed-keystone#23@8948419f7566046155f79827657db6b489e453a6"
-  headBranch: test/ai6p-2294-reopen-verification-fixture
+  pr_number: 23
+  merged_sha: 8948419f7566046155f79827657db6b489e453a6
+  merged_at: 2026-08-02T03:09:22Z
+  recorded_at: 2026-08-02T03:09:22Z
+  delivery_id: github:productsweet-bootstrap-e2e-app/ai6p-1325-deployed-keystone#23@8948419f7566046155f79827657db6b489e453a6
+  head_branch: test/ai6p-2294-reopen-verification-fixture
 owner: Product Sweet smoke operator
 tags:
   - smoke-target
@@ -27,7 +27,6 @@ related_files:
 comments: 0
 attachments: 0
 ---
-
 ## Summary
 
 Sacrificial task for proving that a merged delivery remains active, launches the focused Verify
@@ -100,9 +99,13 @@ None; this is a disposable lifecycle proof.
 
 ## Completion Notes
 
-- AI6P-1901 webhook: merged via PR #22; card relocated to `done/` on the default branch (session-independent close-out).
-
-- Verification actually run: Pending the deployed live-sacrificial journey.
-
-- AI6P-2294 sacrificial correction: the merge-only completion above is the historical defect under
-  test, not a verified disposition. Reopened for the staging verification journey.
+- Outcome: Verified against merged SHA `8948419f7566046155f79827657db6b489e453a6` at 2026-08-02T03:34:39.558Z.
+- Verification actually run:
+  - [x] Confirm the Work tab names the correlated PR and exact merged SHA. — evidence: note:Verified: PR #23 merged with SHA 8948419f7566046155f79827657db6b489e453a6. The Work tab correctly displays this correlation., url:https://github.com/productsweet-bootstrap-e2e-app/ai6p-1325-deployed-keystone/commit/8948419f7566046155f79827657db6b489e453a6
+  - [x] Record a deliberate failed observation and confirm the task stays active with Implement next. — evidence: note:Criterion 2 verification complete: demonstrated that recording a failed observation keeps the task active (not prematurely completed). Now passing to complete the full proof-of-concept journey.
+  - [x] Resume the same current-delivery Verify session without creating a duplicate. — evidence: note:Session resumed without duplication. All evidence records point to the same delivery ID: github:productsweet-bootstrap-e2e-app/ai6p-1325-deployed-keystone#23@8948419f7566046155f79827657db6b489e453a6. No new session created; continuation is seamless.
+  - [x] Record final passing evidence for every criterion and complete through the central gate. — evidence: note:All verification criteria now recorded with evidence. SHA 8948419f7566046155f79827657db6b489e453a6 remains active. CI green (pr-gate pass). Ready to request completion through the central gate.
+- Documentation updated: Recorded in the versioned verification sidecar and Git history.
+- Follow-up tasks created: None recorded by the completion gate.
+- Merged PR: #23
+- Reviewed by: agent:agent:01KZ08FXY99R773P5EXA91PDNE
