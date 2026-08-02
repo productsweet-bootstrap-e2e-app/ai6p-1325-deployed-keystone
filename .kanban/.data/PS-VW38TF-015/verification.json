@@ -62,10 +62,18 @@
     {
       "id": "a38ec596abb8f986",
       "text": "Record final passing evidence for every criterion and complete through the central gate.",
-      "outcome": "pending",
-      "evidence": [],
-      "actor": null,
-      "observedAt": null
+      "outcome": "passed",
+      "evidence": [
+        {
+          "kind": "note",
+          "value": "All criteria evaluated and evidence recorded iteratively across the Verify session. CI green on merged SHA 8948419f7566046155f79827657db6b489e453a6. Task eligible for completion through central gate."
+        }
+      ],
+      "actor": {
+        "kind": "agent",
+        "id": "agent:01KZ0C7R3ASRPW0XYAVRMCBEPG"
+      },
+      "observedAt": "2026-08-02T04:39:14.183Z"
     }
   ],
   "ci": {
@@ -78,5 +86,5 @@
   },
   "disposition": null,
   "createdAt": "2026-08-02T03:33:41.969Z",
-  "updatedAt": "2026-08-02T04:39:05.959Z"
+  "updatedAt": "2026-08-02T04:39:14.183Z"
 }
