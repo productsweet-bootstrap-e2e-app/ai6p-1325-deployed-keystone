@@ -1,12 +1,22 @@
 ---
 title: Audit remediation live proof
 id: PS-VW38TF-016
-status: done
+status: doing
 template_type: implementation-task
 created: 2026-08-02
 updated: 2026-08-02
 priority: high
 verification_tier: live-sacrificial
+merged_delivery:
+  version: 1
+  provider: github
+  repository: productsweet-bootstrap-e2e-app/ai6p-1325-deployed-keystone
+  pr_number: 26
+  merged_sha: 990e9728f81d8ef49aa00483bbcaf7f86e4e74ed
+  merged_at: 2026-08-02T15:41:29+12:00
+  recorded_at: 2026-08-02T15:41:29+12:00
+  delivery_id: github:productsweet-bootstrap-e2e-app/ai6p-1325-deployed-keystone#26@990e9728f81d8ef49aa00483bbcaf7f86e4e74ed
+  head_branch: historical/pr-26
 owner: Product Sweet smoke operator
 tags:
   - smoke-target
@@ -86,6 +96,8 @@ None.
 - Production currently carries the historical auto-close worker used only to create this fixture.
 
 ## Completion Notes
+
+- AI6P-2299 operator correction (da92751838db9017cc9d5072be4c0cd9772a82eb65e9a9200cb9289f076fea0b): invalidated the prior merge-only completion for PR #26; reopened to verification pending for shipping SHA `990e9728f81d8ef49aa00483bbcaf7f86e4e74ed` at 2026-08-02T03:42:09.185Z.
 
 - AI6P-1901 webhook: merged via PR #26; card relocated to `done/` on the default branch (session-independent close-out).
 
