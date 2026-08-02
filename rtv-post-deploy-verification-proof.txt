@@ -1,0 +1,5 @@
+RTV-001 staging post-deploy merge proof.
+
+This correlated pull request exists only to exercise Product Sweet's deployed
+merged-delivery, verification-pending, idempotent replay, completion-denial,
+and explicit human-waiver lifecycle against the sanctioned sacrificial project.
