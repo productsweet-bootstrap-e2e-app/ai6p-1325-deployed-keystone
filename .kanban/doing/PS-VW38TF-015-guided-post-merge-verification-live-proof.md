@@ -1,7 +1,7 @@
 ---
 title: Guided post-merge verification live proof
 id: PS-VW38TF-015
-status: done
+status: doing
 template_type: implementation-task
 created: 2026-08-02
 updated: 2026-08-02
@@ -93,3 +93,6 @@ None; this is a disposable lifecycle proof.
 - AI6P-1901 webhook: merged via PR #22; card relocated to `done/` on the default branch (session-independent close-out).
 
 - Verification actually run: Pending the deployed live-sacrificial journey.
+
+- AI6P-2294 sacrificial correction: the merge-only completion above is the historical defect under
+  test, not a verified disposition. Reopened for the staging verification journey.
