@@ -7,6 +7,16 @@ created: 2026-08-02
 updated: 2026-08-02
 priority: high
 verification_tier: live-sacrificial
+merged_delivery:
+  version: 1
+  provider: github
+  repository: productsweet-bootstrap-e2e-app/ai6p-1325-deployed-keystone
+  prNumber: 23
+  mergedSha: 8948419f7566046155f79827657db6b489e453a6
+  mergedAt: "2026-08-02T03:09:22Z"
+  recordedAt: "2026-08-02T03:09:22Z"
+  deliveryId: "github:productsweet-bootstrap-e2e-app/ai6p-1325-deployed-keystone#23@8948419f7566046155f79827657db6b489e453a6"
+  headBranch: test/ai6p-2294-reopen-verification-fixture
 owner: Product Sweet smoke operator
 tags:
   - smoke-target
