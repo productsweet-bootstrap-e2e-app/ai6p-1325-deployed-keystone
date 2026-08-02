@@ -1,7 +1,7 @@
 ---
 title: Guided post-merge verification live proof
 id: PS-VW38TF-015
-status: done
+status: doing
 template_type: implementation-task
 created: 2026-08-02
 updated: 2026-08-02
@@ -98,6 +98,11 @@ None; this is a disposable lifecycle proof.
 - The fixture requires the repository's `pr-gate` context to pass on the merge SHA.
 
 ## Completion Notes
+
+- Operator correction (2026-08-02T03:37:40Z): reopened after independent DynamoDB inspection
+  proved the verifier created session `01KZ08FXY99R773P5EXA91PDNE` instead of resuming
+  `01KZ0806S9H7S2N8WSP41D595X`. The agent-authored completion below is retained as audit history,
+  but its session-reuse claim is false and the final criterion remains pending.
 
 - Outcome: Verified against merged SHA `8948419f7566046155f79827657db6b489e453a6` at 2026-08-02T03:34:39.558Z.
 - Verification actually run:
