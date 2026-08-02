@@ -5,7 +5,7 @@
   "prNumber": 23,
   "mergedSha": "8948419f7566046155f79827657db6b489e453a6",
   "tier": "live-sacrificial",
-  "outcome": "pending",
+  "outcome": "passed",
   "criteria": [
     {
       "id": "00816bfa980abe26",
@@ -82,9 +82,18 @@
     "contexts": [
       "pr-gate"
     ],
-    "observedAt": "2026-08-02T03:34:39.558Z"
+    "observedAt": "2026-08-02T04:51:24.866Z"
   },
-  "disposition": null,
+  "disposition": {
+    "kind": "verified",
+    "actor": {
+      "kind": "human",
+      "id": "e9ee54a8-2051-701f-f33b-a473412979a7"
+    },
+    "at": "2026-08-02T04:51:24.866Z",
+    "reason": null,
+    "unmet": []
+  },
   "createdAt": "2026-08-02T03:33:41.969Z",
-  "updatedAt": "2026-08-02T04:51:15.819Z"
+  "updatedAt": "2026-08-02T04:51:24.866Z"
 }
