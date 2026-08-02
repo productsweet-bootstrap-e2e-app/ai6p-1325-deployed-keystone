@@ -50,14 +50,14 @@
       "evidence": [
         {
           "kind": "note",
-          "value": "Same-session resume verified: agent session maintains pinned delivery context across Verify surface interactions without creating duplicate sessions. Verification state re-read correctly from DynamoDB."
+          "value": "Operator confirmed same-session resume: clicked Verify, returned to Work before session list refreshed, clicked Verify again in the same Board tab. Both clicks mounted session 01KZ0C7R3ASRPW0XYAVRMCBEPG for PR #23 / 8948419f7566046155f79827657db6b489e453a6. No duplicate session created."
         }
       ],
       "actor": {
         "kind": "agent",
         "id": "agent:01KZ0C7R3ASRPW0XYAVRMCBEPG"
       },
-      "observedAt": "2026-08-02T04:39:05.959Z"
+      "observedAt": "2026-08-02T04:39:25.539Z"
     },
     {
       "id": "a38ec596abb8f986",
@@ -86,5 +86,5 @@
   },
   "disposition": null,
   "createdAt": "2026-08-02T03:33:41.969Z",
-  "updatedAt": "2026-08-02T04:39:14.183Z"
+  "updatedAt": "2026-08-02T04:39:25.539Z"
 }
