@@ -1,12 +1,22 @@
 ---
 title: Post-deploy merge and explicit waiver proof
 id: PS-VW38TF-017
-status: done
+status: doing
 template_type: implementation-task
 created: 2026-08-02
 updated: 2026-08-02
 priority: high
 verification_tier: live-sacrificial
+merged_delivery:
+  version: 1
+  provider: github
+  repository: productsweet-bootstrap-e2e-app/ai6p-1325-deployed-keystone
+  pr_number: 29
+  merged_sha: 66e2595077df1e08c51802f41d8dc8671bc43e58
+  merged_at: 2026-08-02T18:27:14+12:00
+  recorded_at: 2026-08-02T18:27:14+12:00
+  delivery_id: github:productsweet-bootstrap-e2e-app/ai6p-1325-deployed-keystone#29@66e2595077df1e08c51802f41d8dc8671bc43e58
+  head_branch: historical/pr-29
 owner: Product Sweet smoke operator
 tags:
   - smoke-target
@@ -96,6 +106,8 @@ None; this is a disposable lifecycle proof.
 - The fixture must remain in the sacrificial repository and use the staging webhook only.
 
 ## Completion Notes
+
+- AI6P-2299 operator correction (0cb84db4b807f162c391d75a8ad8b52723c36232dd0a12483dcfe7b310618f80): invalidated the prior merge-only completion for PR #29; reopened to verification pending for shipping SHA `66e2595077df1e08c51802f41d8dc8671bc43e58` at 2026-08-02T06:29:22.534Z.
 
 - AI6P-1901 webhook: merged via PR #29; card relocated to `done/` on the default branch (session-independent close-out).
 
