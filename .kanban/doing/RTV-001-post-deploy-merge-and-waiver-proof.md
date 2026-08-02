@@ -7,6 +7,16 @@ created: 2026-08-02
 updated: 2026-08-02
 priority: high
 verification_tier: live-sacrificial
+merged_delivery:
+  version: 1
+  provider: github
+  repository: productsweet-bootstrap-e2e-app/ai6p-1325-deployed-keystone
+  pr_number: 33
+  merged_sha: ab1cd0aba475ae56e84d77239724594d79614175
+  merged_at: 2026-08-02T06:37:53Z
+  recorded_at: 2026-08-02T06:38:00.164Z
+  delivery_id: github:productsweet-bootstrap-e2e-app/ai6p-1325-deployed-keystone#33@ab1cd0aba475ae56e84d77239724594d79614175
+  head_branch: feature/RTV-001-post-deploy-verification-proof
 owner: Product Sweet staging smoke operator
 tags:
   - smoke-target
