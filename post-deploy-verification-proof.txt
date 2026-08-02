@@ -3,3 +3,6 @@ PS-VW38TF-017 staging post-deploy merge proof.
 The correlated pull request exists only to exercise Product Sweet's deployed
 merged-delivery, verification-pending, idempotent-redelivery, and explicit
 human-waiver lifecycle against the sanctioned sacrificial project.
+
+Second correlated delivery: legacy production webhook isolated; staging owns
+the merge-to-Verification transition for this observation.
