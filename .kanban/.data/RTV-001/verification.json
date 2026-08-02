@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "taskId": "RTV-001",
+  "deliveryId": "github:productsweet-bootstrap-e2e-app/ai6p-1325-deployed-keystone#33@ab1cd0aba475ae56e84d77239724594d79614175",
+  "prNumber": 33,
+  "mergedSha": "ab1cd0aba475ae56e84d77239724594d79614175",
+  "tier": "live-sacrificial",
+  "outcome": "pending",
+  "criteria": [
+    {
+      "id": "a14ac8ed7e794b96",
+      "text": "[ ] Confirm the merge leaves this task active and the Board derives Verification.",
+      "outcome": "pending",
+      "evidence": [],
+      "actor": null,
+      "observedAt": null
+    },
+    {
+      "id": "95159a4f4ad215e2",
+      "text": "[ ] Confirm the Work tab names the correlated PR and exact merged SHA.",
+      "outcome": "pending",
+      "evidence": [],
+      "actor": null,
+      "observedAt": null
+    },
+    {
+      "id": "5d6b22a9b69452bd",
+      "text": "[ ] Confirm replaying the same merge event creates no second logical task transition.",
+      "outcome": "pending",
+      "evidence": [],
+      "actor": null,
+      "observedAt": null
+    },
+    {
+      "id": "825d7691992e3f7f",
+      "text": "[ ] Confirm ordinary completion is denied while evidence is missing.",
+      "outcome": "pending",
+      "evidence": [],
+      "actor": null,
+      "observedAt": null
+    },
+    {
+      "id": "3794da646458f4be",
+      "text": "[ ] Confirm an explicit human waiver records `waived`, the reason, actor, exact unmet set, and SHA.",
+      "outcome": "pending",
+      "evidence": [],
+      "actor": null,
+      "observedAt": null
+    }
+  ],
+  "ci": {
+    "sha": "ab1cd0aba475ae56e84d77239724594d79614175",
+    "status": "success",
+    "contexts": [
+      "pr-gate"
+    ],
+    "observedAt": "2026-08-02T06:43:24.856Z"
+  },
+  "disposition": null,
+  "createdAt": "2026-08-02T06:43:24.856Z",
+  "updatedAt": "2026-08-02T06:43:24.856Z"
+}
