@@ -1,7 +1,7 @@
 ---
 title: Post-deploy merge and explicit waiver proof
 id: RTV-001
-status: doing
+status: done
 template_type: implementation-task
 created: 2026-08-02
 updated: 2026-08-02
@@ -28,7 +28,6 @@ related_files:
 comments: 0
 attachments: 0
 ---
-
 ## Summary
 
 Sacrificial staging-owned task for proving that the deployed merge worker records delivery without
@@ -108,9 +107,14 @@ None; this is a disposable lifecycle proof.
 
 ## Completion Notes
 
-- Outcome: Pending live-sacrificial proof.
-- Verification actually run: Pending.
-- Documentation updated: Pending.
-- Follow-up tasks created: None.
-- Merged PR: Pending.
-- Reviewed by: Pending.
+- Outcome: Completed by explicit waiver against merged SHA `ab1cd0aba475ae56e84d77239724594d79614175` at 2026-08-02T06:58:02.282Z. Reason: Operator Shaun explicitly approved this sacrificial staging waiver on 2026-08-02. The five criteria were intentionally left unmet solely to prove the explicit-waiver path for AI6P-2296.
+- Verification actually run:
+  - [~] [ ] Confirm the merge leaves this task active and the Board derives Verification.
+  - [~] [ ] Confirm the Work tab names the correlated PR and exact merged SHA.
+  - [~] [ ] Confirm replaying the same merge event creates no second logical task transition.
+  - [~] [ ] Confirm ordinary completion is denied while evidence is missing.
+  - [~] [ ] Confirm an explicit human waiver records `waived`, the reason, actor, exact unmet set, and SHA.
+- Documentation updated: Recorded in the versioned verification sidecar and Git history.
+- Follow-up tasks created: None recorded by the completion gate.
+- Merged PR: #33
+- Reviewed by: human:e9ee54a8-2051-701f-f33b-a473412979a7

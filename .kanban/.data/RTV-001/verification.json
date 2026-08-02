@@ -5,7 +5,7 @@
   "prNumber": 33,
   "mergedSha": "ab1cd0aba475ae56e84d77239724594d79614175",
   "tier": "live-sacrificial",
-  "outcome": "pending",
+  "outcome": "waived",
   "criteria": [
     {
       "id": "a14ac8ed7e794b96",
@@ -54,9 +54,24 @@
     "contexts": [
       "pr-gate"
     ],
-    "observedAt": "2026-08-02T06:43:24.856Z"
+    "observedAt": "2026-08-02T06:58:02.282Z"
   },
-  "disposition": null,
+  "disposition": {
+    "kind": "waived",
+    "actor": {
+      "kind": "human",
+      "id": "e9ee54a8-2051-701f-f33b-a473412979a7"
+    },
+    "at": "2026-08-02T06:58:02.282Z",
+    "reason": "Operator Shaun explicitly approved this sacrificial staging waiver on 2026-08-02. The five criteria were intentionally left unmet solely to prove the explicit-waiver path for AI6P-2296.",
+    "unmet": [
+      "a14ac8ed7e794b96",
+      "95159a4f4ad215e2",
+      "5d6b22a9b69452bd",
+      "825d7691992e3f7f",
+      "3794da646458f4be"
+    ]
+  },
   "createdAt": "2026-08-02T06:43:24.856Z",
-  "updatedAt": "2026-08-02T06:43:24.856Z"
+  "updatedAt": "2026-08-02T06:58:02.282Z"
 }
