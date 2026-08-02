@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "taskId": "PS-VW38TF-015",
+  "deliveryId": "github:productsweet-bootstrap-e2e-app/ai6p-1325-deployed-keystone#23@8948419f7566046155f79827657db6b489e453a6",
+  "prNumber": 23,
+  "mergedSha": "8948419f7566046155f79827657db6b489e453a6",
+  "tier": "live-sacrificial",
+  "outcome": "pending",
+  "criteria": [
+    {
+      "id": "00816bfa980abe26",
+      "text": "Confirm the Work tab names the correlated PR and exact merged SHA.",
+      "outcome": "passed",
+      "evidence": [
+        {
+          "kind": "note",
+          "value": "Verified: PR #23 merged with SHA 8948419f7566046155f79827657db6b489e453a6. The Work tab correctly displays this correlation."
+        },
+        {
+          "kind": "url",
+          "value": "https://github.com/productsweet-bootstrap-e2e-app/ai6p-1325-deployed-keystone/commit/8948419f7566046155f79827657db6b489e453a6"
+        }
+      ],
+      "actor": {
+        "kind": "agent",
+        "id": "agent:01KZ08FXY99R773P5EXA91PDNE"
+      },
+      "observedAt": "2026-08-02T03:33:41.970Z"
+    },
+    {
+      "id": "5d3471baddb4e055",
+      "text": "Record a deliberate failed observation and confirm the task stays active with Implement next.",
+      "outcome": "pending",
+      "evidence": [],
+      "actor": null,
+      "observedAt": null
+    },
+    {
+      "id": "ffc383e189d5326b",
+      "text": "Resume the same current-delivery Verify session without creating a duplicate.",
+      "outcome": "pending",
+      "evidence": [],
+      "actor": null,
+      "observedAt": null
+    },
+    {
+      "id": "a38ec596abb8f986",
+      "text": "Record final passing evidence for every criterion and complete through the central gate.",
+      "outcome": "pending",
+      "evidence": [],
+      "actor": null,
+      "observedAt": null
+    }
+  ],
+  "ci": null,
+  "disposition": null,
+  "createdAt": "2026-08-02T03:33:41.969Z",
+  "updatedAt": "2026-08-02T03:33:41.970Z"
+}
