@@ -24,6 +24,10 @@ name: pr-gate
 on:
   pull_request:
     branches: [main]
+  # The task-completion gate observes the exact shipping SHA after merge. Keep
+  # the required context present on main as well as the PR head.
+  push:
+    branches: [main]
 
 permissions:
   contents: read
