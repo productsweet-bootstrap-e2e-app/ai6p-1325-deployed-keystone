@@ -20,7 +20,7 @@ attachments: 0
 ---
 ## Summary
 
-As a Shift coordinator, I want See which shifts are unfilled at a glance so I can reach out to volunteers in advance, so that A read-only pilot that correctly identifies unfilled test shifts without false positives. No production data, no notifications, no volunteer auth required. Success is binary: every deliberately unfilled shift is flagged, every filled shift is left alone..
+As a Shift coordinator, I want to see which shifts are unfilled at a glance so I can reach out to volunteers in advance, so that I have a read-only pilot that correctly identifies unfilled test shifts without false positives.
 
 ## User Type
 
@@ -48,8 +48,10 @@ Build a minimal read-only pilot with hard-coded test data. The coordinator can v
 
 ## Verification Plan
 
-- R1: Pilot displays at least 5 test shifts with name, time, and unfilled/filled status\n- R2: Each test shift marked unfilled is correctly identified as unfilled\n- R2: Each test shift marked filled is never flagged as unfilled\n- R3: No production data is accessed or displayed</anificationPlan>
-<parameter name="source">AI6P-2545 disposable pilot: local volunteer group
+- R1: Pilot displays at least 5 test shifts with name, time, and unfilled/filled status
+- R2: Each test shift marked unfilled is correctly identified as unfilled
+- R2: Each test shift marked filled is never flagged as unfilled
+- R3: No production data is accessed or displayed
 
 ## Questions
 
@@ -82,4 +84,4 @@ Build a minimal read-only pilot with hard-coded test data. The coordinator can v
 
 ## Refinement Notes
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+Source: AI6P-2545 disposable pilot from local volunteer group. Product owner will measure baseline (missed vs. scheduled shifts) during the first pilot weekend using the existing manual roster. Baseline and improvement target are unknown until this measurement.
