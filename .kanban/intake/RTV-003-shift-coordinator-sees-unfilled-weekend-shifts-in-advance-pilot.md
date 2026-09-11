@@ -53,7 +53,13 @@ Build a minimal read-only pilot with hard-coded test data. The coordinator can v
 
 ## Questions
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+```yaml
+- question: How should the weekly list be grouped or sorted? By day (Mon–Sun), by volunteer role, by time, or another pattern?
+  status: open
+  thread:
+    - role: user
+      text: How should the weekly list be grouped or sorted? By day (Mon–Sun), by volunteer role, by time, or another pattern?
+```
 
 ## Refinement Notes
 
