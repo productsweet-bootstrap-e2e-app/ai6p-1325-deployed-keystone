@@ -64,6 +64,11 @@ Build a minimal read-only pilot with hard-coded test data. The coordinator can v
   thread:
     - role: user
       text: What should the coordinator do once they identify an unfilled shift in this pilot? (Manual outreach only, or is there a next step we should design?)
+- question: You mentioned measuring the current missed-shift baseline before agreeing on a numerical improvement target. What's the method or timeline for that measurement, and who owns it?
+  status: open
+  thread:
+    - role: user
+      text: You mentioned measuring the current missed-shift baseline before agreeing on a numerical improvement target. What's the method or timeline for that measurement, and who owns it?
 ```
 
 ## Refinement Notes
