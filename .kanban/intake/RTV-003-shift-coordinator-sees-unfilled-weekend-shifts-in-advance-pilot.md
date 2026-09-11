@@ -59,6 +59,11 @@ Build a minimal read-only pilot with hard-coded test data. The coordinator can v
   thread:
     - role: user
       text: How should the weekly list be grouped or sorted? By day (Mon–Sun), by volunteer role, by time, or another pattern?
+- question: What should the coordinator do once they identify an unfilled shift in this pilot? (Manual outreach only, or is there a next step we should design?)
+  status: open
+  thread:
+    - role: user
+      text: What should the coordinator do once they identify an unfilled shift in this pilot? (Manual outreach only, or is there a next step we should design?)
 ```
 
 ## Refinement Notes
