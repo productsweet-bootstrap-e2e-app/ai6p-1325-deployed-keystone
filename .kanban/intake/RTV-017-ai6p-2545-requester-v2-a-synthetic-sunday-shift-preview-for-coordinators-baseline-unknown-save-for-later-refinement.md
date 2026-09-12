@@ -3,7 +3,7 @@ title: "AI6P-2545 requester V2: a synthetic Sunday shift preview for coordinator
 id: RTV-017
 status: intake
 template_type: user-story
-intake_state: captured
+intake_state: refining
 delivery_task_ids: []
 created: 2026-09-12
 updated: 2026-09-12
