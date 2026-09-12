@@ -67,3 +67,5 @@ R1: Draft 2-3 candidate replacement strings for the welcome message in a friendl
 ## Refinement Notes
 
 Refined from intake PS-VW38TF-027. User's answers to audience and success-measure questions did not resolve those points (repeated the same free-text: "no strong preference, pick whichever reads best, just the welcome message"). Left as open questions rather than assumed.
+
+User confirmed follow-up (2026-09-12): scope is only the welcome message text — explicitly not opening hours or any other content on the page.
