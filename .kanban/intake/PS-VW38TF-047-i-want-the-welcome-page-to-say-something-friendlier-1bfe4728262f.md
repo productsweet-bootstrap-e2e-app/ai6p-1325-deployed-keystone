@@ -61,6 +61,8 @@ Optional at first intake. Fill this in before generating a dev task in `backlog`
       text: 'Checked the site: the front page (src/index.njk) already reads "Hello and welcome — we''re so glad you found us." This was delivered under a prior story (PS-VW38TF-014) in response to the same request. This looks like a duplicate of that already-completed work (and of open duplicates PS-VW38TF-010/012/029/045).'
     - role: agent
       text: User's reply repeated the same generic text ("no strong preference, pick whichever reads best") rather than confirming whether to close this as a duplicate. Not treating this as confirmation — leaving open for a direct answer.
+    - role: agent
+      text: User replied again with the same generic non-committal text ("no strong preference, pick whichever reads best") rather than confirming or declining to close as duplicate. Not treating as confirmation — item remains awaiting-user-review pending a direct yes/no.
 ```
 
 ## Refinement Notes
