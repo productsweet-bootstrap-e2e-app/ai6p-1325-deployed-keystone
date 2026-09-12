@@ -51,7 +51,13 @@ R1: Draft 1-2 candidate replacement strings for the welcome message, present the
 
 ## Questions
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+```yaml
+- question: Once a couple of candidate friendlier welcome messages are drafted, will you (the product owner) approve the final wording before it ships, or should the dev task just pick the best option without a further check-in?
+  status: open
+  thread:
+    - role: user
+      text: Once a couple of candidate friendlier welcome messages are drafted, will you (the product owner) approve the final wording before it ships, or should the dev task just pick the best option without a further check-in?
+```
 
 ## Refinement Notes
 
