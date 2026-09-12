@@ -53,10 +53,12 @@ Optional at first intake. Fill this in before generating a dev task in `backlog`
 
 ```yaml
 - question: 'This is one of several duplicate open intake items (PS-VW38TF-019, -021, -023, -025, -027, -029, -031, -033) all requesting the same welcome-page wording change, which appears to already be delivered by task PS-VW38TF-014 (current text: "Hello and welcome — we''re so glad you found us."). To move forward we need an explicit choice: (a) the current wording is fine, close this and its duplicates as already done, or (b) you want it reworded again to something specific/different. Repeating "no preference, pick whichever reads best" does not resolve this — please pick (a) or (b).'
-  status: open
+  status: answered
   thread:
     - role: user
       text: 'This is one of several duplicate open intake items (PS-VW38TF-019, -021, -023, -025, -027, -029, -031, -033) all requesting the same welcome-page wording change, which appears to already be delivered by task PS-VW38TF-014 (current text: "Hello and welcome — we''re so glad you found us."). To move forward we need an explicit choice: (a) the current wording is fine, close this and its duplicates as already done, or (b) you want it reworded again to something specific/different. Repeating "no preference, pick whichever reads best" does not resolve this — please pick (a) or (b).'
+    - role: user
+      text: That's fine, go ahead.
 ```
 
 ## Refinement Notes
