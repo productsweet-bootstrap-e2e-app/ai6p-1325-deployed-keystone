@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "eventType": "task-cancelled",
+  "taskId": "RTV-020",
+  "closeReason": "other",
+  "closeNote": "Cancelled owned AI6P-2545 verification fixture; no implementation or successful delivery claimed.",
+  "actor": {
+    "kind": "human",
+    "id": "e9ee54a8-2051-701f-f33b-a473412979a7"
+  },
+  "at": "2026-09-12T02:26:22.421Z",
+  "eventId": "f16eecceb4f83892b4ad"
+}
