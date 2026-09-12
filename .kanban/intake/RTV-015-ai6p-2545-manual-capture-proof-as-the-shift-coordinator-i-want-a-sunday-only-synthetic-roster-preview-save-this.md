@@ -3,11 +3,13 @@ title: "AI6P-2545 manual capture proof: as the shift coordinator I want a Sunday
 id: RTV-015
 status: intake
 template_type: user-story
-intake_state: captured
+intake_state: closed
 delivery_task_ids: []
 created: 2026-09-12
 updated: 2026-09-12
 priority: medium
+close_reason: other
+close_note: AI6P-2545 disposable browser verification finished; cancel fixture, no implementation delivered.
 owner: shaun+stagingsmoke@payminty.com
 source: manual-intake
 created_by: e9ee54a8-2051-701f-f33b-a473412979a7
