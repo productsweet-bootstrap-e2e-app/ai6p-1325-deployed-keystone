@@ -32,7 +32,7 @@ See which shifts are unfilled at a glance so I can reach out to volunteers in ad
 
 ## Expected Outcome
 
-A read-only pilot that correctly identifies unfilled test shifts without false positives. No production data, no notifications, no volunteer auth required. Success is binary: every deliberately unfilled shift is flagged, every filled shift is left alone.
+A working read-only pilot that correctly identifies unfilled test shifts without false positives. No production data, no notifications, no volunteer auth required. Success is binary and falsifiable: every deliberately unfilled shift is flagged, every filled shift is left alone. Baseline missed-shift count and improvement target are unknown until the product owner measures the current baseline using the existing manual roster during the first pilot weekend. Post-pilot impact evaluation (whether the pilot reduces missed shifts in practice) will be scheduled after launch.
 
 ## Problem Or Opportunity
 
@@ -40,20 +40,25 @@ Volunteer shift coordination is manual and reactive. The coordinator lacks advan
 
 ## Scope
 
-- R1: Display a read-only view of weekend shifts with fill status using synthetic test data
-- R2: Correctly identify unfilled test shifts (no false positives)
-- R3: Exclude: production data, volunteer notifications, authentication, partner integrations, scheduling/rescheduling functions
+- R1: Display a read-only view of upcoming Saturday and Sunday shifts with fill status using synthetic test data
+- R1: Group shifts by day (Saturday / Sunday) and sort by start time within each day
+- R2: Correctly identify unfilled test shifts with no false positives (every unfilled shift flagged, every filled shift left alone)
+- R3: Exclude: production data, volunteer notifications, authentication, partner integrations, scheduling/rescheduling functions, coordinator action buttons
 
 ## Proposed Design / Approach
 
-Build a minimal read-only pilot with hard-coded test data. The coordinator can verify the concept works before we agree on production scope. First deliverable: static weekly list showing shift name, time, and fill status. Defer grouping, filtering, and real data integration to later stages if the pilot validates the approach.
+Build a minimal read-only pilot with hard-coded test data. The coordinator can view upcoming Saturday and Sunday shifts grouped by day and sorted by start time, and manually use the existing outreach and scheduling processes to follow up on unfilled shifts. The pilot displays only the weekly list; no integration with outreach systems, no action buttons, no real volunteer data. First deliverable: static weekly list showing shift name, time, and fill status. Defer filtering, live data, and integration to later stages if the pilot validates the approach.
 
 ## Verification Plan
 
+- R1: Pilot displays only upcoming Saturday and Sunday shifts
+- R1: Shifts are grouped by day (Saturday / Sunday) and sorted by start time within each day
 - R1: Pilot displays at least 5 test shifts with name, time, and unfilled/filled status
 - R2: Each test shift marked unfilled is correctly identified as unfilled
 - R2: Each test shift marked filled is never flagged as unfilled
+- R2: No false positives (filled shifts are never flagged as unfilled)
 - R3: No production data is accessed or displayed
+- R3: No volunteer contact or notification systems are invoked
 
 ## Questions
 
@@ -86,4 +91,4 @@ Build a minimal read-only pilot with hard-coded test data. The coordinator can v
 
 ## Refinement Notes
 
-Source: AI6P-2545 disposable pilot from local volunteer group. Product owner will measure baseline (missed vs. scheduled shifts) during the first pilot weekend using the existing manual roster. Baseline and improvement target are unknown until this measurement.
+Source: AI6P-2545 disposable pilot from local volunteer group. Answers incorporated: (1) Display upcoming Saturday and Sunday only, grouped by day and sorted by start time; (2) Coordinator uses existing manual outreach and scheduling process—no integration needed; (3) Product owner will measure missed-shift baseline during first pilot weekend using existing manual roster. Baseline count and improvement target are unknown until measurement. Post-pilot impact evaluation scheduled separately from delivery acceptance.
