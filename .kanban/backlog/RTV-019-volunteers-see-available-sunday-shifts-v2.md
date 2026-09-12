@@ -92,4 +92,6 @@ Stage 2 (deferred):
   thread:
     - role: user
       text: 'Stage 2 blocker: Partner roster API access, schema, and approval are unknown today. Who is the partner contact for API discovery? Is there a known timeline or approval gate for schema access?'
+    - role: agent
+      text: '**Discovery result:** Partner API access is not approved. A manual CSV export may be available, but its field schema and approval are still unknown. Stage 2 cannot proceed with either path until: (1) approval is obtained for live API access, or (2) CSV export fields are documented and approval confirmed.'
 ```
