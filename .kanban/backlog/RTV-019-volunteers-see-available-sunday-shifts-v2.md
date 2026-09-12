@@ -87,4 +87,9 @@ Stage 2 (deferred):
   thread:
     - role: user
       text: 'Baseline and target for "fewer missed shifts": You mentioned capturing a manual missed/total shift count during the first pilot weekend, then agreeing the target. What method will you use to track missed shifts (source, owner, evaluation window)? Is the pilot weekend predetermined, and will you share the measurement post-pilot to set the target for post-Stage-1 impact evaluation?'
+- question: 'Stage 2 blocker: Partner roster API access, schema, and approval are unknown today. Who is the partner contact for API discovery? Is there a known timeline or approval gate for schema access?'
+  status: open
+  thread:
+    - role: user
+      text: 'Stage 2 blocker: Partner roster API access, schema, and approval are unknown today. Who is the partner contact for API discovery? Is there a known timeline or approval gate for schema access?'
 ```
