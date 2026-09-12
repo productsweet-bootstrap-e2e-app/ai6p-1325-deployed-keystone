@@ -68,7 +68,7 @@ Stage 1 (Copy Validation): Rewrite `src/index.njk` welcome copy to clearly estab
 
 ```yaml
 - question: What constitutes "correct understanding of the purpose" for the five synthetic scenarios? Should the bar include specific keywords, a particular explanation pattern, or is it a judgment call on whether the explanation is in plain language and captures the platform's core function?
-  status: open
+  status: answered
   thread:
     - role: user
       text: What constitutes "correct understanding of the purpose" for the five synthetic scenarios? Should the bar include specific keywords, a particular explanation pattern, or is it a judgment call on whether the explanation is in plain language and captures the platform's core function?
