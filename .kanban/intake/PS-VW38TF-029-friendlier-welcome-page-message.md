@@ -57,6 +57,8 @@ R1: Draft 2-3 candidate replacement strings for the welcome message in a friendl
   thread:
     - role: user
       text: Who is the welcome page primarily for — new signups, everyone landing on the app, or something else? (No clear recommendation — this affects tone/context but user said no strong preference.)
+    - role: agent
+      text: 'User (via duplicate intake PS-VW38TF-045, 2026-09-12): "No strong preference on the wording — pick whichever you think reads best. Just the welcome message, nothing else." Repeated for audience question too — user is declining to specify an audience and delegating the wording choice.'
 - question: 'How should success be judged — is your own review/approval of the new wording sufficient, or do you want to wait for user feedback after release? (Recommendation: your approval, since this is a small copy change — but this needs your confirmation.)'
   status: open
   thread:
