@@ -19,19 +19,19 @@ attachments: 0
 ---
 ## Summary
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+As a Not specified by the user — they said they had no strong preference and it's fine to pick whichever audience framing reads best., I want The welcome page message to sound friendlier. The user said only the welcome message text should change, nothing else on the page., so that The user did not give a measurable success check — they said to pick whichever wording reads best, with no stated preference on tone details or how success would be judged (no metric or review process specified)..
 
 ## User Type
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+Not specified by the user — they said they had no strong preference and it's fine to pick whichever audience framing reads best.
 
 ## User Need
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+The welcome page message to sound friendlier. The user said only the welcome message text should change, nothing else on the page.
 
 ## Expected Outcome
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+The user did not give a measurable success check — they said to pick whichever wording reads best, with no stated preference on tone details or how success would be judged (no metric or review process specified).
 
 ## Problem Or Opportunity
 
