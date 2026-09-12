@@ -4,7 +4,8 @@ id: RTV-003
 status: intake
 template_type: user-story
 intake_state: ready-for-dev
-delivery_task_ids: []
+delivery_task_ids:
+  - RTV-011
 created: 2026-09-11
 updated: 2026-09-12
 priority: medium
