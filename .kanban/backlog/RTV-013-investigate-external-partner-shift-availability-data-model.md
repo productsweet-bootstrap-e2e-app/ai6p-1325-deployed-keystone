@@ -61,4 +61,9 @@ Sunday pilot will have validated that read-only shift visibility works with synt
   thread:
     - role: user
       text: What are the partner's access control and authentication requirements? (e.g., API key, OAuth, mTLS, rate limits, SLA guarantees, data retention policies)
+- question: What are the known technical blockers or constraints to integrating partner data? (e.g., data lag, schema misalignment, network isolation, or dependency on partner systems not yet deployed)
+  status: open
+  thread:
+    - role: user
+      text: What are the known technical blockers or constraints to integrating partner data? (e.g., data lag, schema misalignment, network isolation, or dependency on partner systems not yet deployed)
 ```
