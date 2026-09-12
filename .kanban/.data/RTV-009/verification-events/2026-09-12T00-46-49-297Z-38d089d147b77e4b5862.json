@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "eventType": "task-cancelled",
+  "taskId": "RTV-009",
+  "closeReason": "other",
+  "closeNote": "AI6P-2545 disposable browser verification finished; cancel fixture, no implementation delivered.",
+  "actor": {
+    "kind": "human",
+    "id": "e9ee54a8-2051-701f-f33b-a473412979a7"
+  },
+  "at": "2026-09-12T00:46:49.297Z",
+  "eventId": "38d089d147b77e4b5862"
+}

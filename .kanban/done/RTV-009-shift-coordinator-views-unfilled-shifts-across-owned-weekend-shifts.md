@@ -1,13 +1,14 @@
 ---
 title: Shift coordinator views unfilled shifts across owned weekend shifts
 id: RTV-009
-status: backlog
+status: done
 template_type: implementation-task
 kind: epic
-backlog_state: refining
 created: 2026-09-12
 updated: 2026-09-12
 priority: medium
+close_reason: other
+close_note: AI6P-2545 disposable browser verification finished; cancel fixture, no implementation delivered.
 owner: You (product owner)
 tags: []
 depends_on: []
