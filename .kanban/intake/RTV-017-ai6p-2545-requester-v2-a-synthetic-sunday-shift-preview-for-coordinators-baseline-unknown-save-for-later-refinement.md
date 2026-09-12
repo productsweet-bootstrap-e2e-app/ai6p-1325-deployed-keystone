@@ -8,7 +8,8 @@ delivery_task_ids: []
 created: 2026-09-12
 updated: 2026-09-12
 priority: medium
-close_note: AI6P-2545 owned verification fixture cleanup; no implementation
+close_reason: other
+close_note: Cancelled owned requester verification fixture; no delivery completed.
 owner: shaun+ai6p2545-req-v2@payminty.com
 source: manual-intake
 created_by: 099e4438-4011-704c-d213-dedbbb60c3f5
