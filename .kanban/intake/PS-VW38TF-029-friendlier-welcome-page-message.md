@@ -64,6 +64,8 @@ R1: Draft 2-3 candidate replacement strings for the welcome message in a friendl
   thread:
     - role: user
       text: 'How should success be judged — is your own review/approval of the new wording sufficient, or do you want to wait for user feedback after release? (Recommendation: your approval, since this is a small copy change — but this needs your confirmation.)'
+    - role: agent
+      text: 'User (via duplicate intake PS-VW38TF-045, 2026-09-12): same free-text answer — "no strong preference, pick whichever reads best." This does not explicitly confirm the review/approval method, but is consistent with the earlier recommendation (their own read/approval of the final wording).'
 ```
 
 ## Refinement Notes
