@@ -78,3 +78,13 @@ Stage 2 (deferred):
     - stage-1-synthetic-preview
   exit_criteria: Partner API schema documented; data binding implemented and tested against live roster; error handling and offline fallback working; rollout approved.
 ```
+
+## Questions
+
+```yaml
+- question: 'Baseline and target for "fewer missed shifts": You mentioned capturing a manual missed/total shift count during the first pilot weekend, then agreeing the target. What method will you use to track missed shifts (source, owner, evaluation window)? Is the pilot weekend predetermined, and will you share the measurement post-pilot to set the target for post-Stage-1 impact evaluation?'
+  status: open
+  thread:
+    - role: user
+      text: 'Baseline and target for "fewer missed shifts": You mentioned capturing a manual missed/total shift count during the first pilot weekend, then agreeing the target. What method will you use to track missed shifts (source, owner, evaluation window)? Is the pilot weekend predetermined, and will you share the measurement post-pilot to set the target for post-Stage-1 impact evaluation?'
+```
