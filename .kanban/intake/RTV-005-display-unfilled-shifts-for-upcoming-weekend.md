@@ -3,11 +3,13 @@ title: Display unfilled shifts for upcoming weekend
 id: RTV-005
 status: intake
 template_type: user-story
-intake_state: ready-for-dev
+intake_state: closed
 delivery_task_ids: []
 created: 2026-09-11
-updated: 2026-09-11
+updated: 2026-09-12
 priority: high
+close_reason: other
+close_note: AI6P-2545 disposable browser verification finished; cancel fixture, no implementation delivered.
 owner: AI agent + user
 tags: []
 depends_on: []
