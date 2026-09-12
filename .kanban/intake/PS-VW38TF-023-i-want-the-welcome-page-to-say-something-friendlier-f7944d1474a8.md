@@ -43,11 +43,11 @@ R1: Update the wording of the welcome page's welcome message to a friendlier ton
 
 ## Proposed Design / Approach
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+R1: Implementer drafts 1-2 candidate friendlier wordings for the welcome message and the author picks/approves one before it ships, since the author expressed no wording preference themselves.
 
 ## Verification Plan
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+- R1: Author reviews and approves the new welcome message wording before the change is considered done (exact success signal still open — see Questions).
 
 ## Questions
 
