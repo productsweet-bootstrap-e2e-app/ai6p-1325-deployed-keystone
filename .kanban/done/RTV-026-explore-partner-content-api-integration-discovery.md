@@ -1,13 +1,14 @@
 ---
 title: Explore partner content API integration (discovery)
 id: RTV-026
-status: backlog
+status: done
 template_type: implementation-task
 parent_task_id: RTV-022
-backlog_state: refining
 created: 2026-09-12
 updated: 2026-09-12
 priority: medium
+close_reason: other
+close_note: AI6P-2545 disposable verification fixture cleanup. Explicit cancellation, not delivered implementation or successful task completion.
 owner: AI agent + user
 tags:
   - discovery
