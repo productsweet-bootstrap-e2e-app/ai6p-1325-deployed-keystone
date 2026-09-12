@@ -1,14 +1,15 @@
 ---
 title: Build Sunday pilot view with synthetic test data
 id: RTV-011
-status: backlog
+status: done
 template_type: implementation-task
 parent_task_id: RTV-009
 source_intake_id: RTV-003
-backlog_state: refining
 created: 2026-09-12
 updated: 2026-09-12
 priority: medium
+close_reason: other
+close_note: AI6P-2545 disposable browser verification finished; cancel fixture, no implementation delivered.
 owner: You (product owner)
 tags: []
 depends_on: []
