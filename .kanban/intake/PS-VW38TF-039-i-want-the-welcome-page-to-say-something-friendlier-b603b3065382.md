@@ -51,7 +51,13 @@ R1: Locate the welcome page's welcome message copy in the codebase and replace i
 
 ## Questions
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+```yaml
+- question: Since there's no specific success metric, should we treat "you approve the final wording on review" as the acceptance check, or do you want something else (e.g. user feedback) tracked after release?
+  status: open
+  thread:
+    - role: user
+      text: Since there's no specific success metric, should we treat "you approve the final wording on review" as the acceptance check, or do you want something else (e.g. user feedback) tracked after release?
+```
 
 ## Refinement Notes
 
