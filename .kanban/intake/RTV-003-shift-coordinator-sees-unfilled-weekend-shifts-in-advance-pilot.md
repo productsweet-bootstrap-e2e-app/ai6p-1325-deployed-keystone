@@ -40,8 +40,8 @@ Volunteer shift coordination is manual and reactive. The coordinator lacks advan
 
 ## Scope
 
-- R1: Display a read-only view of upcoming Saturday and Sunday shifts with fill status using synthetic test data
-- R1: Group shifts by day (Saturday / Sunday) and sort by start time within each day
+- R1: Display a read-only view of upcoming Sunday shifts with fill status using synthetic test data
+- R1: Sort shifts by start time
 - R2: Correctly identify unfilled test shifts with no false positives (every unfilled shift flagged, every filled shift left alone)
 - R3: Exclude: production data, volunteer notifications, authentication, partner integrations, scheduling/rescheduling functions, coordinator action buttons
 
@@ -50,8 +50,8 @@ Volunteer shift coordination is manual and reactive. The coordinator lacks advan
 Build a minimal read-only pilot with hard-coded test data.
 
 **First Deliverable (covers all requirements):**
-- Display a static weekly list of upcoming Saturday and Sunday shifts (R1)
-- Group shifts by day (Saturday / Sunday) and sort by start time within each day (R1)
+- Display a static list of upcoming Sunday shifts (R1)
+- Sort shifts by start time (R1)
 - Show shift name, time, and fill status (unfilled / filled) for each shift (R1)
 - Use hard-coded synthetic test data with at least 5 test shifts to verify correctness (R1, R2)
 - Verify no false positives: every unfilled shift is flagged, every filled shift is left alone (R2)
@@ -62,8 +62,8 @@ The coordinator can manually use the existing outreach and scheduling processes 
 
 ## Verification Plan
 
-- R1: Pilot displays only upcoming Saturday and Sunday shifts
-- R1: Shifts are grouped by day (Saturday / Sunday) and sorted by start time within each day
+- R1: Pilot displays only upcoming Sunday shifts
+- R1: Shifts are sorted by start time
 - R1: Pilot displays at least 5 test shifts with name, time, and unfilled/filled status
 - R2: Each test shift marked unfilled is correctly identified as unfilled
 - R2: Each test shift marked filled is never flagged as unfilled
@@ -102,4 +102,4 @@ The coordinator can manually use the existing outreach and scheduling processes 
 
 ## Refinement Notes
 
-Source: AI6P-2545 disposable pilot from local volunteer group. Answers incorporated: (1) Display upcoming Saturday and Sunday only, grouped by day and sorted by start time; (2) Coordinator uses existing manual outreach and scheduling process—no integration needed; (3) Product owner will measure missed-shift baseline during first pilot weekend using existing manual roster. Baseline count and improvement target are unknown until measurement. Post-pilot impact evaluation scheduled separately from delivery acceptance.
+Source: AI6P-2545 disposable pilot from local volunteer group. **Scope change (2026-09-12):** Updated from Saturday and Sunday to Sunday only. Answers incorporated: (1) Display upcoming Sunday shifts only, sorted by start time; (2) Coordinator uses existing manual outreach and scheduling process—no integration needed; (3) Product owner will measure missed-shift baseline during first pilot weekend using existing manual roster. Baseline count and improvement target are unknown until measurement. Post-pilot impact evaluation scheduled separately from delivery acceptance.
