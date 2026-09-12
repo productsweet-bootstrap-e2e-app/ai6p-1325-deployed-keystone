@@ -1,0 +1,36 @@
+---
+title: Shift coordinator views unfilled shifts across owned weekend shifts
+id: RTV-009
+status: backlog
+template_type: implementation-task
+kind: epic
+backlog_state: refining
+created: 2026-09-12
+updated: 2026-09-12
+priority: medium
+owner: You (product owner)
+tags: []
+depends_on: []
+related_files: []
+comments: 0
+attachments: 0
+---
+## Summary
+
+Two-stage vision for improving shift visibility: validate read-only concept with Sunday pilot using synthetic test data, then evaluate external partner availability data integration.
+
+## Scope
+
+- R1: Deliver Sunday pilot that correctly identifies filled/unfilled shifts with synthetic test data
+- R2: Conduct bounded discovery on external partner shift availability data model, access permissions, and schema
+- R3: Lay foundation for future partner integration without making commitments or approvals
+
+## Proposed Design / Approach
+
+Build pilot independently with hard-coded test data to validate the concept. Conduct bounded discovery on partner data model and access constraints before committing to integration work. Defer integration implementation to later stages pending discovery outcomes.
+
+## Verification Plan
+
+- R1: Sunday pilot correctly identifies every unfilled test shift, flags no false positives, displays ≥5 test shifts with name, time, and fill status
+- R2: Partner data schema, access control model, and known blockers are documented; discovery blockers are identified and listed
+- R3: No unsolicited partner contact; no integration commitments made
