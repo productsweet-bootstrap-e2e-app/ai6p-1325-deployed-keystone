@@ -59,6 +59,8 @@ Optional at first intake. Fill this in before generating a dev task in `backlog`
       text: Which page/surface is "the welcome page" — e.g. the marketing homepage, a post-signup welcome screen, or an in-app dashboard greeting? The user said only the welcome message text should change and had no preference on tone, but we need to locate the exact copy to update.
     - role: agent
       text: 'Checked the site: the front page (src/index.njk) already reads "Hello and welcome — we''re so glad you found us." This was delivered under a prior story (PS-VW38TF-014) in response to the same request. This looks like a duplicate of that already-completed work (and of open duplicates PS-VW38TF-010/012/029/045).'
+    - role: agent
+      text: User's reply repeated the same generic text ("no strong preference, pick whichever reads best") rather than confirming whether to close this as a duplicate. Not treating this as confirmation — leaving open for a direct answer.
 ```
 
 ## Refinement Notes
