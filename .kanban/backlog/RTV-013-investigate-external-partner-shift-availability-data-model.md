@@ -43,3 +43,7 @@ Interview internal stakeholders familiar with partner relationship (business, le
 ## Refinement Notes
 
 Covers stage_partner_discovery deliverable. Bounded planning task only. Depends on stage_sunday_pilot completion. Discovery outcomes inform next stage decision.
+
+## Problem Or Opportunity
+
+Sunday pilot will have validated that read-only shift visibility works with synthetic data and zero false positives. To expand beyond a proof-of-concept to production, the team must understand the external partner's shift availability data: what schema is available, how to access it securely, and what constraints or blockers exist. This discovery is bounded—no implementation, no prototyping, no unsolicited partner contact—to inform whether integration is feasible before making any commitments.
