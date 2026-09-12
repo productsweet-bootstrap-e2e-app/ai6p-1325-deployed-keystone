@@ -19,19 +19,19 @@ attachments: 0
 ---
 ## Summary
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+As a Visitors landing on the product's welcome page, I want A friendlier-sounding welcome message on the welcome page (wording left to whoever implements it — user has no strong preference, and explicitly wants only the welcome message text changed, nothing else on the page), so that The welcome page displays a warmer, friendlier message than the current one. No baseline metric was requested by the user; success is a qualitative read that the new copy feels friendlier, confirmed by the user (or product owner) reviewing the proposed replacement text before it ships..
 
 ## User Type
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+Visitors landing on the product's welcome page
 
 ## User Need
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+A friendlier-sounding welcome message on the welcome page (wording left to whoever implements it — user has no strong preference, and explicitly wants only the welcome message text changed, nothing else on the page)
 
 ## Expected Outcome
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+The welcome page displays a warmer, friendlier message than the current one. No baseline metric was requested by the user; success is a qualitative read that the new copy feels friendlier, confirmed by the user (or product owner) reviewing the proposed replacement text before it ships.
 
 ## Problem Or Opportunity
 
@@ -39,15 +39,15 @@ Optional at first intake. Fill this in before generating a dev task in `backlog`
 
 ## Scope
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+R1: Replace the existing welcome-page message text with a friendlier version. Exclusions: no other changes to the welcome page (layout, images, other copy) per user's explicit instruction ("just the welcome message, nothing else").
 
 ## Proposed Design / Approach
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+R1: Draft 1-2 candidate replacement strings for the welcome message, present them to the user for a quick pick/approval, then implement the chosen text as a small copy-only change.
 
 ## Verification Plan
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+- R1: The welcome page's message text differs from the current copy and matches the user-approved replacement string exactly.
 
 ## Questions
 
