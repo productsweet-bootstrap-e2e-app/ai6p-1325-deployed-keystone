@@ -56,4 +56,9 @@ Sunday pilot will have validated that read-only shift visibility works with synt
   thread:
     - role: user
       text: What is the external partner's shift availability data schema? (e.g., what fields are available, data types, update frequency, known limitations or transformations required)
+- question: What are the partner's access control and authentication requirements? (e.g., API key, OAuth, mTLS, rate limits, SLA guarantees, data retention policies)
+  status: open
+  thread:
+    - role: user
+      text: What are the partner's access control and authentication requirements? (e.g., API key, OAuth, mTLS, rate limits, SLA guarantees, data retention policies)
 ```
