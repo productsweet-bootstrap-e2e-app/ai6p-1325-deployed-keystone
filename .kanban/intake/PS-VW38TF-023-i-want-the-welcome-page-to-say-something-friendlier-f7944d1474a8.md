@@ -19,7 +19,7 @@ attachments: 0
 ---
 ## Summary
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+As a visitor to the welcome page, I want the welcome message to read as friendlier, so that the page feels more welcoming.
 
 ## User Type
 
@@ -27,11 +27,11 @@ Optional at first intake. Fill this in before generating a dev task in `backlog`
 
 ## User Need
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+The welcome page's message text to read as friendlier/warmer. The author had no strong preference on the exact wording and said to "pick whichever reads best." Scope is limited to just the welcome message — nothing else on the page.
 
 ## Expected Outcome
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+Unspecified by the author beyond "pick whichever reads best." No baseline, target, or measurement method was given — success criteria need confirming (see open questions).
 
 ## Problem Or Opportunity
 
@@ -39,7 +39,7 @@ Optional at first intake. Fill this in before generating a dev task in `backlog`
 
 ## Scope
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+R1: Update the wording of the welcome page's welcome message to a friendlier tone. Explicitly out of scope: any other page copy, layout, or visual changes — the author confirmed this is just the welcome message.
 
 ## Proposed Design / Approach
 
@@ -55,4 +55,4 @@ Optional at first intake. Fill this in before generating a dev task in `backlog`
 
 ## Refinement Notes
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+Intake originally had no fields filled beyond the title. Asked the author who the change is for, what "friendlier" means, and how success would be judged. The author gave the same answer to all three questions: no strong preference on wording, happy for the implementer to choose, and confirmed scope is limited to just the welcome message text.
