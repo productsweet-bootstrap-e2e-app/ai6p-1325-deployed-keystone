@@ -53,4 +53,18 @@ Build pilot independently with hard-coded test data to validate the concept. Con
     - No production data accessed or displayed
     - No volunteer notifications or coordinator action buttons
     - Coordinator confirms manual outreach process remains unchanged
+- stage_id: stage_partner_discovery
+  title: Bounded Partner Data Discovery
+  status: stub
+  summary: Investigate external partner shift availability data model, access control requirements, and schema constraints. Document technical blockers, approval requirements, and integration feasibility. NO commitments, NO unsolicited partner contact, NO implementation.
+  child_task_ids: []
+  depends_on_stage:
+    - stage_sunday_pilot
+  exit_criteria: |-
+    - Partner availability data schema is documented (fields, data types, refresh frequency)
+    - Access control model is defined (authentication, authorization, rate limits)
+    - Known technical blockers are identified and listed
+    - Partner contact / approval requirements are mapped
+    - Integration feasibility assessment completed
+    - Recommendation for next stage is documented
 ```
