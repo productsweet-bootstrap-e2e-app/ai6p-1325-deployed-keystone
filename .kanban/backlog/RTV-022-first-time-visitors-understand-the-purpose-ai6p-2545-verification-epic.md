@@ -73,4 +73,6 @@ Stage 1 (Designed): Rewrite home-page welcome copy to clearly explain the purpos
   thread:
     - role: user
       text: What constitutes "correct understanding of the purpose" for the five synthetic scenarios? Should the bar include specific keywords, a particular explanation pattern, or is it a judgment call on whether the explanation is in plain language and captures the platform's core function?
+    - role: agent
+      text: '**Recorded:** Correct understanding means all five synthetic scenarios identify this as a disposable demo website with a welcome page; no claim of production services, sign-up or API integration.'
 ```
