@@ -51,7 +51,13 @@ Optional at first intake. Fill this in before generating a dev task in `backlog`
 
 ## Questions
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+```yaml
+- question: Which page/surface is "the welcome page" — e.g. the marketing homepage, a post-signup welcome screen, or an in-app dashboard greeting? The user said only the welcome message text should change and had no preference on tone, but we need to locate the exact copy to update.
+  status: open
+  thread:
+    - role: user
+      text: Which page/surface is "the welcome page" — e.g. the marketing homepage, a post-signup welcome screen, or an in-app dashboard greeting? The user said only the welcome message text should change and had no preference on tone, but we need to locate the exact copy to update.
+```
 
 ## Refinement Notes
 
