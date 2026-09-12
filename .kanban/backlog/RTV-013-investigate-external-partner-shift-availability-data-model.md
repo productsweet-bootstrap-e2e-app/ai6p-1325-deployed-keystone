@@ -66,4 +66,9 @@ Sunday pilot will have validated that read-only shift visibility works with synt
   thread:
     - role: user
       text: What are the known technical blockers or constraints to integrating partner data? (e.g., data lag, schema misalignment, network isolation, or dependency on partner systems not yet deployed)
+- question: What is the approval process for integrating partner data? (e.g., business sign-off, legal review, partner sign-off) and who owns each step?
+  status: open
+  thread:
+    - role: user
+      text: What is the approval process for integrating partner data? (e.g., business sign-off, legal review, partner sign-off) and who owns each step?
 ```
