@@ -39,11 +39,14 @@ R1: Locate and rewrite home-page welcome copy to clearly establish this is a dis
 ## Proposed Design / Approach
 
 1. File location confirmed: `src/index.njk` (welcome text in `<h1>` and `<p>` tags within the `<main>` block). Current content verified 2026-09-12: "Hello and welcome — we're so glad you found us." + "Managed by Product Sweet bootstrap (AI6P-249)."
-2. Rewrite the welcome section to clearly explain this is a disposable demo website with a welcome page; establish no claim of production services, sign-up, or API integration.
-3. Implement a read-only preview harness that generates five synthetic visitor scenarios: curious founder, developer evaluating demo, nontechnical small-business owner, returning evaluator (first visit was confusing), accessibility tester (plain text).
-4. Run each scenario and capture what the visitor explains about the site's purpose.
-5. Verify all five scenarios confirm this is a demo website and contain zero misleading claims.
-6. Record each scenario outcome (visitor's explanation, correctness flag, any observations).
+
+2. **R1 Deliverable:** Rewrite the welcome section of `src/index.njk` to clearly explain this is a disposable demo website with a welcome page; establish no claim of production services, sign-up, or API integration. Updated file committed to branch.
+
+3. **R2 Deliverable:** Implement a read-only preview harness that generates five synthetic visitor scenarios: curious founder, developer evaluating demo, nontechnical small-business owner, returning evaluator (first visit was confusing), accessibility tester (plain text). Harness code committed to branch.
+
+4. **R3 Deliverable:** Run the preview harness for each of the five scenarios, capture the visitor's explanation of the site's purpose, and manually score each: PASS if identifies demo website (no verbatim repetition of exclusions required); FAIL if claims production services, sign-up, or API integration. Record all five explanations and scores.
+
+5. **R4 Deliverable:** Document all five baseline scenario outcomes (date, scenario name, actual visitor explanation, manual PASS/FAIL score, any observations on clarity or misleading language). Save outcomes as permanent record in task completion notes.
 
 ## Verification Plan
 
