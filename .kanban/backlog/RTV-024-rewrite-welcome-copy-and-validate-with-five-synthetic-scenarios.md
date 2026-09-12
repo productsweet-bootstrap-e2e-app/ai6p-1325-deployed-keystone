@@ -47,13 +47,13 @@ R1: Locate and rewrite home-page welcome copy to clearly establish this is a dis
 
 ## Verification Plan
 
-- Confirm welcome file location and current content: `src/index.njk` (currently observed: "Hello and welcome — we're so glad you found us." + "Managed by Product Sweet bootstrap (AI6P-249).")
+- Confirm welcome file location and current content: `src/index.njk` (currently verified: "Hello and welcome — we're so glad you found us." + "Managed by Product Sweet bootstrap (AI6P-249).")
 - R1: Rewrite welcome copy to clearly establish this is a demo website with no production services, sign-up, or API integration
 - R2: Build read-only preview harness supporting five synthetic scenarios
-- R3/Scenario 1 (curious founder): Run preview, record their explanation, verify they identify this as a demo website with welcome page, flag if misleading
-- R3/Scenario 2 (developer evaluating demo): Run preview, record their explanation, verify they identify this as a demo website with welcome page, flag if misleading
-- R3/Scenario 3 (nontechnical small-business owner): Run preview, record their explanation, verify they identify this as a demo website with welcome page, flag if misleading
-- R3/Scenario 4 (returning evaluator—first visit confusing): Run preview, record their explanation, verify they identify this as a demo website with welcome page, flag if misleading
-- R3/Scenario 5 (accessibility tester using plain text): Run preview, record their explanation, verify they identify this as a demo website with welcome page, flag if misleading
-- R4: Confirm zero misleading claims across all five scenario responses
-- R4: Record baseline: all five scenario outcomes with date and outcome notes
+- R3/Scenario 1 (curious founder): Run preview, record their explanation, manually score: PASS if identifies demo website (no verbatim repetition required); FAIL if claims production services, sign-up, or API integration
+- R3/Scenario 2 (developer evaluating demo): Run preview, record their explanation, manually score: PASS if identifies demo website; FAIL if claims production services, sign-up, or API integration
+- R3/Scenario 3 (nontechnical small-business owner): Run preview, record their explanation, manually score: PASS if identifies demo website; FAIL if claims production services, sign-up, or API integration
+- R3/Scenario 4 (returning evaluator—first visit confusing): Run preview, record their explanation, manually score: PASS if identifies demo website; FAIL if claims production services, sign-up, or API integration
+- R3/Scenario 5 (accessibility tester using plain text): Run preview, record their explanation, manually score: PASS if identifies demo website; FAIL if claims production services, sign-up, or API integration
+- R4: Record all five actual baseline outcomes (date, scenario, explanation, PASS/FAIL, any observations)
+- Confirm zero misleading claims (failures are flagged as misleading claims)
