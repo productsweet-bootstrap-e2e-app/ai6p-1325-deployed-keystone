@@ -59,14 +59,7 @@ Two-stage vision for improving shift visibility: validate read-only concept with
 ## Stages
 
 ```yaml
-- stage_id: stage_partner_integration
-  title: Partner Data Integration (Future)
-  status: stub
-  summary: Integrate external partner shift availability data into the coordinator view. Implementation scope, timeline, and technical approach to be defined after discovery stage. Dependent on partner approval and schema alignment.
-  child_task_ids: []
-  depends_on_stage:
-    - stage_partner_discovery
-  exit_criteria: '- Placeholder for future stage pending discovery outcomes'
+[]
 ```
 
 ## Problem Or Opportunity
