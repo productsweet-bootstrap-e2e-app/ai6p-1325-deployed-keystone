@@ -80,7 +80,7 @@ Stage 1 (Copy Validation): Rewrite `src/index.njk` welcome copy to clearly estab
     - role: user
       text: 'How will you score whether a synthetic scenario''s explanation contains "correct understanding"? Should there be a written rubric (e.g., must include: demo website, no production services, no API integration) or is it a judgment call on whether the explanation is sufficient?'
 - question: For Stage 2 (Partner API Discovery), who are the candidate partners or data sources you're considering? Should the discovery focus on a specific type of integration (e.g., CMS API, news feed, third-party content service) or is the scope intentionally broad?
-  status: open
+  status: answered
   thread:
     - role: user
       text: For Stage 2 (Partner API Discovery), who are the candidate partners or data sources you're considering? Should the discovery focus on a specific type of integration (e.g., CMS API, news feed, third-party content service) or is the scope intentionally broad?
