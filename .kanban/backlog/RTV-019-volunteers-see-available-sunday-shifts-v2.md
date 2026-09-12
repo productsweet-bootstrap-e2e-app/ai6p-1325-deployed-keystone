@@ -57,3 +57,16 @@ Stage 2 (deferred):
 - Filled rows (fill count ≥ target capacity) are visually flagged
 - Preview is read-only; no edit, notification or signup controls present
 - No authentication or partner integration code in Stage 1 deliverable
+
+## Stages
+
+```yaml
+- stage_id: stage-1-synthetic-preview
+  title: 'Stage 1: Synthetic Preview & UI Foundation'
+  status: designed
+  summary: Render read-only preview of 5 synthetic Sunday shifts (role, start time, fill status) with visual flags for unfilled and filled rows. Establishes component structure for Stage 2 live binding.
+  child_task_ids:
+    - RTV-020
+  depends_on_stage: []
+  exit_criteria: Five synthetic shift rows display without error; role, start time, fill status correctly rendered per row; unfilled and filled rows visually flagged; no volunteer names, notifications, edits, or partner integrations present.
+```
