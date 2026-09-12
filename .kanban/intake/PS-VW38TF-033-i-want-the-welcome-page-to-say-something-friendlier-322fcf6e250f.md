@@ -51,7 +51,13 @@ Optional at first intake. Fill this in before generating a dev task in `backlog`
 
 ## Questions
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+```yaml
+- question: This exact wording change was already delivered by task PS-VW38TF-014 (front page h1 now reads "Hello and welcome — we're so glad you found us."), and several other open intake items duplicate this same request. Do you want this item closed as already delivered, or kept open as a request to reword the message again? Your last answer repeated the standing "no preference, pick whichever reads best" reply rather than confirming either option — so this remains open. No recommendation is implied; it's your call.
+  status: open
+  thread:
+    - role: user
+      text: This exact wording change was already delivered by task PS-VW38TF-014 (front page h1 now reads "Hello and welcome — we're so glad you found us."), and several other open intake items duplicate this same request. Do you want this item closed as already delivered, or kept open as a request to reword the message again? Your last answer repeated the standing "no preference, pick whichever reads best" reply rather than confirming either option — so this remains open. No recommendation is implied; it's your call.
+```
 
 ## Refinement Notes
 
