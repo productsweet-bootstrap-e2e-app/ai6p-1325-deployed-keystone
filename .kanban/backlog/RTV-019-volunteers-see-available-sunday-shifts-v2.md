@@ -69,4 +69,12 @@ Stage 2 (deferred):
     - RTV-020
   depends_on_stage: []
   exit_criteria: Five synthetic shift rows display without error; role, start time, fill status correctly rendered per row; unfilled and filled rows visually flagged; no volunteer names, notifications, edits, or partner integrations present.
+- stage_id: stage-2-partner-discovery
+  title: 'Stage 2: Partner API Discovery & Live Integration'
+  status: stub
+  summary: Discover partner roster API schema, approval pathway, and design live data binding. Implementation deferred pending API access and schema agreement.
+  child_task_ids: []
+  depends_on_stage:
+    - stage-1-synthetic-preview
+  exit_criteria: Partner API schema documented; data binding implemented and tested against live roster; error handling and offline fallback working; rollout approved.
 ```
