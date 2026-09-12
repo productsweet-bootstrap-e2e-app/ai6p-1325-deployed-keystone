@@ -59,7 +59,21 @@ Two-stage vision for improving shift visibility: validate read-only concept with
 ## Stages
 
 ```yaml
-[]
+- stage_id: stage_sunday_pilot
+  title: Sunday Pilot with Synthetic Test Data
+  status: designed
+  summary: Build a read-only view of upcoming Sunday shifts with fill status using hard-coded synthetic test data. Coordinator verifies concept and manually uses existing outreach process. Validates fill-status accuracy and zero false positives before considering live data integration.
+  child_task_ids:
+    - RTV-011
+  depends_on_stage: []
+  exit_criteria: |-
+    - Pilot displays only upcoming Sunday shifts sorted by start time
+    - At least 5 test shifts shown with name, time, and fill status (filled/unfilled)
+    - Every unfilled test shift is correctly identified as unfilled
+    - No false positives: every filled shift is left alone
+    - No production data accessed or displayed
+    - No volunteer contact systems or notifications involved
+    - Coordinator confirms manual outreach process remains unchanged
 ```
 
 ## Problem Or Opportunity
