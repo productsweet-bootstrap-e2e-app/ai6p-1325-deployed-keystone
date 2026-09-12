@@ -3,11 +3,13 @@ title: "AI6P-2545 manual recovery: as a visitor I need exactly five synthetic we
 id: RTV-028
 status: intake
 template_type: user-story
-intake_state: refining
+intake_state: closed
 delivery_task_ids: []
 created: 2026-09-12
 updated: 2026-09-12
 priority: medium
+close_reason: other
+close_note: Disposable AI6P-2545 manual-capture verification complete; fixture cancelled, not delivered work.
 owner: shaun+stagingsmoke@payminty.com
 source: manual-intake
 created_by: e9ee54a8-2051-701f-f33b-a473412979a7
