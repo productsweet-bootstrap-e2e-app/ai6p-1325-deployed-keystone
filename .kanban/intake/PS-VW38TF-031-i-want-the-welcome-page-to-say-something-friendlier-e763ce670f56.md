@@ -51,7 +51,13 @@ R1: Implementer drafts 1-2 candidate friendlier replacement strings for the welc
 
 ## Questions
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+```yaml
+- question: Several other open intake items request the exact same welcome-page wording change (PS-VW38TF-019, -021, -023, -025, -027, -029) and one earlier request already delivered a friendlier message ("Hello and welcome — we're so glad you found us."). Which single item should proceed to a dev task, and should the rest be closed as duplicates? No recommendation implied — this is your call.
+  status: open
+  thread:
+    - role: user
+      text: Several other open intake items request the exact same welcome-page wording change (PS-VW38TF-019, -021, -023, -025, -027, -029) and one earlier request already delivered a friendlier message ("Hello and welcome — we're so glad you found us."). Which single item should proceed to a dev task, and should the rest be closed as duplicates? No recommendation implied — this is your call.
+```
 
 ## Refinement Notes
 
