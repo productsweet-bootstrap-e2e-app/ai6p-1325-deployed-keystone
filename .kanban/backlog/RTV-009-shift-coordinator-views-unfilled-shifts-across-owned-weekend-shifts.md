@@ -89,6 +89,14 @@ Two-stage vision for improving shift visibility: validate read-only concept with
     - Partner contact and approval requirements mapped
     - Integration feasibility assessment completed with recommendations
     - No unsolicited partner outreach; no integration work or commitments made
+- stage_id: stage_partner_integration
+  title: Partner Data Integration (Future)
+  status: stub
+  summary: Integrate external partner shift availability data into coordinator view. Implementation scope, timeline, and approach to be defined after Stage 2 discovery completes and partner approval is secured.
+  child_task_ids: []
+  depends_on_stage:
+    - stage_partner_discovery
+  exit_criteria: '- Placeholder for future stage pending Stage 2 discovery outcomes and partner approval'
 ```
 
 ## Problem Or Opportunity
