@@ -1,13 +1,14 @@
 ---
 title: Volunteers see available Sunday shifts (V2)
 id: RTV-019
-status: backlog
+status: done
 template_type: implementation-task
 kind: epic
-backlog_state: refining
 created: 2026-09-12
 updated: 2026-09-12
 priority: high
+close_reason: other
+close_note: Cancelled owned AI6P-2545 verification fixture; no implementation or successful delivery claimed.
 owner: you
 tags: []
 depends_on: []
