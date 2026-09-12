@@ -40,7 +40,9 @@ Volunteer shift coordination is manual and reactive. The coordinator lacks advan
 
 ## Scope
 
-R1: Display a read-only view of weekend shifts with fill status using synthetic test data\nR2: Correctly identify unfilled test shifts (no false positives)\nR3: Exclude: production data, volunteer notifications, authentication, partner integrations, scheduling/rescheduling functions
+- R1: Display a read-only view of weekend shifts with fill status using synthetic test data
+- R2: Correctly identify unfilled test shifts (no false positives)
+- R3: Exclude: production data, volunteer notifications, authentication, partner integrations, scheduling/rescheduling functions
 
 ## Proposed Design / Approach
 
