@@ -3,7 +3,7 @@ title: I want the welcome page to say something friendlier. BAC391210296
 id: PS-VW38TF-049
 status: intake
 template_type: user-story
-intake_state: captured
+intake_state: closed
 delivery_task_ids: []
 created: 2026-09-12
 updated: 2026-09-12
