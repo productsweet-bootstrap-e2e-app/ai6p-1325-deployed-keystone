@@ -1,13 +1,14 @@
 ---
 title: Rewrite welcome copy and validate with five synthetic scenarios
 id: RTV-024
-status: backlog
+status: done
 template_type: implementation-task
 parent_task_id: RTV-022
-backlog_state: ready
 created: 2026-09-12
 updated: 2026-09-12
 priority: high
+close_reason: other
+close_note: AI6P-2545 disposable verification fixture cleanup. Explicit cancellation, not delivered implementation or successful task completion.
 owner: AI agent + user
 tags:
   - purpose
