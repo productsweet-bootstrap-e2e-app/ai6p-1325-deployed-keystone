@@ -4,7 +4,7 @@ id: RTV-024
 status: backlog
 template_type: implementation-task
 parent_task_id: RTV-022
-backlog_state: ready
+backlog_state: refining
 created: 2026-09-12
 updated: 2026-09-12
 priority: high
