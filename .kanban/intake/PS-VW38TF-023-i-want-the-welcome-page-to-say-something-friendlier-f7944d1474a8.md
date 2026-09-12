@@ -11,7 +11,9 @@ priority: medium
 owner: shaun+deliverysmoke@payminty.com
 source: manual-intake
 created_by: 797ea448-a0b1-70bb-08ef-d146ad8ddf0b
-tags: []
+tags:
+  - copy
+  - welcome-page
 depends_on: []
 related_files: []
 comments: 0
