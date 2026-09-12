@@ -51,7 +51,13 @@ Optional at first intake. Fill this in before generating a dev task in `backlog`
 
 ## Questions
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+```yaml
+- question: Who is the primary audience for the welcome page (e.g. new signups vs. all visitors), and how should we judge this is "done" — is your own review/approval of the new wording enough, or do you want some other signal (e.g. user feedback)? No clear recommendation — this is your call.
+  status: open
+  thread:
+    - role: user
+      text: Who is the primary audience for the welcome page (e.g. new signups vs. all visitors), and how should we judge this is "done" — is your own review/approval of the new wording enough, or do you want some other signal (e.g. user feedback)? No clear recommendation — this is your call.
+```
 
 ## Refinement Notes
 
