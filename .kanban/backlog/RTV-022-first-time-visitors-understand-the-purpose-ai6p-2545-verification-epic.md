@@ -55,14 +55,13 @@ Stage 1 (Designed): Rewrite home-page welcome copy to clearly explain the purpos
   depends_on_stage: []
   exit_criteria: All five synthetic scenarios report correct understanding of the purpose with zero misleading claims. Scenario outcomes recorded manually.
 - stage_id: partner-api-discovery
-  title: Partner content API discovery (stub)
-  status: stub
-  summary: Investigate whether a partner content API could enhance purpose explanation. Partner name, schema, access, and approval are currently unknown.
+  title: Partner content API discovery (independent decision track)
+  status: designed
+  summary: Investigate and decide whether to pursue a partner content API to supplement purpose explanation. Deliverable is a decision note (access/schema/approval resolved or deferred). No implementation is approved; decision track runs independently and in parallel with Stage 1.
   child_task_ids:
     - RTV-026
-  depends_on_stage:
-    - copy-validation
-  exit_criteria: 'Decision document: either a confirmed API integration plan with resolved unknowns, or a justified decision to defer or skip this enhancement.'
+  depends_on_stage: []
+  exit_criteria: 'Decision document: partner access, schema requirements, and approval authority either confirmed (with plan) or justified as unresolved/deferred. No implementation without Stage 1 completion and explicit approval.'
 ```
 
 ## Questions
