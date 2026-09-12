@@ -37,7 +37,7 @@ R1: Rewrite welcome copy on home page to explain purpose clearly. R2: Create rea
 
 ## Proposed Design / Approach
 
-Stage 1 (Designed): Rewrite home-page welcome copy to clearly explain the purpose, then preview it under five synthetic visitor scenarios to verify comprehension. Record outcomes manually; all five scenarios must confirm correct purpose understanding with zero misleading claims. Stage 2 (Stub): Explore a potential partner content API to enhance purpose explanation—access, schema, and approval are unknown; defer decision until Stage 1 completes.
+Stage 1 (Copy Validation): Rewrite `src/index.njk` welcome copy to clearly establish this is a disposable demo website with a welcome page and no production services, sign-up, or API integration. Preview the updated copy under five synthetic visitor scenarios (curious founder, developer evaluating demo, nontechnical small-business owner, returning evaluator—first visit confusing, accessibility tester). Verify all five scenarios identify this as a demo and record outcomes manually as the baseline. Zero misleading claims permitted. Stage 2 (Partner API Discovery): Run independently in parallel. Investigate and decide whether pursuing a partner content API is feasible and worthwhile. Deliverable is a decision note covering partner identity, schema, access requirements, and approval authority—either confirmed (with minimal plan) or documented as unresolved. No implementation is approved unless all unknowns are resolved AND Stage 1 completes successfully AND explicit approval is given.
 
 ## Verification Plan
 
