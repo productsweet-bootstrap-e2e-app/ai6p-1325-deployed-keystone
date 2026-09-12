@@ -3,7 +3,7 @@ title: Friendlier welcome page message
 id: PS-VW38TF-029
 status: intake
 template_type: user-story
-intake_state: refining
+intake_state: awaiting-user-review
 delivery_task_ids: []
 created: 2026-09-12
 updated: 2026-09-12
