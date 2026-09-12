@@ -22,7 +22,7 @@ attachments: 0
 ---
 ## Summary
 
-Investigate whether a partner content API could enhance the purpose explanation after RTV-024 completes. Unknown: partner identity, API schema, access requirements, and approval authority.
+Investigate whether a partner content API could enhance the purpose explanation. Deliverable is a decision note covering access, schema, and approval. No implementation is approved; this discovery track runs independently in parallel with Stage 1.
 
 ## Expected Outcome
 
@@ -38,8 +38,8 @@ R1: Identify the partner (or confirm it is truly unresolved). R2: Document conte
 
 ## Proposed Design / Approach
 
-This is a discovery-only task for Stage 2. Do NOT assume the API exists or is accessible. Work: 1. Identify the partner (if known). 2. Document what schema or content structure could be useful. 3. Confirm access rights and approval authority. 4. Propose a minimal proof-of-concept or decide not to proceed. 5. Do not proceed to implementation until Stage 1 (RTV-024) is complete and all unknowns about the partner API are resolved.
+This is a discovery-only task. Deliverable is a single decision note, not implementation. Work: 1. Identify the partner (or confirm it is truly unresolved). 2. Document what schema or content structure could be useful to supplement the rewritten copy. 3. Confirm access requirements (authentication, rate limits, SLA). 4. Identify approval authority (who signs off on using their content). 5. Deliver final decision note: proceed with plan (with all unknowns resolved) OR defer OR decline. Do not implement; no commitment to proceed beyond decision documentation.
 
 ## Verification Plan
 
-- Document partner name (or confirm unresolved)\n- Document proposed API schema or content structure\n- Confirm access requirements and SLA\n- Identify approval authority\n- Deliver decision: proceed with plan OR defer OR decline\n- Link any discovery documents in relatedFiles
+- Document partner name (or confirm unresolved)\n- Document proposed API schema or content structure\n- Confirm access requirements and SLA\n- Identify approval authority\n- Deliver decision note: proceed (plan + all unknowns resolved) OR defer OR decline\n- Link decision note in relatedFiles
