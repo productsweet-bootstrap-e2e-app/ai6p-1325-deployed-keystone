@@ -64,3 +64,13 @@ Stage 1 (Designed): Rewrite home-page welcome copy to clearly explain the purpos
     - copy-validation
   exit_criteria: 'Decision document: either a confirmed API integration plan with resolved unknowns, or a justified decision to defer or skip this enhancement.'
 ```
+
+## Questions
+
+```yaml
+- question: What constitutes "correct understanding of the purpose" for the five synthetic scenarios? Should the bar include specific keywords, a particular explanation pattern, or is it a judgment call on whether the explanation is in plain language and captures the platform's core function?
+  status: open
+  thread:
+    - role: user
+      text: What constitutes "correct understanding of the purpose" for the five synthetic scenarios? Should the bar include specific keywords, a particular explanation pattern, or is it a judgment call on whether the explanation is in plain language and captures the platform's core function?
+```
