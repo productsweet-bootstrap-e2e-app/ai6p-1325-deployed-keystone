@@ -38,8 +38,22 @@ R1: Locate and rewrite home-page welcome copy to clearly establish this is a dis
 
 ## Proposed Design / Approach
 
-1. File location confirmed: `src/index.njk` (welcome text in `<h1>` and `<p>` tags within the `<main>` block). 2. Rewrite the welcome section to clearly explain this is a disposable demo website with a welcome page; establish no claim of production services, sign-up, or API integration. 3. Implement a read-only preview harness that generates five synthetic visitor scenarios (curious founder, developer evaluating demo, nontechnical small-business owner, returning evaluator—first visit confusing, accessibility tester using plain text). 4. Run each scenario and capture what the visitor explains about the site's purpose. 5. Verify all five scenarios confirm this is a demo website and contain zero misleading claims. 6. Record each scenario outcome (visitor's explanation, correctness flag, any observations).
+1. File location confirmed: `src/index.njk` (welcome text in `<h1>` and `<p>` tags within the `<main>` block). Current content verified 2026-09-12: "Hello and welcome — we're so glad you found us." + "Managed by Product Sweet bootstrap (AI6P-249)."
+2. Rewrite the welcome section to clearly explain this is a disposable demo website with a welcome page; establish no claim of production services, sign-up, or API integration.
+3. Implement a read-only preview harness that generates five synthetic visitor scenarios: curious founder, developer evaluating demo, nontechnical small-business owner, returning evaluator (first visit was confusing), accessibility tester (plain text).
+4. Run each scenario and capture what the visitor explains about the site's purpose.
+5. Verify all five scenarios confirm this is a demo website and contain zero misleading claims.
+6. Record each scenario outcome (visitor's explanation, correctness flag, any observations).
 
 ## Verification Plan
 
-- Confirm welcome file location and current content: `src/index.njk` (observed 2026-09-12)\n- Rewrite welcome copy to clearly establish this is a demo website with no production services, sign-up, or API integration\n- Build read-only preview harness supporting five synthetic scenarios\n- Scenario 1 (curious founder): Run preview, record their explanation, verify they identify this as a demo website with welcome page, flag if misleading\n- Scenario 2 (developer evaluating demo): Run preview, record their explanation, verify they identify this as a demo website with welcome page, flag if misleading\n- Scenario 3 (nontechnical small-business owner): Run preview, record their explanation, verify they identify this as a demo website with welcome page, flag if misleading\n- Scenario 4 (returning evaluator—first visit confusing): Run preview, record their explanation, verify they identify this as a demo website with welcome page, flag if misleading\n- Scenario 5 (accessibility tester using plain text): Run preview, record their explanation, verify they identify this as a demo website with welcome page, flag if misleading\n- Confirm zero misleading claims across all five scenario responses\n- Record baseline: all five scenario outcomes with date and outcome notes
+- Confirm welcome file location and current content: `src/index.njk` (currently observed: "Hello and welcome — we're so glad you found us." + "Managed by Product Sweet bootstrap (AI6P-249).")
+- R1: Rewrite welcome copy to clearly establish this is a demo website with no production services, sign-up, or API integration
+- R2: Build read-only preview harness supporting five synthetic scenarios
+- R3/Scenario 1 (curious founder): Run preview, record their explanation, verify they identify this as a demo website with welcome page, flag if misleading
+- R3/Scenario 2 (developer evaluating demo): Run preview, record their explanation, verify they identify this as a demo website with welcome page, flag if misleading
+- R3/Scenario 3 (nontechnical small-business owner): Run preview, record their explanation, verify they identify this as a demo website with welcome page, flag if misleading
+- R3/Scenario 4 (returning evaluator—first visit confusing): Run preview, record their explanation, verify they identify this as a demo website with welcome page, flag if misleading
+- R3/Scenario 5 (accessibility tester using plain text): Run preview, record their explanation, verify they identify this as a demo website with welcome page, flag if misleading
+- R4: Confirm zero misleading claims across all five scenario responses
+- R4: Record baseline: all five scenario outcomes with date and outcome notes
