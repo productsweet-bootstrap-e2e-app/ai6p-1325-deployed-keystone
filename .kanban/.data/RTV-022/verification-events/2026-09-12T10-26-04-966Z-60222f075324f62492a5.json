@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "eventType": "task-cancelled",
+  "taskId": "RTV-022",
+  "closeReason": "other",
+  "closeNote": "AI6P-2545 disposable verification fixture cleanup. Explicit cancellation, not delivered implementation or successful task completion.",
+  "actor": {
+    "kind": "human",
+    "id": "e9ee54a8-2051-701f-f33b-a473412979a7"
+  },
+  "at": "2026-09-12T10:26:04.966Z",
+  "eventId": "60222f075324f62492a5"
+}

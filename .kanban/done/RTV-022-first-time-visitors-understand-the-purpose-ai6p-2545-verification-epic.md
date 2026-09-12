@@ -1,13 +1,14 @@
 ---
 title: First-time visitors understand the purpose (AI6P-2545 verification epic)
 id: RTV-022
-status: backlog
+status: done
 template_type: implementation-task
 kind: epic
-backlog_state: refining
 created: 2026-09-12
 updated: 2026-09-12
 priority: high
+close_reason: other
+close_note: AI6P-2545 disposable verification fixture cleanup. Explicit cancellation, not delivered implementation or successful task completion.
 owner: You (product owner)
 tags:
   - verification
