@@ -3,7 +3,7 @@ title: I want the welcome page to say something friendlier. 2DD4F26409C5
 id: PS-VW38TF-043
 status: intake
 template_type: user-story
-intake_state: captured
+intake_state: ready-for-dev
 delivery_task_ids: []
 created: 2026-09-12
 updated: 2026-09-12
