@@ -51,7 +51,13 @@ R1: Draft 2-3 candidate replacement strings for the welcome message in a friendl
 
 ## Questions
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+```yaml
+- question: Who is the welcome page primarily for — new signups, everyone landing on the app, or something else? (No clear recommendation — this affects tone/context but user said no strong preference.)
+  status: open
+  thread:
+    - role: user
+      text: Who is the welcome page primarily for — new signups, everyone landing on the app, or something else? (No clear recommendation — this affects tone/context but user said no strong preference.)
+```
 
 ## Refinement Notes
 
