@@ -15,8 +15,7 @@ tags:
   - api
   - stage-2-stub
 depends_on: []
-related_files:
-  - docs/decisions/partner-api-decision.md
+related_files: []
 comments: 0
 attachments: 0
 ---
