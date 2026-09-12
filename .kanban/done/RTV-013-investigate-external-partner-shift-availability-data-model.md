@@ -1,13 +1,14 @@
 ---
 title: Investigate external partner shift availability data model
 id: RTV-013
-status: backlog
+status: done
 template_type: implementation-task
 parent_task_id: RTV-009
-backlog_state: refining
 created: 2026-09-12
 updated: 2026-09-12
 priority: medium
+close_reason: other
+close_note: AI6P-2545 disposable browser verification finished; cancel fixture, no implementation delivered.
 owner: You (product owner)
 tags: []
 depends_on:
