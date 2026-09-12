@@ -3,7 +3,7 @@ title: I want the welcome page to say something friendlier. EC4A3DDD5EE1
 id: PS-VW38TF-035
 status: intake
 template_type: user-story
-intake_state: captured
+intake_state: awaiting-user-review
 delivery_task_ids: []
 created: 2026-09-12
 updated: 2026-09-12
