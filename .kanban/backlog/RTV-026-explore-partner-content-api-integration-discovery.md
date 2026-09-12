@@ -14,8 +14,7 @@ tags:
   - partner-content
   - api
   - stage-2-stub
-depends_on:
-  - RTV-024
+depends_on: []
 related_files: []
 comments: 0
 attachments: 0
