@@ -3,12 +3,14 @@ title: Shift coordinator sees unfilled weekend shifts in advance (pilot)
 id: RTV-003
 status: intake
 template_type: user-story
-intake_state: refining
+intake_state: closed
 delivery_task_ids:
   - RTV-011
 created: 2026-09-11
 updated: 2026-09-12
 priority: medium
+close_reason: other
+close_note: AI6P-2545 disposable browser verification finished; cancel fixture, no implementation delivered.
 owner: You (product owner)
 tags:
   - pilot
