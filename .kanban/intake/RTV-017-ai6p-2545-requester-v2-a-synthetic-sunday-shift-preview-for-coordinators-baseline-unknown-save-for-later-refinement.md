@@ -3,11 +3,12 @@ title: "AI6P-2545 requester V2: a synthetic Sunday shift preview for coordinator
 id: RTV-017
 status: intake
 template_type: user-story
-intake_state: refining
+intake_state: closed
 delivery_task_ids: []
 created: 2026-09-12
 updated: 2026-09-12
 priority: medium
+close_note: AI6P-2545 owned verification fixture cleanup; no implementation
 owner: shaun+ai6p2545-req-v2@payminty.com
 source: manual-intake
 created_by: 099e4438-4011-704c-d213-dedbbb60c3f5
