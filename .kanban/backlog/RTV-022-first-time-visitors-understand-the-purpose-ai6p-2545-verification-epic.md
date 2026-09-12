@@ -54,4 +54,13 @@ Stage 1 (Designed): Rewrite home-page welcome copy to clearly explain the purpos
     - RTV-024
   depends_on_stage: []
   exit_criteria: All five synthetic scenarios report correct understanding of the purpose with zero misleading claims. Scenario outcomes recorded manually.
+- stage_id: partner-api-discovery
+  title: Partner content API discovery (stub)
+  status: stub
+  summary: Investigate whether a partner content API could enhance purpose explanation. Partner name, schema, access, and approval are currently unknown.
+  child_task_ids:
+    - RTV-026
+  depends_on_stage:
+    - copy-validation
+  exit_criteria: 'Decision document: either a confirmed API integration plan with resolved unknowns, or a justified decision to defer or skip this enhancement.'
 ```
