@@ -3,7 +3,7 @@ title: Shift coordinator sees unfilled weekend shifts in advance (pilot)
 id: RTV-003
 status: intake
 template_type: user-story
-intake_state: ready-for-dev
+intake_state: refining
 delivery_task_ids:
   - RTV-011
 created: 2026-09-11
@@ -54,8 +54,6 @@ Build a minimal read-only pilot with hard-coded test data.
 - Display a static list of upcoming Sunday shifts (R1)
 - Sort shifts by start time (R1)
 - Show shift name, time, and fill status (unfilled / filled) for each shift (R1)
-- Use hard-coded synthetic test data with at least 5 test shifts to verify correctness (R1, R2)
-- Verify no false positives: every unfilled shift is flagged, every filled shift is left alone (R2)
 - Access only hard-coded data; do not query production systems or volunteer records (R3)
 - Provide read-only display only; no coordinator action buttons, notifications, or integration with outreach systems (R3)
 
