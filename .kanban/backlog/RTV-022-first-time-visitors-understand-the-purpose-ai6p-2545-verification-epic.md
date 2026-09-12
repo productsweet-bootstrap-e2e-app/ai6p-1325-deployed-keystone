@@ -42,3 +42,16 @@ Stage 1 (Designed): Rewrite home-page welcome copy to clearly explain the purpos
 ## Verification Plan
 
 - Run synthetic scenario 1 (curious founder) and record their explanation of the purpose\n- Run synthetic scenario 2 (developer evaluating demo) and record their explanation of the purpose\n- Run synthetic scenario 3 (nontechnical small-business owner) and record their explanation of the purpose\n- Run synthetic scenario 4 (returning evaluator—first visit was confusing) and record their explanation of the purpose\n- Run synthetic scenario 5 (accessibility tester using plain text) and record their explanation of the purpose\n- Verify all five explanations demonstrate correct understanding of the purpose\n- Confirm zero misleading claims in responses across all five scenarios
+
+## Stages
+
+```yaml
+- stage_id: copy-validation
+  title: Rewrite copy and validate with scenarios
+  status: designed
+  summary: Update home-page welcome copy for clarity and test it against five synthetic first-time visitor scenarios to verify correct purpose understanding.
+  child_task_ids:
+    - RTV-024
+  depends_on_stage: []
+  exit_criteria: All five synthetic scenarios report correct understanding of the purpose with zero misleading claims. Scenario outcomes recorded manually.
+```
