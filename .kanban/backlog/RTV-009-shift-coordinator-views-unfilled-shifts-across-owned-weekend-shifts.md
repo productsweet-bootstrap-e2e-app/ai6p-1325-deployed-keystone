@@ -34,3 +34,23 @@ Build pilot independently with hard-coded test data to validate the concept. Con
 - R1: Sunday pilot correctly identifies every unfilled test shift, flags no false positives, displays ≥5 test shifts with name, time, and fill status
 - R2: Partner data schema, access control model, and known blockers are documented; discovery blockers are identified and listed
 - R3: No unsolicited partner contact; no integration commitments made
+
+## Stages
+
+```yaml
+- stage_id: stage_sunday_pilot
+  title: Sunday Pilot with Synthetic Test Data
+  status: in-flight
+  summary: Deliver minimal read-only view of unfilled Sunday shifts using hard-coded test data. Coordinator can verify concept and manually manage outreach using existing processes. Validates fill-status accuracy with binary success criteria before evaluating partner data.
+  child_task_ids:
+    - RTV-003
+  depends_on_stage: []
+  exit_criteria: |-
+    - Pilot displays only upcoming Sunday shifts sorted by start time
+    - At least 5 test shifts shown with name, time, and fill status (filled/unfilled)
+    - Every unfilled test shift is correctly flagged
+    - No false positives: every filled shift is left alone
+    - No production data accessed or displayed
+    - No volunteer notifications or coordinator action buttons
+    - Coordinator confirms manual outreach process remains unchanged
+```
