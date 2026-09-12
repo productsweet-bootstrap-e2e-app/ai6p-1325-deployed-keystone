@@ -67,4 +67,12 @@ Build pilot independently with hard-coded test data to validate the concept. Con
     - Partner contact / approval requirements are mapped
     - Integration feasibility assessment completed
     - Recommendation for next stage is documented
+- stage_id: stage_partner_integration
+  title: Partner Data Integration (Future)
+  status: stub
+  summary: Integrate external partner shift availability data into the coordinator view. Implementation scope, timeline, and technical approach to be defined after discovery stage. Dependent on partner approval and schema alignment.
+  child_task_ids: []
+  depends_on_stage:
+    - stage_partner_discovery
+  exit_criteria: '- Placeholder for future stage pending discovery outcomes'
 ```
