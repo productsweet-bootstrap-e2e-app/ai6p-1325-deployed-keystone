@@ -74,4 +74,9 @@ Stage 1 (Copy Validation): Rewrite `src/index.njk` welcome copy to clearly estab
       text: What constitutes "correct understanding of the purpose" for the five synthetic scenarios? Should the bar include specific keywords, a particular explanation pattern, or is it a judgment call on whether the explanation is in plain language and captures the platform's core function?
     - role: agent
       text: '**Recorded:** Correct understanding means all five synthetic scenarios identify this as a disposable demo website with a welcome page; no claim of production services, sign-up or API integration.'
+- question: 'How will you score whether a synthetic scenario''s explanation contains "correct understanding"? Should there be a written rubric (e.g., must include: demo website, no production services, no API integration) or is it a judgment call on whether the explanation is sufficient?'
+  status: open
+  thread:
+    - role: user
+      text: 'How will you score whether a synthetic scenario''s explanation contains "correct understanding"? Should there be a written rubric (e.g., must include: demo website, no production services, no API integration) or is it a judgment call on whether the explanation is sufficient?'
 ```
