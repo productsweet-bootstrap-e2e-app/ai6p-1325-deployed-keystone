@@ -74,6 +74,21 @@ Two-stage vision for improving shift visibility: validate read-only concept with
     - No production data accessed or displayed
     - No volunteer contact systems or notifications involved
     - Coordinator confirms manual outreach process remains unchanged
+- stage_id: stage_partner_discovery
+  title: Bounded Partner Data Discovery
+  status: stub
+  summary: Investigate external partner shift availability data model, access control, schema, and integration requirements. Document technical blockers and feasibility; do not contact partner or make commitments. Inform decision on Stage 3.
+  child_task_ids:
+    - RTV-013
+  depends_on_stage:
+    - stage_sunday_pilot
+  exit_criteria: |-
+    - Partner data schema documented (fields, data types, update frequency, known limitations)
+    - Access control model defined (authentication, authorization, rate limits, SLA requirements)
+    - Known technical blockers and integration constraints identified and listed
+    - Partner contact and approval requirements mapped
+    - Integration feasibility assessment completed with recommendations
+    - No unsolicited partner outreach; no integration work or commitments made
 ```
 
 ## Problem Or Opportunity
