@@ -47,7 +47,18 @@ Volunteer shift coordination is manual and reactive. The coordinator lacks advan
 
 ## Proposed Design / Approach
 
-Build a minimal read-only pilot with hard-coded test data. The coordinator can view upcoming Saturday and Sunday shifts grouped by day and sorted by start time, and manually use the existing outreach and scheduling processes to follow up on unfilled shifts. The pilot displays only the weekly list; no integration with outreach systems, no action buttons, no real volunteer data. First deliverable: static weekly list showing shift name, time, and fill status. Defer filtering, live data, and integration to later stages if the pilot validates the approach.
+Build a minimal read-only pilot with hard-coded test data.
+
+**First Deliverable (covers all requirements):**
+- Display a static weekly list of upcoming Saturday and Sunday shifts (R1)
+- Group shifts by day (Saturday / Sunday) and sort by start time within each day (R1)
+- Show shift name, time, and fill status (unfilled / filled) for each shift (R1)
+- Use hard-coded synthetic test data with at least 5 test shifts to verify correctness (R1, R2)
+- Verify no false positives: every unfilled shift is flagged, every filled shift is left alone (R2)
+- Access only hard-coded data; do not query production systems or volunteer records (R3)
+- Provide read-only display only; no coordinator action buttons, notifications, or integration with outreach systems (R3)
+
+The coordinator can manually use the existing outreach and scheduling processes to follow up on unfilled shifts identified in the pilot. Defer filtering, live data, and integration to later stages if the pilot validates the approach.
 
 ## Verification Plan
 
