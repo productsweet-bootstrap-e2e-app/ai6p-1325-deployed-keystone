@@ -15,7 +15,8 @@ tags:
   - synthetic-scenarios
   - read-only-preview
 depends_on: []
-related_files: []
+related_files:
+  - src/index.njk
 comments: 0
 attachments: 0
 ---
