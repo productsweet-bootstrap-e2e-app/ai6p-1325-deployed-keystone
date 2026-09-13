@@ -42,3 +42,17 @@ Stage 1 acceptance:
 Stage 2 acceptance:
 - Partner participation decision documented
 - Notification strategy documented
+
+## Stages
+
+```yaml
+- stage_id: stage-1-mission-and-roles
+  title: Mission copy and roles page
+  status: designed
+  summary: Add two-sentence mission copy to home page and create volunteer roles discovery page
+  child_task_ids:
+    - RTV-060
+    - RTV-061
+  depends_on_stage: []
+  exit_criteria: Home page displays exact mission copy above-the-fold. /roles page lists all four roles with one-line descriptions. Both pages are live and linked in navigation. No partner data or sign-up flows present.
+```
