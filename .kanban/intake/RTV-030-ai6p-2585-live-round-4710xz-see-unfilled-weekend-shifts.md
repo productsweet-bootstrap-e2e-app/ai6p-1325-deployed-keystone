@@ -51,7 +51,13 @@ Build a "Weekend Unfilled Shifts" view accessible to roster coordinators. The vi
 
 ## Questions
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+```yaml
+- question: What is the acceptable refresh cadence for the weekend view once it is loaded? Should it refresh in real-time when a shift is dropped, or is every few minutes acceptable?
+  status: open
+  thread:
+    - role: user
+      text: What is the acceptable refresh cadence for the weekend view once it is loaded? Should it refresh in real-time when a shift is dropped, or is every few minutes acceptable?
+```
 
 ## Refinement Notes
 
