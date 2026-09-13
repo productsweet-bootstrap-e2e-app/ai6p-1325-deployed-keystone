@@ -37,12 +37,12 @@ Stage 1 (Designed): R1 and R2 as independent parallel child tasks. Deliver both 
 - stage_id: stage_1_coordinator_and_volunteer_visibility
   title: Coordinator gap view + volunteer purpose statement
   status: designed
-  summary: Deliver R1 (weekend gap visibility on rota) and R2 (home page purpose statement) in parallel. Both tasks are independent and can start immediately.
+  summary: '**Current status:** This stage is architecturally blocked. RTV-056 (home page purpose) can proceed independently. RTV-055 (coordinator gap view) requires a backend shift-management system that does not yet exist. See epic comments for details. **Recommendation:** Deliver RTV-056 for the first pilot weekend. Defer RTV-055 to Stage 1b (post-discovery) once shift-data infrastructure is in place.'
   child_task_ids:
     - RTV-055
     - RTV-056
   depends_on_stage: []
-  exit_criteria: Coordinator can see unfilled weekend shifts on the rota page. New volunteers see a clear purpose statement on the home page. First pilot weekend runs with both features live.
+  exit_criteria: RTV-056 deployed (home page has clear purpose statement). RTV-055 deferred pending backend shift-management system design.
 - stage_id: stage_2_partner_integration_discovery
   title: Partner content and reminder automation (discovery)
   status: stub
