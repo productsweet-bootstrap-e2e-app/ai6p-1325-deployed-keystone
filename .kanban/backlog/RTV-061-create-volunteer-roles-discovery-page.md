@@ -27,11 +27,7 @@ Volunteers cannot easily discover what roles are available or what each role ent
 
 ## Scope
 
-R1: Create a new /roles page accessible from main navigation
-R2: List all four roles: driver, kitchen, companion, admin
-R3: Include a one-line description for each role
-R4: No sign-up form, partner data, or email reminders appear on this release
-R5: Page is accessible and visually consistent with site design
+- R1: Create a new /roles page accessible from main navigation\n- R2: List all four roles: driver, kitchen, companion, admin\n- R3: Include a one-line description for each role\n- R4: No sign-up form, partner data, or email reminders appear on this release\n- R5: Page is responsive and consistent with site design
 
 ## Proposed Design / Approach
 
@@ -39,7 +35,7 @@ R5: Page is accessible and visually consistent with site design
 
 ## Verification Plan
 
-**Verification by requirement:**\n\n- **R1:** The `/roles` page is linked and accessible from the main navigation (via a link on the home page or in a navigation header).\n- **R2:** All four roles (driver, kitchen, companion, admin) are listed on the roles page.\n- **R3:** Each role is accompanied by a visible one-line description.\n- **R4:** No sign-up form, partner API data, or email reminder UI appears on the roles page.\n- **R5:** The page layout is responsive and renders correctly on desktop (1280x720) and mobile (375x667) viewports.\n\n**Process verification:**\n\n- Run `npm run build` to confirm no build errors are introduced.\n- Navigate to the `/roles` page via the home page link and verify all content is present and properly formatted.\n- Inspect the rendered HTML to confirm no forms or external service calls are present.\n- Test the page on mobile and desktop to confirm responsive layout."
+- R1: The /roles page is linked and accessible from the main navigation.\n- R2: All four roles (driver, kitchen, companion, admin) are listed on the page.\n- R3: Each role has a visible one-line description.\n- R4: No sign-up form, partner API data, or email reminder UI appears on the roles page.\n- R5: The page renders correctly on desktop (1280x720) and mobile (375x667) viewports.\n- Process: Run `npm run build` to confirm no build errors. Navigate to /roles and inspect the rendered content and layout on desktop and mobile."
 
 ## Evidence Or Reproduction Clues
 
