@@ -35,3 +35,11 @@ New visitors see a clear, concise statement of what the volunteer site is for an
 ## Problem Or Opportunity
 
 Currently, the home page has a generic welcome message ("Hello and welcome — we're so glad you found us") that does not explain what the site is for or who it serves. New volunteers cannot quickly understand if this site is for them or what actions they should take.
+
+## Questions
+
+```yaml
+- question: What is the exact mission/purpose statement you want on the home page? E.g., "We connect volunteers with community shifts" or "Coordinate local volunteer efforts"? Please provide the 2-3 sentences you'd like to appear as the home page hero copy.
+  status: open
+  thread: []
+```
