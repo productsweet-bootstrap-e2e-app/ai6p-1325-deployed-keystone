@@ -57,6 +57,8 @@ Build a "Weekend Unfilled Shifts" view accessible to roster coordinators. The vi
   thread:
     - role: user
       text: What is the acceptable refresh cadence for the weekend view once it is loaded? Should it refresh in real-time when a shift is dropped, or is every few minutes acceptable?
+    - role: agent
+      text: For the first slice, periodic refresh (every few minutes) is sufficient — coordinators need visibility before the weekend starts, not real-time updates to every drop. Implement with a reasonable default (e.g., refresh on open or every 5 minutes); real-time can follow as a future enhancement if the team identifies it matters in practice.
 ```
 
 ## Refinement Notes
