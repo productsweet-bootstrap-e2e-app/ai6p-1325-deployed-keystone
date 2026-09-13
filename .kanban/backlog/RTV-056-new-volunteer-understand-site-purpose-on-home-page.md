@@ -25,12 +25,18 @@ New visitors see a clear, concise statement of what the volunteer site is for an
 
 ## Proposed Design / Approach
 
-1. Replace the current generic welcome heading in `src/index.njk` (line: `<h1>Hello and welcome — we're so glad you found us.</h1>`) with a mission-focused heading that names the site's purpose.\n2. Replace or enhance the placeholder paragraph with 2-3 sentences explaining what the site enables (volunteer scheduling, community support, etc.) and who should use it.\n3. Add a clear next-step CTA (e.g., 'View Shifts' or 'Sign Up'—exact text TBD post-pilot).\n4. Keep the Eleventy template structure unchanged. Changes are text-only to `src/index.njk`.\n5. Build and deploy to verify above-fold visibility on mobile (375px viewport).\n6. **Related file:** `src/index.njk` (the home page template).", "proposedApproach")
-<parameter name="verificationPlan">- R2.1: Review built site and confirm purpose statement explains what site is for and what volunteers do.\n- R2.2: Load built site on mobile (375px width) and desktop (1280px) and verify purpose statement visible without scroll.\n- R2.3: Show built site to 1-2 volunteers unfamiliar with the project and confirm they understand what the site is for and what to do next. Record their feedback.\n- Deployment: PR reviewed, merged to main, and live on https://main.d2vhavssbhm34g.amplifyapp.com."
+1. Replace the current generic welcome heading in `src/index.njk` with a mission-focused heading that names the site's purpose.
+2. Replace or enhance the placeholder paragraph with 2-3 sentences explaining what the site enables (volunteer scheduling, community support, etc.) and who should use it.
+3. Add a clear next-step CTA (e.g., 'View Shifts' or 'Sign Up'—exact text TBD post-pilot).
+4. Keep the Eleventy template structure unchanged. Changes are text-only to `src/index.njk`.
+5. Build and deploy to verify above-fold visibility on mobile (375px viewport).
+6. **Related file:** `src/index.njk` (the home page template).
 
 ## Verification Plan
 
-- R2.1: Home page clearly states what the site is and what volunteers can do\n- R2.2: Purpose statement is visible on first load (above fold on mobile)\n- R2.3: First-time volunteer can understand the site's value without additional help
+- R2.1: Home page clearly states what the site is and what volunteers can do
+- R2.2: Purpose statement is visible on first load (above fold on mobile)
+- R2.3: First-time volunteer can understand the site's value without additional help
 
 ## Problem Or Opportunity
 
