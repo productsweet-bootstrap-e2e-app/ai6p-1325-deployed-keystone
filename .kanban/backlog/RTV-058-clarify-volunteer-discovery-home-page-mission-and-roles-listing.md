@@ -64,3 +64,12 @@ Stage 2 acceptance:
     - stage-1-mission-and-roles
   exit_criteria: Decision note documents whether partner participation is confirmed and what notification strategy, if any, will be pursued
 ```
+
+## Impact
+
+Reducing this friction is critical for volunteer onboarding. Clear mission communication and a dedicated roles page will help first-time visitors quickly assess their fit and lower the barrier to engagement. This directly supports the pilot goal of enabling weekend volunteer coordination and improving coordinator efficiency by driving self-service discovery.",
+<parameter name="evidence">Coordinator feedback indicates that new volunteers often arrive at the site without understanding its context or purpose. Initial site analytics (if available) may show bounce rates or page abandonment. The current home page at `src/index.njk` displays only a generic welcome; there is no dedicated roles page or navigation structure for role discovery.
+
+## Problem Or Opportunity
+
+First-time visitors to the volunteer site cannot immediately understand the site's purpose or what volunteer roles are available. The home page provides only a generic welcome message, leaving new visitors uncertain about whether the site is relevant to them. Without a clear roles listing, interested volunteers must guess how they can contribute or search through unclear navigation.
