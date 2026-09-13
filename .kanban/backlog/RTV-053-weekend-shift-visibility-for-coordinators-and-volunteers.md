@@ -52,3 +52,11 @@ Stage 1 (Designed): R1 and R2 as independent parallel child tasks. Deliver both 
     - stage_1_coordinator_and_volunteer_visibility
   exit_criteria: Coordinator confirms need for partner content and reminders based on pilot metrics. Requirements and dependencies documented.
 ```
+
+## Questions
+
+```yaml
+- question: 'Baseline measurement (coordinator-owned): How many shifts went unfilled in the pilot weekend before these features shipped? Record this number so we can compare improvement after Stage 1 is live.'
+  status: open
+  thread: []
+```
