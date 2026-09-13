@@ -31,7 +31,7 @@ A view of the coming weekend's unfilled shifts, refreshed when someone drops a s
 
 ## Expected Outcome
 
-No unfilled weekend shift is discovered after the weekend has started
+No unfilled weekend shift is discovered after Saturday 6am (i.e., coordinators have visibility into all unfilled shifts before the weekend start). \n\nBaseline: unknown — whether coordinators currently discover unfilled shifts post-weekend is unspecified. Post-release measurement approach: unspecified — how success will be evaluated after launch requires clarification (e.g., coordinator feedback, incident logging, audit of discovered gaps).
 
 ## Problem Or Opportunity
 
