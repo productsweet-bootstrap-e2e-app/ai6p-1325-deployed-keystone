@@ -55,4 +55,12 @@ Stage 2 acceptance:
     - RTV-061
   depends_on_stage: []
   exit_criteria: Home page displays exact mission copy above-the-fold. /roles page lists all four roles with one-line descriptions. Both pages are live and linked in navigation. No partner data or sign-up flows present.
+- stage_id: stage-2-partner-discovery
+  title: Partner coordination and notification strategy
+  status: stub
+  summary: Confirm partner participation for role descriptions and email reminders; document notification approach
+  child_task_ids: []
+  depends_on_stage:
+    - stage-1-mission-and-roles
+  exit_criteria: Decision note documents whether partner participation is confirmed and what notification strategy, if any, will be pursued
 ```
