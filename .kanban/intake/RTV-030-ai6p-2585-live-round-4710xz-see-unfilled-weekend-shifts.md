@@ -47,7 +47,9 @@ Build a "Weekend Unfilled Shifts" view accessible to roster coordinators. The vi
 
 ## Verification Plan
 
-- R1: The view shows all unfilled shifts scheduled for the coming Saturday and Sunday\n- R2: The view is accessible to roster coordinators and loads by Saturday 6am\n- R3: No unfilled shift is visible to the coordinator after the weekend starts"
+- R1: The view shows all unfilled shifts scheduled for the coming Saturday and Sunday
+- R2: The view is accessible to roster coordinators and loads by Saturday 6am
+- R3: Coordinators are able to review unfilled shifts before the weekend begins (Saturday 6am check)
 
 ## Questions
 
