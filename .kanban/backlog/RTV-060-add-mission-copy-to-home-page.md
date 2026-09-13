@@ -38,7 +38,7 @@ R4: Copy is: 'We help a small care provider fill its weekend volunteer shifts. P
 
 ## Verification Plan
 
-- Verify the exact mission copy appears in the rendered home page HTML.\n- Confirm copy is visible above-the-fold on desktop (1280x720) and mobile (375x667) viewports.\n- Ensure no other home page elements or styling have changed.\n- Run the site build to confirm no Eleventy errors are introduced."
+**Verification by requirement:**\n\n- **R1:** The exact mission copy 'We help a small care provider fill its weekend volunteer shifts. Pick a role, see what is needed this weekend, and put your name down.' appears in the rendered home page.\n- **R2:** The mission copy is visible above-the-fold when the page is loaded on both desktop (1280x720) and mobile (375x667) viewports.\n- **R3:** No other home page content, layout, or styling has changed from the original.\n- **R4:** The text matches the specified string exactly, with no omissions or modifications.\n\n**Process verification:**\n\n- Run `npm run build` (or equivalent Eleventy build command) to confirm no build errors are introduced.\n- Visually inspect the home page in a browser on desktop and mobile to confirm copy placement and readability."
 
 ## Evidence Or Reproduction Clues
 
