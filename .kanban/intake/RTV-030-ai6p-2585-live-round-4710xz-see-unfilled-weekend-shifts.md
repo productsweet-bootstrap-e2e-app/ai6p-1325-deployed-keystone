@@ -3,7 +3,7 @@ title: AI6P-2585 live round 4710XZ — see unfilled weekend shifts
 id: RTV-030
 status: intake
 template_type: user-story
-intake_state: awaiting-user-review
+intake_state: ready-for-dev
 delivery_task_ids: []
 created: 2026-09-13
 updated: 2026-09-13
