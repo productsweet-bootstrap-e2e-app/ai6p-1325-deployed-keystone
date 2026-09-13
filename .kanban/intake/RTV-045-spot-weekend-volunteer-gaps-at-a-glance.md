@@ -29,7 +29,7 @@ A weekend-only view in the rota page that shows unfilled shifts and auto-updates
 
 ## Expected Outcome
 
-I can spot gaps before a client goes without cover
+No unfilled weekend shift is discovered after Saturday 6am. This is verified by the coordinator confirming they spotted all gaps from the weekend gap view before the shift started.
 
 ## Problem Or Opportunity
 
@@ -49,10 +49,11 @@ Add a weekend-gap view to the existing rota page that queries unfilled shifts fo
 
 ## Verification Plan
 
-- R1: Weekend view displays all unfilled volunteer shifts for the current/next weekend
-- R2: When a volunteer drops a shift, the view updates without requiring manual page reload
-- R3: View shows only weekend shifts; weekday shifts are not displayed
-- Coordinator can access the weekend view from the rota page
+- R1: Weekend view displays all unfilled volunteer shifts for the upcoming Saturday and Sunday
+- R2: When a volunteer drops a shift during the weekend, the view updates without requiring manual page reload
+- R3: View displays weekend shifts only; weekday shifts are not shown
+- Weekend view is accessible from the rota page
+- Coordinator reports gaps discovered through this view before 6am Saturday
 
 ## Questions
 
