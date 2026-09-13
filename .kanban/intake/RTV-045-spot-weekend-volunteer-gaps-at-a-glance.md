@@ -56,7 +56,11 @@ Add a weekend-gap view to the existing rota page that queries unfilled shifts fo
 
 ## Questions
 
-Is the rota currently built as part of this codebase, or is it a third-party system?
+```yaml
+- question: Does this codebase already have a rota/roster page we'd extend with a weekend-gap view, or are we building the rota system from scratch?
+  status: open
+  thread: []
+```
 
 ## Refinement Notes
 
