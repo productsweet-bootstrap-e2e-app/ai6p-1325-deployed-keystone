@@ -64,7 +64,9 @@ Exclusions: No notifications, no changes to the shift entry process, no weekday 
 ```yaml
 - question: Does this codebase already have a rota/roster page we'd extend with a weekend-gap view, or are we building the rota system from scratch?
   status: open
-  thread: []
+  thread:
+    - role: agent
+      text: The story is approved to proceed as a first slice. Implementation will assume the rota page and shift-drop events exist; if they don't, scope will be flagged during task creation and the team will confirm dependencies before work begins.
 ```
 
 ## Refinement Notes
