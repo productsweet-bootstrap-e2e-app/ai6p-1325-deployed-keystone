@@ -73,3 +73,7 @@ Reducing this friction is critical for volunteer onboarding. Clear mission commu
 ## Problem Or Opportunity
 
 First-time visitors to the volunteer site cannot immediately understand the site's purpose or what volunteer roles are available. The home page provides only a generic welcome message, leaving new visitors uncertain about whether the site is relevant to them. Without a clear roles listing, interested volunteers must guess how they can contribute or search through unclear navigation.
+
+## Evidence Or Reproduction Clues
+
+Coordinator feedback indicates that new volunteers often arrive at the site without understanding its context or purpose. Initial site analytics (if available) may show bounce rates or page abandonment. The current home page at `src/index.njk` displays only a generic welcome; there is no dedicated roles page or navigation structure for role discovery.
