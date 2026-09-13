@@ -35,7 +35,7 @@ No unfilled weekend shift is discovered after the weekend has started
 
 ## Problem Or Opportunity
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+Roster coordinators do not have a dedicated view of unfilled weekend shifts before the weekend begins. This means coordinators may only discover staffing gaps on Monday morning, when it is too late to fill the shifts and care delivery is at risk.
 
 ## Scope
 
@@ -43,11 +43,11 @@ Just the weekend view for now. Weekday shifts, notifications and any change to h
 
 ## Proposed Design / Approach
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+Build a "Weekend Unfilled Shifts" view accessible to roster coordinators. The view displays all shifts scheduled for Saturday and Sunday that have no assigned caregiver. The data is loaded when the coordinator opens the view and displayed as a simple list or table. This is a read-only view; shift reassignment remains in the existing roster tools.\n\nFirst deliverable: a working weekend view that loads and displays unfilled shifts correctly by Saturday 6am, ahead of the weekend start.
 
 ## Verification Plan
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+- R1: The view shows all unfilled shifts scheduled for the coming Saturday and Sunday\n- R2: The view is accessible to roster coordinators and loads by Saturday 6am\n- R3: No unfilled shift is visible to the coordinator after the weekend starts"
 
 ## Questions
 
