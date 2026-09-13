@@ -51,23 +51,7 @@ Optional at first intake. Fill this in before generating a dev task in `backlog`
 
 ## Questions
 
-```yaml
-- id: review-1789344000000-0
-  question: Which outcome matters most for the first pilot weekend?
-  status: answered
-  thread:
-    - role: user
-      text: Fewer missed weekend shifts — no unfilled shift discovered after Saturday 6am.
-- id: review-1789344000000-1
-  question: How should the coordinator be able to tell a shift is unfilled at a glance?
-  status: answered
-  thread:
-    - role: user
-      text: A clear flag on the row; filled shifts carry no flag.
-- question: Should the weekend view include Friday evening shifts?
-  status: open
-  thread: []
-```
+[{"id":"review-1789344000000-0","question":"Which outcome matters most for the first pilot weekend?","thread":[{"role":"user","text":"Fewer missed weekend shifts — no unfilled shift discovered after Saturday 6am."}],"status":"answered"},{"id":"review-1789344000000-1","question":"How should the coordinator be able to tell a shift is unfilled at a glance?","thread":[{"role":"user","text":"A clear flag on the row; filled shifts carry no flag."}],"status":"answered"},{"question":"Should the weekend view include Friday evening shifts?","thread":[],"status":"open"},{"question":"Which roles should be shown on each shift?","status":"open","thread":[]}]
 
 ## Refinement Notes
 
