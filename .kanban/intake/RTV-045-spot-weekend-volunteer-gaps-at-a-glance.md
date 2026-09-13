@@ -45,7 +45,11 @@ Exclusions: No notifications, no changes to the shift entry process, no weekday 
 
 ## Proposed Design / Approach
 
-Add a weekend-gap view to the existing rota page that queries unfilled shifts for Saturday and Sunday, and subscribes to shift-drop events to refresh the display in real-time.
+**First deliverable:** Add a weekend-gap view component to the existing rota page that queries and displays all unfilled volunteer shifts for the upcoming Saturday and Sunday (R1, R3).
+
+**Second deliverable:** Wire the weekend-gap view to subscribe to shift-drop events, so when a volunteer drops a shift, the view auto-refreshes without requiring a manual page reload (R2).
+
+**Dependencies:** Assumes the rota page, shift data model, and shift-drop event stream already exist in the codebase. If any of these are missing, scope will need to expand.
 
 ## Verification Plan
 
