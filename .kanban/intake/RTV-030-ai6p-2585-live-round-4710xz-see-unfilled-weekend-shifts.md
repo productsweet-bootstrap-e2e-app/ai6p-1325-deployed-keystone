@@ -66,6 +66,15 @@ Build a "Weekend Unfilled Shifts" view accessible to roster coordinators. The vi
   thread:
     - role: user
       text: What is the baseline for "no unfilled weekend shift is discovered after the weekend has started"? Is this currently zero unfilled shifts discovered post-weekend (i.e., no current incidents) or an unknown baseline that needs measurement? And what is the target — zero incidents going forward, or a different threshold? How will success be measured and verified after the feature ships?
+    - role: agent
+      text: |-
+        **Resolved for first slice:**
+
+        Delivery acceptance is clear: the view shows unfilled Saturday/Sunday shifts and loads by Saturday 6am (R1–R3 in the verification plan). That is the falsifiable check for this slice.
+
+        Baseline and post-launch impact measurement (current frequency of post-weekend discoveries, and how success will be evaluated after launch) will be captured as a separate discovery task or monitoring action following delivery. This allows the team to gather real-world measurement data once coordinators have the view in hand.
+
+        For now, the story is complete with delivery acceptance criteria and can proceed to implementation.
 ```
 
 ## Refinement Notes
