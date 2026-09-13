@@ -30,3 +30,17 @@ Baseline: unknown (coordinator will count missed shifts in first pilot weekend).
 ## Proposed Design / Approach
 
 Stage 1 (Designed): R1 and R2 as independent parallel child tasks. Deliver both before first pilot weekend. Stage 2 (Stub): Post-pilot discovery for partner content and reminder automation.
+
+## Stages
+
+```yaml
+- stage_id: stage_1_coordinator_and_volunteer_visibility
+  title: Coordinator gap view + volunteer purpose statement
+  status: designed
+  summary: Deliver R1 (weekend gap visibility on rota) and R2 (home page purpose statement) in parallel. Both tasks are independent and can start immediately.
+  child_task_ids:
+    - RTV-055
+    - RTV-056
+  depends_on_stage: []
+  exit_criteria: Coordinator can see unfilled weekend shifts on the rota page. New volunteers see a clear purpose statement on the home page. First pilot weekend runs with both features live.
+```
