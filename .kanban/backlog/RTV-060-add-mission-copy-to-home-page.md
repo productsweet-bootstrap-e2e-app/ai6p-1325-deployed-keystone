@@ -27,10 +27,7 @@ First-time visitors landing on the home page cannot immediately understand what 
 
 ## Scope
 
-R1: Add the exact copy provided to the home page
-R2: Copy placement is visible in the page's hero or above-the-fold section
-R3: No other home page elements change
-R4: Copy is: 'We help a small care provider fill its weekend volunteer shifts. Pick a role, see what is needed this weekend, and put your name down.'
+- R1: Add the exact mission copy to the home page\n- R2: Mission copy is visible above-the-fold\n- R3: No other home page elements change\n- R4: Copy text matches exactly: 'We help a small care provider fill its weekend volunteer shifts. Pick a role, see what is needed this weekend, and put your name down.'
 
 ## Proposed Design / Approach
 
@@ -38,7 +35,7 @@ R4: Copy is: 'We help a small care provider fill its weekend volunteer shifts. P
 
 ## Verification Plan
 
-**Verification by requirement:**\n\n- **R1:** The exact mission copy 'We help a small care provider fill its weekend volunteer shifts. Pick a role, see what is needed this weekend, and put your name down.' appears in the rendered home page.\n- **R2:** The mission copy is visible above-the-fold when the page is loaded on both desktop (1280x720) and mobile (375x667) viewports.\n- **R3:** No other home page content, layout, or styling has changed from the original.\n- **R4:** The text matches the specified string exactly, with no omissions or modifications.\n\n**Process verification:**\n\n- Run `npm run build` (or equivalent Eleventy build command) to confirm no build errors are introduced.\n- Visually inspect the home page in a browser on desktop and mobile to confirm copy placement and readability."
+- R1: The exact mission copy appears in the rendered home page HTML.\n- R2: The mission copy is visible above-the-fold on desktop (1280x720) and mobile (375x667) viewports.\n- R3: No other home page content, layout, or styling has changed from the original.\n- R4: The text matches the specified string exactly, with no omissions or modifications.\n- Process: Run `npm run build` to confirm no build errors. Visually inspect the page in a browser on desktop and mobile."
 
 ## Evidence Or Reproduction Clues
 
