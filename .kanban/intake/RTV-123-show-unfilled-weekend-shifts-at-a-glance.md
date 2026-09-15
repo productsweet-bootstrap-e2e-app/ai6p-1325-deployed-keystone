@@ -17,23 +17,23 @@ attachments: 0
 ---
 ## Summary
 
-As a Roster coordinators, I want See which weekend shifts are unfilled before the weekend starts, refreshed when someone drops a shift, so that Weekend-only rota view showing all unfilled shifts, updated automatically when shifts are dropped—no manual reload needed.
+As a volunteer, I want to see which weekend shifts are unfilled and pick them up when someone drops out, so that I can help cover gaps and contribute when needed.
 
 ## User Type
 
-Roster coordinators
+Volunteers
 
 ## User Need
 
-See which weekend shifts are unfilled before the weekend starts, refreshed when someone drops a shift
+See which weekend shifts are unfilled in real time and pick them up when someone drops a shift
 
 ## Expected Outcome
 
-Weekend-only rota view showing all unfilled shifts, updated automatically when shifts are dropped—no manual reload needed
+Volunteers can view unfilled weekend shifts and claim cover shifts as soon as gaps appear, without waiting for a coordinator to notify them
 
 ## Problem Or Opportunity
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+Currently, volunteers don't see when weekend shifts become unfilled, so they have no opportunity to proactively pick up cover. Coordinators must manually reach out to find coverage, creating delays and missed opportunities for volunteers who want to help.
 
 ## Scope
 
