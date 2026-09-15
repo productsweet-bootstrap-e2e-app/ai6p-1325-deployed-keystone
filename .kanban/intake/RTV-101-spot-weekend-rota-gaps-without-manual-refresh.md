@@ -48,7 +48,7 @@ Add weekend rota tab/mode to existing page. Subscribe to shift-cancellation even
 
 ## Verification Plan
 
-- R1: Weekend view displays only Fri–Sun shifts.\n- R2: Unfilled shift appears in list within 5 seconds of cancellation (test verified).\n- R3: Unfilled slots display in visually distinct style.\n- R4: No notifications or alerts outside rota page.
+- R1: Weekend view displays only Friday–Sunday shifts; no weekday shifts shown.\n- R2: When a volunteer cancels a shift on the rota, the weekend view refreshes to reflect the cancellation (no page reload needed).\n- R3: Both unfilled (never-assigned) and cancelled shifts appear in the list.\n- R4: Unfilled slots display in a visually distinct style (design TBD).\n- R5: No notifications, badges, or alerts appear outside the rota page."
 
 ## Questions
 
