@@ -52,7 +52,11 @@ Add a weekend-only view in the existing rota page that lists only unfilled shift
 
 ## Questions
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+```yaml
+- question: Is the 10-second refresh SLA a hard guarantee that must pass acceptance, or is it the typical expected latency (with occasional delays acceptable)?
+  status: open
+  thread: []
+```
 
 ## Refinement Notes
 
