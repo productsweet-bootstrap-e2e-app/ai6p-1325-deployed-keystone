@@ -49,12 +49,8 @@ D4 (→R4): Ensure only copy and CTA link change; no styling, layout, or navigat
 
 ## Verification Plan
 
-**Check R1 (exact copy):** Home page source code (`src/index.njk`) contains the exact two-sentence coordinator statement: "We help a small care provider fill its weekend volunteer shifts. Pick a role, see what is needed this weekend, and put your name down."
-
-**Check R2 (above the fold, mobile):** Visual test on 375px viewport: purpose copy and CTA visible without scroll, no text truncation.
-
-**Check R3 (CTA to roles):** Link to `/roles` is present in the copy and clickable; link target confirmed in navigation or href attribute.
-
-**Check R4 (no other changes):** Code review confirms only `src/index.njk` copy and CTA link changed; no edits to styling, layout, base template, or other page elements.
-
-**Check R5 (desktop rendering):** Visual test on 1024px+ desktop viewport: text displays completely without overflow or truncation; layout remains clean and readable.
+- R1: Home page source code (`src/index.njk`) contains exact coordinator statement: "We help a small care provider fill its weekend volunteer shifts. Pick a role, see what is needed this weekend, and put your name down."
+- R2: Visual test on 375px mobile viewport: purpose copy and CTA visible above fold, no text truncation or overflow
+- R3: CTA link to `/roles` is present and clickable in the home page copy
+- R4: Code review confirms only `src/index.njk` copy and CTA changed; no styling, layout, or other page element changes
+- R5: Visual test on 1024px+ desktop viewport: text displays completely without overflow; layout remains clean and readable
