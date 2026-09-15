@@ -30,4 +30,13 @@ Multi-stage epic: home-page welcome copy for first-time visitors (stage 1), a vo
     - RTV-094
   depends_on_stage: []
   exit_criteria: Home page displays the new welcome copy above the fold; copy is readable, grammatically correct, and explains the site's purpose in 1–2 sentences.
+- stage_id: roles-page
+  title: Volunteer roles listing page (stage 2)
+  status: designed
+  summary: Build a dedicated page that lists available volunteer roles with clear titles and static descriptions. The page is discoverable from the home page.
+  child_task_ids:
+    - RTV-095
+  depends_on_stage:
+    - welcome-copy
+  exit_criteria: Roles page is live and reachable from the home page; at least one volunteer role is displayed with a clear title and description; page layout and copy are accessible.
 ```
