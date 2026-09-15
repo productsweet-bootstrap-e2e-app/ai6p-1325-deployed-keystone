@@ -50,3 +50,16 @@ Stage 1: Write and integrate accessible, welcoming copy on the home page that ex
 ## Refinement Notes
 
 Partner access and email reminder approach are not confirmed; keep those out of scope until the pilot weekend.
+
+## Stages
+
+```yaml
+- stage_id: home-page-purpose
+  title: Home-page purpose copy
+  status: designed
+  summary: Write and integrate clear, accessible copy on the home page that explains the site's purpose to first-time visitors. This is the entry point for visitor understanding.
+  child_task_ids:
+    - RTV-129
+  depends_on_stage: []
+  exit_criteria: Purpose statement is live above the fold, explains the site's mission in plain language, meets accessibility standards, and includes a link to the roles page.
+```
