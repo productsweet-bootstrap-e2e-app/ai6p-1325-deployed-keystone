@@ -41,4 +41,7 @@ R1: Create a /roles or /volunteer route/page. R2: List 2–4 roles with title, b
 - question: What are the 2–4 volunteer roles you want to list on the roles page? (Include role title, brief description 1–2 sentences, and key responsibilities for each.)
   status: open
   thread: []
+- question: 'What are the 2–4 volunteer roles you want to list on the roles page? For each role, please provide: role title, brief description (1–2 sentences), and 2–3 key responsibilities (as bullet points). Example: "**Kitchen Helper** - Prepare and serve food to guests. Help set up and break down the meal. • Prep ingredients and basic food service. • Clean up after service."'
+  status: open
+  thread: []
 ```
