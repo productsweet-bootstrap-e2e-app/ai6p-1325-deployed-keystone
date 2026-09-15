@@ -34,11 +34,18 @@ R5: Text renders without truncation or overflow on common viewport sizes
 
 ## Proposed Design / Approach
 
-1. Edit `src/index.njk` to replace the h1 content with the coordinator's two-sentence statement: "We help a small care provider fill its weekend volunteer shifts. Pick a role, see what is needed this weekend, and put your name down."
-2. Add or enhance the CTA (call-to-action) link to navigate to the roles page (to be built in Stage 2, currently a placeholder link acceptable)
-3. Remove the "Managed by Product Sweet..." paragraph
-4. Verify the message displays fully on both mobile (375px viewport) and desktop (1024px+) without text truncation
-5. Merge and deploy to staging for manual visual verification
+**Deliverables mapped to scope requirements:**
+
+D1 (→R1): Edit `src/index.njk` to replace the h1 content with the exact coordinator-provided two-sentence statement.
+D2 (→R2,R5): Verify layout with no text truncation on 375px mobile and 1024px+ desktop viewports.
+D3 (→R3): Add a link/CTA in the copy pointing to `/roles` (roles page to be built in Stage 2; a placeholder link acceptable now).
+D4 (→R4): Ensure only copy and CTA link change; no styling, layout, or navigation changes.
+
+**Implementation sequence:**
+1. Edit `src/index.njk` to replace the h1: "We help a small care provider fill its weekend volunteer shifts. Pick a role, see what is needed this weekend, and put your name down."
+2. Replace the second paragraph with a CTA link to `/roles`.
+3. Test on mobile (375px) and desktop (1024px+) viewports for text overflow.
+4. Create a pull request, merge after visual verification on staging.
 
 ## Verification Plan
 
