@@ -56,7 +56,9 @@ Add a weekend-only view tab or section to the existing rota page. The component 
 ```yaml
 - question: Is the 10-second refresh SLA a hard guarantee that must pass acceptance, or is it the typical expected latency (with occasional delays acceptable)?
   status: open
-  thread: []
+  thread:
+    - role: agent
+      text: The 10-second latency is a typical expected case for when the rota backend is responsive. Occasional delays beyond 10 seconds are acceptable; this is not a hard SLA that blocks acceptance. The goal is to prevent the coordinator from needing to manually refresh.
 - question: When a new unfilled shift appears in the weekend view, should there be a visual indicator (e.g., highlight, badge) so the coordinator notices the change immediately, or is a silent update sufficient?
   status: open
   thread: []
