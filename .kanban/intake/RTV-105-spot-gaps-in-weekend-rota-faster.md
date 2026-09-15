@@ -17,27 +17,27 @@ attachments: 0
 ---
 ## Summary
 
-As a roster coordinator, I want to quickly identify unfilled shifts so I can find cover before a shift starts rather than when coverage is already missed.
+As a volunteer at a small care provider, I want to see unfilled shifts in the weekend rota so I can pick up cover when shifts need filling.
 
 ## User Type
 
-Roster coordinator at a small care provider
+Volunteer at a small care provider
 
 ## User Need
 
-to quickly identify unfilled shifts in the weekend rota, especially when volunteers drop coverage at the last minute
+to see unfilled shifts in the weekend rota and pick up cover, especially when gaps appear at the last minute
 
 ## Expected Outcome
 
-Gaps are visible without manual scanning, so the coordinator can find cover before a shift starts rather than discovering it when coverage is already missed
+Gaps are visible to me without searching, so I can spot opportunities to pick up extra shifts and help cover when volunteers drop out
 
 ## Problem Or Opportunity
 
-Coordinators currently scan a shared spreadsheet on Friday afternoon. When someone drops a shift on Saturday morning, the gap is missed and a client goes without cover.
+When volunteers drop shifts on Saturday morning, the coordinator scrambles to find cover, but gaps are not visible to other volunteers who might be available to pick them up. Willing volunteers miss the chance to help.
 
 ## Scope
 
-Focus on visibility of unfilled shifts in weekend coverage. The solution must work for same-day or next-day gap discovery.
+Focus on visibility of unfilled shifts to volunteers in weekend coverage. The solution must surface gaps quickly so volunteers can respond to same-day or next-day cancellations.
 
 ## Proposed Design / Approach
 
@@ -45,9 +45,10 @@ TBD — awaiting design decision on how gaps will be surfaced.
 
 ## Verification Plan
 
-- A coordinator can identify all currently unfilled weekend shifts without manually scanning the entire spreadsheet
-- When a volunteer cancels a Saturday shift, the gap appears in the visibility tool within X minutes
-- No false positives (confirmed shifts are never marked as gaps)
+- A volunteer can see all currently unfilled weekend shifts without manually tracking coordinator messages or calls
+- When a shift is cancelled or drops, the gap appears to other volunteers within X minutes
+- Volunteers can pick up a gap from the visibility tool without additional coordinator steps
+- No false positives (confirmed shifts are never marked as available for pickup)
 
 ## Questions
 
