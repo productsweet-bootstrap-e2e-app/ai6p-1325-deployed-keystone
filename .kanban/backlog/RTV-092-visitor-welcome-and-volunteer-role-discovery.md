@@ -39,4 +39,11 @@ Multi-stage epic: home-page welcome copy for first-time visitors (stage 1), a vo
   depends_on_stage:
     - welcome-copy
   exit_criteria: Roles page is live and reachable from the home page; at least one volunteer role is displayed with a clear title and description; page layout and copy are accessible.
+- stage_id: future-enhancements
+  title: Partner content and email reminders (future)
+  status: stub
+  summary: 'Future: Integrate partner-provided role descriptions and email reminders. Deferred pending confirmation of partner access and API availability.'
+  child_task_ids: []
+  depends_on_stage:
+    - roles-page
 ```
