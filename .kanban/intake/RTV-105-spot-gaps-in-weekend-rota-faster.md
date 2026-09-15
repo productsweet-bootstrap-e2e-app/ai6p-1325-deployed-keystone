@@ -51,7 +51,11 @@ TBD — awaiting design decision on how gaps will be surfaced.
 
 ## Questions
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+```yaml
+- question: What is the acceptable latency for gap discovery after a volunteer cancels a Saturday shift? (e.g. real-time alert, within 5 minutes, by X am on Saturday morning?)
+  status: open
+  thread: []
+```
 
 ## Refinement Notes
 
