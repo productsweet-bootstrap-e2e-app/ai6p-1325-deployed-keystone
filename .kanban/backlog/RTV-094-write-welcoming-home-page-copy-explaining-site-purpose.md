@@ -42,10 +42,12 @@ The home page currently displays only a generic placeholder heading ("Hello and 
 
 ## Proposed Design / Approach
 
-Replace the generic placeholder with clear, mission-focused copy that:
-1. States the site's core purpose in one or two sentences (e.g., connecting people to volunteer opportunities).
-2. Uses a warm, inviting tone that welcomes visitors regardless of prior context.
-3. Includes a clear call-to-action that guides visitors to explore volunteer roles (linking to or referencing the roles listing page from stage 2).
-4. Preserves the existing design system's editorial hierarchy (display/headline typography, intentional whitespace, and "Product Sweet" philosophy of premium finish).
+Replace the generic placeholder in `src/index.njk` with clear, mission-focused copy that:
 
-The copy will be embedded directly in `src/index.njk`, replacing the current placeholder.
+**R1 (Core mission statement):** Two-sentence headline explaining that the site connects people to volunteer opportunities and invites them to explore roles.
+
+**R2 (Welcoming tone):** Use warm, accessible language with no jargon; address the visitor directly; avoid assumptions about prior knowledge.
+
+**R3 (Call-to-action to roles):** Include an explicit link or reference to "Explore Volunteer Roles" or similar text that guides visitors to the roles listing page.
+
+The updated copy will preserve the existing design system's editorial hierarchy (display/headline typography, intentional whitespace, and "Product Sweet" philosophy of premium finish). Changes are scoped to `src/index.njk` only; no new files or layout changes.
