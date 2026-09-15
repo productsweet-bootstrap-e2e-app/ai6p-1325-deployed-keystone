@@ -32,7 +32,7 @@ see unfilled weekend shifts in real time without reloading
 
 ## Expected Outcome
 
-Gaps that emerge when volunteers cancel Saturday morning are caught immediately, so coordinator has time to find cover before the shift starts
+Roster coordinator sees all unfilled weekend shifts in a dedicated view, refreshed automatically when someone drops a shift (no manual page reload). All weekend gaps are visible before Saturday 6am, giving the coordinator time to find cover before shifts start.", "scope":"R1: Weekend-only rota view (Friday 00:00 – Sunday 23:59 shifts). R2: Auto-refresh in-page when a shift is cancelled. R3: Display unfilled shifts (both newly-created-but-unassigned and cancelled shifts). R4: Clear visual highlight of unfilled slots in the weekend view. R5: In existing rota page only; no external notifications or alerts.", "verificationPlan":"- R1: Weekend view displays only Friday–Sunday shifts; no weekday shifts shown.\n- R2: When a volunteer cancels a shift on the rota, the weekend view refreshes to reflect the cancellation (no page reload needed).\n- R3: Both unfilled (never-assigned) and cancelled shifts appear in the list.\n- R4: Unfilled slots display in a visually distinct style (design TBD).\n- R5: No notifications, badges, or alerts appear outside the rota page.", "refinementNotes":"User confirmed: auto-refresh on shift drop, weekend view only in existing rota page. Saturday 6am cutoff introduced as success criterion (ambiguity: does it mean feature stops working then, or gaps found by 6am = success?). Visual design for 'distinct style' R4 is unspecified — may need design exploration or a follow-up with mockups."
 
 ## Problem Or Opportunity
 
