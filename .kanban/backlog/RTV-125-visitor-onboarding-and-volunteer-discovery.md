@@ -71,4 +71,12 @@ Partner access and email reminder approach are not confirmed; keep those out of 
   depends_on_stage:
     - home-page-purpose
   exit_criteria: Roles page is live and linked from home page, displays 2–4 roles with title and description, meets accessibility standards, and uses a hardcoded role list for MVP.
+- stage_id: partner-integration-discovery
+  title: Partner integration and reminders discovery
+  status: stub
+  summary: After the pilot weekend, decide whether to implement partner-provided role descriptions and email reminders. This is a discovery task, not a feature implementation. Depends on Stages 1 and 2 being complete.
+  child_task_ids: []
+  depends_on_stage:
+    - volunteer-roles-page
+  exit_criteria: A decision note stating (1) whether partners confirmed access and (2) whether email reminders are needed or wanted. If yes to either, create linked implementation tasks; if no, close the discovery task.
 ```
