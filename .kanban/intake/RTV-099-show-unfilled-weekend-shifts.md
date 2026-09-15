@@ -44,7 +44,8 @@ Today the coordinator scans a shared spreadsheet on Friday afternoon. Gaps are m
 
 ## Proposed Design / Approach
 
-Add a weekend-only view in the existing rota page that lists only unfilled shifts. The view auto-refreshes when someone cancels, so no manual reload is needed.
+**Deliverable 1 — Weekend View Component (R1, R2, R3):**  
+Add a weekend-only view tab or section to the existing rota page. The component fetches unfilled weekend shifts on initial load and subscribes to real-time updates via the existing rota event stream. When a volunteer is removed from a Saturday or Sunday shift, the event triggers a local state update that re-renders the list within the 10-second SLA. The view displays shift name, time, and coverage status at a glance, with no manual refresh required."
 
 ## Verification Plan
 
