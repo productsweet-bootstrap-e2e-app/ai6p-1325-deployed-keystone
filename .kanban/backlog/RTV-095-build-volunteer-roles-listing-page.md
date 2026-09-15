@@ -64,3 +64,11 @@ All descriptions are hardcoded in the template (no backend call or partner integ
 **R4 & R5 (Static text, no sign-up):** Verify that role descriptions are hardcoded and no claim/signup form is present.
 
 The page will follow Product Sweet design conventions (typography hierarchy, whitespace, no-line rule). Layout will be a simple card or list format, readable and accessible.
+
+## Questions
+
+```yaml
+- question: What are the one-line descriptions for each of the four roles (Driver, Kitchen, Companion, Admin) to be displayed in stage 2?
+  status: open
+  thread: []
+```
