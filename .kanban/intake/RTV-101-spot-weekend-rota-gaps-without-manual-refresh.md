@@ -44,7 +44,7 @@ R1: Weekend-only rota view (Fri–Sun shifts only). R2: Auto-refresh when a shif
 
 ## Proposed Design / Approach
 
-Add weekend rota tab/mode to existing page. Subscribe to shift-cancellation events and refresh in-page list. Highlight unfilled slots in distinct visual state.
+**Deliverable mapping:**\n- R1 (Weekend-only view): Add a weekend tab or filter to the existing rota page that shows only Friday–Sunday shifts.\n- R2 (Auto-refresh on cancellation): Subscribe to shift-cancellation events and refresh the weekend view in-page when triggered.\n- R3 (Display unfilled shifts): Populate the weekend view with both cancelled shifts and shifts created but never assigned.\n- R4 (Visual highlight): Apply a distinct background color or icon state to unfilled shift rows (design TBD).\n- R5 (In-page only): Verify no push notifications, badges, or external alerts are triggered by the feature.\n\n**First slice:** Implement R1–R2 (weekend view + auto-refresh on cancellation) as a single delivery; R3–R5 (unfilled shift display, visual treatment, no-notifications verification) can follow if needed."
 
 ## Verification Plan
 
