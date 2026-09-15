@@ -56,5 +56,7 @@ R6: No sign-up form or contact form in this deliverable (deferred to Stage 3)
 ```yaml
 - question: 'Provide the one-line description for each of the four roles: driver, kitchen, companion, admin. These descriptions will be displayed on the roles page and should be concise and clear.'
   status: open
-  thread: []
+  thread:
+    - role: agent
+      text: '**Awaiting coordinator input.** The scope confirms four roles (driver, kitchen, companion, admin), but the specific one-line descriptions have not been provided yet. Descriptions are needed to move this task to Ready for implementation. This can proceed in parallel with Stage 1 once descriptions are available.'
 ```
