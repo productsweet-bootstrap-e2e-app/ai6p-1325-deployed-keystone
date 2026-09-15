@@ -33,7 +33,7 @@ see unfilled weekend shifts in the rota page without manual reload when someone 
 
 ## Expected Outcome
 
-Coordinator discovers gaps immediately when they occur, instead of discovering them when a shift is due to start
+Coordinator discovers unfilled weekend shifts within the rota page as soon as they occur (when a shift is dropped), without manual reload, so they can action gaps before the shift start time rather than discovering them at shift start.
 
 ## Problem Or Opportunity
 
