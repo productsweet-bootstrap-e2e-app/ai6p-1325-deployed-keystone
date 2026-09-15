@@ -3,7 +3,7 @@ title: Real-time unfilled weekend shift visibility
 id: RTV-097
 status: intake
 template_type: user-story
-intake_state: refining
+intake_state: ready-for-dev
 delivery_task_ids: []
 created: 2026-09-15
 updated: 2026-09-15
