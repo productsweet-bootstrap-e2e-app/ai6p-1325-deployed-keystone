@@ -62,4 +62,13 @@ Partner access and email reminder approach are not confirmed; keep those out of 
     - RTV-129
   depends_on_stage: []
   exit_criteria: Purpose statement is live above the fold, explains the site's mission in plain language, meets accessibility standards, and includes a link to the roles page.
+- stage_id: volunteer-roles-page
+  title: Volunteer roles listing page
+  status: designed
+  summary: Build a dedicated page listing 2–4 volunteer roles with descriptions and a clear path to get involved. Depends on Stage 1 home-page copy being complete.
+  child_task_ids:
+    - RTV-127
+  depends_on_stage:
+    - home-page-purpose
+  exit_criteria: Roles page is live and linked from home page, displays 2–4 roles with title and description, meets accessibility standards, and uses a hardcoded role list for MVP.
 ```
