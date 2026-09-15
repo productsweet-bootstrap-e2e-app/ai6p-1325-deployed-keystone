@@ -56,6 +56,9 @@ Add a weekend-only view in the existing rota page that lists only unfilled shift
 - question: Is the 10-second refresh SLA a hard guarantee that must pass acceptance, or is it the typical expected latency (with occasional delays acceptable)?
   status: open
   thread: []
+- question: When a new unfilled shift appears in the weekend view, should there be a visual indicator (e.g., highlight, badge) so the coordinator notices the change immediately, or is a silent update sufficient?
+  status: open
+  thread: []
 ```
 
 ## Refinement Notes
