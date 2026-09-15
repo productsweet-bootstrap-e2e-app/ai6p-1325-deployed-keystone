@@ -55,7 +55,11 @@ Add a real-time unfilled-shift view to the weekend rota page. Filter the shift l
 
 ## Questions
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+```yaml
+- question: Once the coordinator spots an unfilled shift, what is the next action? Should they be able to fill or contact volunteers directly from the gap view, or do they manage that separately?
+  status: open
+  thread: []
+```
 
 ## Refinement Notes
 
