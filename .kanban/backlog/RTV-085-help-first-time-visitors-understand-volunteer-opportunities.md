@@ -39,3 +39,15 @@ R4: Partner-provided content and email reminders remain as future discovery (par
 - Home page copy is deployed and explains the site's purpose
 - Roles page is deployed and lists all four roles with one-line descriptions
 - Coordinator completes first pilot survey of 5 first-time visitors
+
+## Stages
+
+```yaml
+- stage_id: partner_content_discovery
+  title: Partner content and reminders (discovery)
+  status: stub
+  summary: Discover whether partner organizations will provide role descriptions and email reminders. Document decision and scope for later implementation if approved.
+  child_task_ids: []
+  depends_on_stage: []
+  exit_criteria: 'Decision documented: partner access confirmed or deferred. If confirmed, scope of partner content and email reminder system defined for implementation.'
+```
