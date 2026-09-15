@@ -32,3 +32,16 @@ New visitors understand the site and how to engage; volunteers see available rol
 Stage 1: Home-page purpose copy (coordinator-owned, no data required)
 Stage 2: Volunteer roles page (placeholder, ready for partner data)
 Stage 3: Partner content and reminders (deferred discovery stub)
+
+## Stages
+
+```yaml
+- stage_id: home_page_copy
+  title: Home page purpose copy
+  status: designed
+  summary: Write and ship home-page messaging that explains the site's mission and value to first-time visitors, owned by the coordinator. No role data required.
+  child_task_ids:
+    - RTV-133
+  depends_on_stage: []
+  exit_criteria: Home page displays clear purpose statement and call-to-action; coordinator approves messaging; first-time visitor testing confirms understanding.
+```
