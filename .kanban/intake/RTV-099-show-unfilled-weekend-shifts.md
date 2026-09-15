@@ -40,7 +40,7 @@ Today the coordinator scans a shared spreadsheet on Friday afternoon. Gaps are m
 
 ## Scope
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+**R1:** Display a weekend-only view in the existing rota page that shows shifts on Saturday and Sunday with no volunteer assigned.  \n**R2:** The view auto-refreshes when a volunteer is removed from a weekend shift (no manual page reload needed).  \n**R3:** Refresh latency should be 10 seconds or less.  \n**Exclusions:** No notifications, alerts, or email; Friday evening shifts out of scope; no coordinator-configurable date ranges in v1."
 
 ## Proposed Design / Approach
 
@@ -48,9 +48,7 @@ Add a weekend-only view in the existing rota page that lists only unfilled shift
 
 ## Verification Plan
 
-- When a volunteer is removed from a Saturday or Sunday shift, the unfilled slot appears in the weekend view within 10 seconds
-- The coordinator can see at a glance which shifts need cover and who they are for
-- The view updates live without the coordinator refreshing the page
+- **R1:** Weekend view is visible on the rota page and displays only Saturday and Sunday shifts with no assigned volunteer.  \n- **R2:** When a volunteer is removed from a Saturday or Sunday shift, the unfilled slot appears in the weekend view within 10 seconds without the coordinator refreshing the page.  \n- **R3:** The coordinator can see at a glance which shifts need cover and for whom (shift name and time visible)."
 
 ## Questions
 
