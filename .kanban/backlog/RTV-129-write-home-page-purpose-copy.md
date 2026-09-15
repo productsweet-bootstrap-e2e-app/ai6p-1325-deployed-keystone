@@ -31,7 +31,7 @@ R1: Integrate the confirmed purpose statement into the home page above the fold,
 
 ## Proposed Design / Approach
 
-1. Edit src/index.njk to place the confirmed purpose statement in the main section, above the existing placeholder content. 2. Integrate a styled link pointing to /roles. 3. Verify readability and accessibility (contrast against background, screen-reader verification). 4. Test locally with `npm run dev` and preview in browser.
+R1: Edit src/index.njk to place the confirmed purpose statement in the main section, replacing the placeholder content, exactly as owner specified. R2: Position above the fold (at the top of the main element, within initial viewport). R3: Verify readability by testing contrast against background using WAVE or Lighthouse accessibility audit; ensure WCAG AA compliance. R4: Add a styled link/button pointing to /roles after the purpose statement, with clear "Get involved" or "See available roles" label.
 
 ## Verification Plan
 
