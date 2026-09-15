@@ -53,4 +53,11 @@ Stage 3: Partner content and reminders (deferred discovery stub)
   depends_on_stage:
     - home_page_copy
   exit_criteria: Roles page template is live and discoverable from home page; structure accommodates role descriptions (partner-provided or internal); page is ready to accept dynamic role data.
+- stage_id: partner_content
+  title: Partner-provided role content and email reminders
+  status: stub
+  summary: 'Deferred discovery: integrate partner-provided role descriptions and email reminder automation. Partner access and scope are not yet confirmed.'
+  child_task_ids: []
+  depends_on_stage:
+    - roles_page
 ```
