@@ -35,4 +35,4 @@ R1: Edit src/index.njk to place the confirmed purpose statement in the main sect
 
 ## Verification Plan
 
-1. Purpose statement is visible above the fold on home page (live verification at http://localhost:8080). 2. Text reads exactly as owner specified. 3. Text meets WCAG AA contrast standards (use WAVE or Lighthouse). 4. Screen reader correctly reads the purpose statement (test with NVDA or Safari VoiceOver). 5. Link to /roles is present, functional, and properly marked.
+R1: Purpose statement exactly matches owner text and is placed in src/index.njk within the main element above the fold. R2: Statement is visible in the initial viewport on home page load (live verification at http://localhost:8080). R3: Contrast meets WCAG AA standards (WAVE or Lighthouse audit shows no accessibility violations). R4: Link to /roles is present, functional, and properly marked with descriptive link text.
