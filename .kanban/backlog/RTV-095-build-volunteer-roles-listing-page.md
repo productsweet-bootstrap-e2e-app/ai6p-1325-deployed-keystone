@@ -70,5 +70,7 @@ The page will follow Product Sweet design conventions (typography hierarchy, whi
 ```yaml
 - question: What are the one-line descriptions for each of the four roles (Driver, Kitchen, Companion, Admin) to be displayed in stage 2?
   status: open
-  thread: []
+  thread:
+    - role: agent
+      text: To be provided by the owner. The scope requires one-line descriptions for each role. Update this thread once descriptions are finalized.
 ```
