@@ -52,7 +52,11 @@ Add weekend rota tab/mode to existing page. Subscribe to shift-cancellation even
 
 ## Questions
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+```yaml
+- question: 'Saturday 6am cutoff: Does "no unfilled weekend shift discovered after Saturday 6am" mean the feature should stop working then, or that gaps discovered by 6am count as success (later discoveries as failure)? This affects how we scope weekend vs. whole-weekend coverage.'
+  status: open
+  thread: []
+```
 
 ## Refinement Notes
 
