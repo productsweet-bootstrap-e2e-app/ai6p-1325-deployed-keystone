@@ -34,3 +34,11 @@ R1: Create a /roles or /volunteer route/page. R2: List 2–4 roles with title, b
 ## Verification Plan
 
 1. Roles page is accessible at a public URL (/roles or /volunteer). 2. Page displays 2–4 roles with title and description for each role. 3. Page is linked from home page (from Stage 1 copy). 4. Page meets accessibility standards (WCAG AA contrast, screen reader). 5. Page styling is consistent with site design system. 6. Call-to-action button/link is functional.
+
+## Questions
+
+```yaml
+- question: What are the 2–4 volunteer roles you want to list on the roles page? (Include role title, brief description 1–2 sentences, and key responsibilities for each.)
+  status: open
+  thread: []
+```
