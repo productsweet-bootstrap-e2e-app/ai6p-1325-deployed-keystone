@@ -47,3 +47,11 @@ Multi-stage epic: home-page welcome copy for first-time visitors (stage 1), a vo
   depends_on_stage:
     - roles-page
 ```
+
+## Questions
+
+```yaml
+- question: How will you measure whether first-time visitors actually understand the site's purpose? You mentioned asking five visitors during a pilot weekend — is that the agreed discovery plan, and who owns running that measurement?
+  status: open
+  thread: []
+```
