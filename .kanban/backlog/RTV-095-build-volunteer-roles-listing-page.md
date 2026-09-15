@@ -23,15 +23,20 @@ Create a dedicated page that lists available volunteer roles, accessible to site
 
 ## Scope
 
-R1: Page lists all available volunteer roles\nR2: Each role shows a clear title and brief description\nR3: Page is discoverable from the home page or main navigation\nR4: Role descriptions use static text (partner-provided descriptions deferred)\nExclusions: Email reminders; claim/signup flow; role management backend; partner API integration
+R1: Page lists four volunteer roles: Driver, Kitchen, Companion, Admin
+R2: Each role displays a clear title and a one-line description (static text, no backend)
+R3: Page is discoverable from the home page via a link or call-to-action
+R4: Role descriptions use static text only (no partner API or backend integration)
+R5: No sign-up or claim form is included in this stage
+Exclusions: Email reminders; claim/signup flow; role management backend; partner API integration; individual role detail pages
 
 ## Verification Plan
 
-1. **R1 (List roles):** Roles page renders without errors; at least one role is displayed in the page content.
-2. **R2 (Title and description):** Each displayed role shows a clear, bold title and a brief description; both are readable and non-empty.
-3. **R3 (Discoverable from home):** Home page includes a functional link or call-to-action (e.g., "Explore Volunteer Roles") that navigates to the roles page.
-4. **R4 (Static text):** Role descriptions are verified to be hardcoded in the template (no backend call); partner API integration is not present.
-5. Page layout follows Product Sweet conventions (typography, spacing, no-line rule); no visual regressions on home page or other existing pages.
+1. **R1 & R2 (Four roles with one-line descriptions):** Roles page displays all four roles (Driver, Kitchen, Companion, Admin); each has a clear title and a readable one-line description.
+2. **R3 (Discoverable from home):** Home page includes a functional link or call-to-action that navigates to the roles page.
+3. **R4 (Static text only):** Role descriptions are verified to be hardcoded; no backend call or API integration is present.
+4. **R5 (No sign-up form):** Page contains role listings only; no claim or signup form is visible.
+5. Page layout follows Product Sweet conventions (typography, spacing, no-line rule); no visual regressions.
 6. Site builds and deploys without errors.
 
 ## Expected Outcome
@@ -44,16 +49,18 @@ The site currently has no dedicated page for discovering volunteer roles. Visito
 
 ## Proposed Design / Approach
 
-Create a new page at `/roles` (or `/volunteer-roles`) using the same Eleventy + Nunjucks template structure as the home page (`src/_layouts/base.njk`).
+Create a new page at `/roles` using the same Eleventy + Nunjucks template structure (`src/_layouts/base.njk`).
 
-**R1 (List all roles):** Create a static list of volunteer roles (hardcoded or from a simple data structure; partner API integration is deferred to stage 3). Start with at least one role to meet verification requirements.
+**R1 & R2 (List four roles with descriptions):** Create `src/roles.njk` with a static list or grid displaying:
+- **Driver**: one-line description
+- **Kitchen**: one-line description
+- **Companion**: one-line description
+- **Admin**: one-line description
 
-**R2 (Title and description per role):** Each role displays as a card or list item with:
-  - A clear, bold title (e.g., "Event Coordinator")
-  - A brief static description (2–3 sentences) explaining the role's purpose and what it entails
+All descriptions are hardcoded in the template (no backend call or partner integration).
 
-**R3 (Discovery from home page):** Update `src/index.njk` to include a link or call-to-action that navigates to the new roles page (this aligns with stage-1's R3 requirement).
+**R3 (Discoverable from home):** Update the stage-1 welcome copy in `src/index.njk` to include a link or call-to-action (e.g., "Explore Volunteer Roles") that navigates to `/roles`.
 
-**R4 (Static text only):** All role descriptions are hardcoded in the template; no backend call or partner integration yet.
+**R4 & R5 (Static text, no sign-up):** Verify that role descriptions are hardcoded and no claim/signup form is present.
 
-The new page will follow the Product Sweet design system (typography hierarchy, whitespace, no-line rule). The implementation will create the page file (e.g., `src/roles.njk`) with a frontmatter title and a simple list or grid layout.
+The page will follow Product Sweet design conventions (typography hierarchy, whitespace, no-line rule). Layout will be a simple card or list format, readable and accessible.
