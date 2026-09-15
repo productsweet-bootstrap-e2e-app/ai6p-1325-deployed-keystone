@@ -58,7 +58,9 @@ Add a real-time unfilled-shift view to the weekend rota page. Filter the shift l
 ```yaml
 - question: Once the coordinator spots an unfilled shift, what is the next action? Should they be able to fill or contact volunteers directly from the gap view, or do they manage that separately?
   status: open
-  thread: []
+  thread:
+    - role: agent
+      text: 'Confirmed: the coordinator sees the gaps in the rota page itself with real-time updates when shifts are dropped. Filling shifts or contacting volunteers happens through the existing workflow — not within this gap view. This delivery is the visibility feature only.'
 ```
 
 ## Refinement Notes
