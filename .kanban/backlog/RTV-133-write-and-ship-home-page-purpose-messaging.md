@@ -4,7 +4,7 @@ id: RTV-133
 status: backlog
 template_type: implementation-task
 parent_task_id: RTV-131
-backlog_state: refining
+backlog_state: ready
 created: 2026-09-15
 updated: 2026-09-15
 priority: high
