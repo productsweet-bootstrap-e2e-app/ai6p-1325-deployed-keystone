@@ -26,11 +26,11 @@ R1: Copy explains the core mission of the site in one or two sentences\nR2: Copy
 
 ## Verification Plan
 
-1. Home page loads without errors and displays the new welcome copy in the main section.
-2. Copy appears above the fold (visible without scrolling on desktop and mobile viewports).
-3. Manual review: copy is grammatically correct, welcoming, and explains the site's core purpose.
-4. Copy includes or references a call-to-action toward exploring volunteer roles.
-5. Existing page layout and design system (typography, spacing) are unaffected.
+1. **R1 (Core mission statement):** Home page displays a two-sentence headline explaining the site's purpose and connection to volunteer opportunities.
+2. **R2 (Welcoming tone):** Manual review confirms copy uses warm, accessible language with no jargon and addresses visitors directly.
+3. **R3 (Call-to-action to roles):** Copy includes an explicit link or text reference to "Explore Volunteer Roles" or similar; link is functional and leads to or references the roles page.
+4. Copy is grammatically correct and appears above the fold (visible without scrolling on desktop and mobile viewports).
+5. Existing page layout, typography, and design system are unaffected; no visual or functional regressions.
 
 ## Expected Outcome
 
