@@ -49,3 +49,11 @@ R6: No sign-up form or contact form in this deliverable (deferred to Stage 3)
 - R4: Back-to-home link or breadcrumb is visible and functional
 - R5: Roles page renders cleanly on 375px mobile and 1024px+ desktop; text is readable without truncation or horizontal scroll
 - R6: No sign-up form, contact form, or form submission handling is present on the page
+
+## Questions
+
+```yaml
+- question: 'Provide the one-line description for each of the four roles: driver, kitchen, companion, admin. These descriptions will be displayed on the roles page and should be concise and clear.'
+  status: open
+  thread: []
+```
