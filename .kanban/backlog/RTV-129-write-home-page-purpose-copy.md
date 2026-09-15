@@ -11,7 +11,9 @@ priority: high
 owner: AI agent + user
 tags: []
 depends_on: []
-related_files: []
+related_files:
+  - src/index.njk
+  - src/_layouts/base.njk
 comments: 0
 attachments: 0
 ---
