@@ -44,4 +44,13 @@ Stage 3: Partner content and reminders (deferred discovery stub)
     - RTV-133
   depends_on_stage: []
   exit_criteria: Home page displays clear purpose statement and call-to-action; coordinator approves messaging; first-time visitor testing confirms understanding.
+- stage_id: roles_page
+  title: Volunteer roles listing page
+  status: designed
+  summary: Build a dedicated roles page that volunteers can navigate to; page structure is ready for role data but does not require it at launch. Shows the way forward for future partner integrations.
+  child_task_ids:
+    - RTV-134
+  depends_on_stage:
+    - home_page_copy
+  exit_criteria: Roles page template is live and discoverable from home page; structure accommodates role descriptions (partner-provided or internal); page is ready to accept dynamic role data.
 ```
