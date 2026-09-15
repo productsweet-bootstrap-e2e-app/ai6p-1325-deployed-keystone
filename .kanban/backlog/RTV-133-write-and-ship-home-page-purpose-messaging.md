@@ -49,8 +49,12 @@ D4 (→R4): Ensure only copy and CTA link change; no styling, layout, or navigat
 
 ## Verification Plan
 
-- R1: Home page source code (`src/index.njk`) contains exact coordinator-provided copy
-- R2: Visual check: home page renders above the fold on mobile (375px) and desktop (1024px) with no text overflow
-- R3: CTA link to `/roles` (or equivalent future roles page URL) is present and clickable
-- R4: No unrelated styling or layout changes in the merge
-- R5: Manual browser test on Chrome mobile and desktop confirms text displays completely
+**Check R1 (exact copy):** Home page source code (`src/index.njk`) contains the exact two-sentence coordinator statement: "We help a small care provider fill its weekend volunteer shifts. Pick a role, see what is needed this weekend, and put your name down."
+
+**Check R2 (above the fold, mobile):** Visual test on 375px viewport: purpose copy and CTA visible without scroll, no text truncation.
+
+**Check R3 (CTA to roles):** Link to `/roles` is present in the copy and clickable; link target confirmed in navigation or href attribute.
+
+**Check R4 (no other changes):** Code review confirms only `src/index.njk` copy and CTA link changed; no edits to styling, layout, base template, or other page elements.
+
+**Check R5 (desktop rendering):** Visual test on 1024px+ desktop viewport: text displays completely without overflow or truncation; layout remains clean and readable.
