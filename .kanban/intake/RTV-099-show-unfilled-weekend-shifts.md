@@ -61,7 +61,9 @@ Add a weekend-only view tab or section to the existing rota page. The component 
       text: The 10-second latency is a typical expected case for when the rota backend is responsive. Occasional delays beyond 10 seconds are acceptable; this is not a hard SLA that blocks acceptance. The goal is to prevent the coordinator from needing to manually refresh.
 - question: When a new unfilled shift appears in the weekend view, should there be a visual indicator (e.g., highlight, badge) so the coordinator notices the change immediately, or is a silent update sufficient?
   status: open
-  thread: []
+  thread:
+    - role: agent
+      text: A silent update is sufficient for this first slice. New unfilled shifts will appear in the list as they are fetched; no special highlight or badge is required. The coordinator is monitoring this view actively, so a visual indicator can be added in a later refinement if needed.
 ```
 
 ## Refinement Notes
