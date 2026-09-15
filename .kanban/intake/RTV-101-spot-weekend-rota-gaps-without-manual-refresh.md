@@ -60,4 +60,4 @@ Add weekend rota tab/mode to existing page. Subscribe to shift-cancellation even
 
 ## Refinement Notes
 
-Optional at first intake. Fill this in before generating a dev task in `backlog`.
+**Refinement round 1 complete (2026-09-15):**\n\nUser clarified that the feature should:\n- Live in the existing rota page as a weekend-only view\n- Auto-refresh when volunteers cancel shifts (no manual reload)\n- Show both newly-posted-but-unassigned AND cancelled shifts\n- Use no external notifications\n- Achieve visibility of all weekend gaps by Saturday 6am\n\n**Story ready for backlog once:**\n1. Q0 (Saturday 6am cutoff) is answered: Does it mean coverage extends through Sunday 23:59, or the success window closes at 6am Saturday?\n2. Visual design for unfilled-slot highlight is specified (color, icon, label, or mockup).\n\n**No blocker for backlog creation:** The five requirements and verification checks are clear; design and deadline ambiguity can be resolved in parallel during implementation planning."
