@@ -1,11 +1,8 @@
 ---
 title: Warmer welcome message on front page for new visitors
 id: PS-VW38TF-012
-status: intake
+status: done
 template_type: user-story
-intake_state: ready-for-dev
-delivery_task_ids:
-  - PS-VW38TF-014
 created: 2026-07-20
 updated: 2026-07-20
 priority: medium
@@ -80,3 +77,13 @@ Draft a couple of friendly, warm-toned welcome message options for the front-pag
 ## Refinement Notes
 
 Refined 2026-07-20: product owner confirmed scope is welcome-message copy only — opening hours idea raised in the same conversation was explicitly dropped from this story (may become a separate intake item later). Product owner asked for a couple of friendly/warm wording options to choose from, rather than supplying exact copy themselves.
+
+## Implementation Plan
+
+Grooming / intake item — no code of its own. Delivery was carried by PS-VW38TF-014.
+
+## Completion Notes
+
+- Outcome: Auto-closed by the delivered-intake sweep — every linked delivery task (PS-VW38TF-014) reached `done`, so this intake item was relocated `intake/` → `done/`.
+- Verification actually run: Linked delivery tasks confirmed `done` before the move; the generated `done/` file shape satisfies `lint:kanban-structure`.
+- Documentation updated: none — automated closure of a delivered intake item.
