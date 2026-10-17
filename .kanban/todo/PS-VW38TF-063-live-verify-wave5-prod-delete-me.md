@@ -7,6 +7,16 @@ source_intake_id: PS-VW38TF-061
 created: 2026-10-17
 updated: 2026-10-17
 priority: medium
+merged_delivery:
+  version: 1
+  provider: github
+  repository: productsweet-bootstrap-e2e-app/ai6p-1325-deployed-keystone
+  pr_number: 43
+  merged_sha: 6ebbec4d1496d5994a3a10ac207ac7a98c9b0f5f
+  merged_at: 2026-10-17T04:37:34Z
+  recorded_at: 2026-10-17T04:37:37.539Z
+  delivery_id: github:productsweet-bootstrap-e2e-app/ai6p-1325-deployed-keystone#43@6ebbec4d1496d5994a3a10ac207ac7a98c9b0f5f
+  head_branch: feature/PS-VW38TF-063-live-verify-wave5-b
 owner: shaun+deliverysmoke@payminty.com
 source: manual-intake
 created_by: 797ea448-a0b1-70bb-08ef-d146ad8ddf0b
