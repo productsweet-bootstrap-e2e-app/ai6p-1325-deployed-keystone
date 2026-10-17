@@ -24,3 +24,19 @@ As a live verifier, I want a throwaway idea whose one dev task completes, to wat
 ## Refinement Notes
 
 Generated from intake PS-VW38TF-061. Review this implementation draft before promoting it to Todo.
+
+## Problem Or Opportunity
+
+Throwaway dev task for the wave-5 prod live check. Delete me.
+
+## Scope
+
+Add one LIVE-VERIFY fixture file to the keystone repo.
+
+## Proposed Design / Approach
+
+One PR on the sacrificial keystone repo adds the fixture file; it is merged and then removed in cleanup.
+
+## Verification Plan
+
+- The LIVE-VERIFY wave5 fixture file for PS-VW38TF-063 exists on main.
