@@ -3,7 +3,7 @@ title: LIVE-VERIFY wave5 prod (delete me)
 id: PS-VW38TF-061
 status: intake
 template_type: user-story
-intake_state: refining
+intake_state: awaiting-user-review
 delivery_task_ids: []
 created: 2026-10-17
 updated: 2026-10-17
