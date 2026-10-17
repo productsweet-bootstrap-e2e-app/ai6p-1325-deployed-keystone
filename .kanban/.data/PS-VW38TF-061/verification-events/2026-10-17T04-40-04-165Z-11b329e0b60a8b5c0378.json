@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "eventType": "completion-derived",
+  "taskId": "PS-VW38TF-061",
+  "disposition": "verified",
+  "basis": "all-delivery-tasks-terminal",
+  "deliveryTaskIds": [
+    "PS-VW38TF-063"
+  ],
+  "actor": {
+    "kind": "system",
+    "id": "task-completion"
+  },
+  "at": "2026-10-17T04:40:04.165Z",
+  "eventId": "11b329e0b60a8b5c0378"
+}
