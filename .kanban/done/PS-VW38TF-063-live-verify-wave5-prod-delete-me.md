@@ -1,7 +1,7 @@
 ---
 title: LIVE-VERIFY wave5 prod (delete me)
 id: PS-VW38TF-063
-status: todo
+status: done
 template_type: implementation-task
 source_intake_id: PS-VW38TF-061
 created: 2026-10-17
@@ -49,3 +49,13 @@ One PR on the sacrificial keystone repo adds the fixture file; it is merged and 
 ## Verification Plan
 
 - The LIVE-VERIFY wave5 fixture file for PS-VW38TF-063 exists on main.
+
+## Completion Notes
+
+- Outcome: Verified against merged SHA `6ebbec4d1496d5994a3a10ac207ac7a98c9b0f5f` at 2026-10-17T04:39:59.146Z.
+- Verification actually run:
+  - [x] The LIVE-VERIFY wave5 fixture file for PS-VW38TF-063 exists on main. — evidence: url:https://github.com/productsweet-bootstrap-e2e-app/ai6p-1325-deployed-keystone/blob/6ebbec4d1496d5994a3a10ac207ac7a98c9b0f5f/.kanban/.data/PS-VW38TF-063/live-verify-wave5-fixture-b.txt, note:Fixture file present on main at the merged sha (checked with the contents API at 04:39Z). Wave-5 prod live check throwaway.
+- Documentation updated: Recorded in the versioned verification sidecar and Git history.
+- Follow-up tasks created: None recorded by the completion gate.
+- Merged PR: #43
+- Reviewed by: human:797ea448-a0b1-70bb-08ef-d146ad8ddf0b
