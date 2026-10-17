@@ -10,10 +10,22 @@
     {
       "id": "794d959d69cbde98",
       "text": "The LIVE-VERIFY wave5 fixture file for PS-VW38TF-063 exists on main.",
-      "outcome": "pending",
-      "evidence": [],
-      "actor": null,
-      "observedAt": null
+      "outcome": "passed",
+      "evidence": [
+        {
+          "kind": "url",
+          "value": "https://github.com/productsweet-bootstrap-e2e-app/ai6p-1325-deployed-keystone/blob/6ebbec4d1496d5994a3a10ac207ac7a98c9b0f5f/.kanban/.data/PS-VW38TF-063/live-verify-wave5-fixture-b.txt"
+        },
+        {
+          "kind": "note",
+          "value": "Fixture file present on main at the merged sha (checked with the contents API at 04:39Z). Wave-5 prod live check throwaway."
+        }
+      ],
+      "actor": {
+        "kind": "human",
+        "id": "797ea448-a0b1-70bb-08ef-d146ad8ddf0b"
+      },
+      "observedAt": "2026-10-17T04:39:46.217Z"
     }
   ],
   "ci": {
@@ -26,5 +38,5 @@
   },
   "disposition": null,
   "createdAt": "2026-10-17T04:39:22.547Z",
-  "updatedAt": "2026-10-17T04:39:21.905Z"
+  "updatedAt": "2026-10-17T04:39:46.217Z"
 }
