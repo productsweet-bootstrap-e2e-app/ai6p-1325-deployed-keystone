@@ -4,7 +4,8 @@ id: PS-VW38TF-061
 status: intake
 template_type: user-story
 intake_state: ready-for-dev
-delivery_task_ids: []
+delivery_task_ids:
+  - PS-VW38TF-063
 created: 2026-10-17
 updated: 2026-10-17
 priority: medium
