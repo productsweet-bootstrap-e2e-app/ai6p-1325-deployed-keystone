@@ -4,7 +4,7 @@ id: PS-VW38TF-063
 status: backlog
 template_type: implementation-task
 source_intake_id: PS-VW38TF-061
-backlog_state: refining
+backlog_state: ready
 created: 2026-10-17
 updated: 2026-10-17
 priority: medium
