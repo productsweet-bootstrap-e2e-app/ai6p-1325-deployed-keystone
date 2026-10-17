@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "taskId": "PS-VW38TF-063",
+  "deliveryId": "github:productsweet-bootstrap-e2e-app/ai6p-1325-deployed-keystone#43@6ebbec4d1496d5994a3a10ac207ac7a98c9b0f5f",
+  "prNumber": 43,
+  "mergedSha": "6ebbec4d1496d5994a3a10ac207ac7a98c9b0f5f",
+  "tier": "offline",
+  "outcome": "pending",
+  "criteria": [
+    {
+      "id": "794d959d69cbde98",
+      "text": "The LIVE-VERIFY wave5 fixture file for PS-VW38TF-063 exists on main.",
+      "outcome": "pending",
+      "evidence": [],
+      "actor": null,
+      "observedAt": null
+    }
+  ],
+  "ci": {
+    "sha": "6ebbec4d1496d5994a3a10ac207ac7a98c9b0f5f",
+    "status": "success",
+    "contexts": [
+      "pr-gate"
+    ],
+    "observedAt": "2026-10-17T04:39:21.905Z"
+  },
+  "disposition": null,
+  "createdAt": "2026-10-17T04:39:22.547Z",
+  "updatedAt": "2026-10-17T04:39:21.905Z"
+}
